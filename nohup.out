@@ -1214,3 +1214,10 @@ DEBUG:__main__:Requested file: assets/projects/insulator_project/1.PNG
 DEBUG:__main__:Full path: /root/en_resume/assets/projects/insulator_project/1.PNG
 DEBUG:__main__:Serving assets/projects/insulator_project/1.PNG with Content-Type: image/png
 INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 09:44:41] "GET /en_resume/assets/projects/insulator_project/1.PNG HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/root/en_resume/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:Starting server...
+INFO:__main__:Current working directory: /root/en_resume
+INFO:__main__:Directory contents: ['sample.py', '.gitattributes', 'index.html', 'nohup.out', 'js', '.git', 'assets', 'server.py', 'data', 'venv', 'bionicwalking.cc', '.DS_Store', 'styles.css', 'sampleweb.md', 'bionicwalking_backuo.cc']
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 587-458-717
