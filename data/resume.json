@@ -1,0 +1,251 @@
+{
+  "name": "Forrest Brooke",
+  "personalInfo": {
+    "avatar": "assets/avatar.jpg",
+    "name": "Forrest Brooke",
+    "age": 32,
+    "nationality": "Chinese",
+    "experience": "8 years (7 years in AI + 6 months in iOS development)",
+    "positionSought": "Senior AI Engineer",
+    "email": "bionicwalking@163.com",
+    "phone": "+86 19987386841",
+    "wechat": "13232182628",
+    "telegram": "+86 13232182628"
+  },
+  "workAuthorization": {
+    "title": "Requiring any of the following visa sponsorship",
+    "visas": [
+      {"country": "Singapore", "type": "Employment Pass (EP)"},
+      {"country": "USA", "type": "H-1B"},
+      {"country": "EU", "type": "Blue Card"},
+      {"country": "UK", "type": "Skilled Worker Visa"},
+      {"country": "Canada", "type": "Global Talent Stream"}
+    ]
+  },
+  "technicalSkills": [
+    {
+      "category": "AI/ML",
+      "skills": "LLM Fine-tuning, Transformer Architecture, Self-Attention Mechanism, Multi-Head Attention, Reinforcement Learning, RAG, Prompt Engineering, AutoGen, MLOps, AIGC, Face Fusion, Model Tuning"
+    },
+    {
+      "category": "Frameworks",
+      "skills": "Flask, FastAPI, Django, TensorFlow, PyTorch, OpenAI, Pandas, NumPy"
+    },
+    {
+      "category": "DevOps",
+      "skills": "Docker, Kubernetes, CI/CD"
+    },
+    {
+      "category": "Programming",
+      "skills": "Python, C++, JavaScript"
+    },
+    {
+      "category": "Databases",
+      "skills": "SQL, Vector Databases (Milvus/Pinecone)"
+    },
+    {
+      "category": "Environment",
+      "skills": "Linux, Git, Conda, Jupyter"
+    }
+  ],
+  "languages": [
+    {"language": "Chinese", "level": "Native"},
+    {"language": "English", "level": "Fluent"}
+  ],
+  "projects": [
+    {
+      "name": "Professional Statement",
+      "details": [
+        "Within a team, I am willing to take on any role necessary to ensure the project's success."
+      ],
+      "technicalHighlights": "",
+      "hasMedia": false
+    },
+    {
+      "name": "Intelligent AI Agent System",
+      "details": [
+        "Developed multi-agent system based on AutoGen framework with Agentic AI principles",
+        "Implemented dedicated model for each agent to maintain true agent autonomy and specialization",
+        "Enhanced inter-agent communication using reinforcement learning for optimal information sharing",
+        "Implemented RAG-based knowledge retrieval enhancement with dynamic memory management",
+        "Optimized information retrieval using vector databases for context-aware responses",
+        "Designed comprehensive prompt engineering system with agent-specific optimization",
+        "Built reward mechanisms to encourage collaborative problem-solving between agents"
+      ],
+      "achievement": {
+        "isSecret": true,
+        "text": "Internal R&D project: Developed a proprietary multi-agent system achieving 85% accuracy in collaborative decision-making with 40% improvement in information sharing efficiency"
+      },
+      "technicalHighlights": "Agentic AI, AutoGen, RAG, Vector Databases, Reinforcement Learning, LLM, Multi-agent Systems, Collaborative AI, Prompt Engineering, Python",
+      "hasMedia": false
+    },
+    {
+      "name": "Virtual Home Classroom",
+      "details": [
+        "(Ongoing Development - Personal team project with no deadline, continuously evolving)",
+        "Developed digital human teacher using Unreal Engine 5 with fine-tuned LLaMA 3 for educational purposes",
+        "Implemented adaptive learning system that adjusts teaching pace based on children's comprehension levels",
+        "Created progressive learning paths with positive guidance mechanisms",
+        "Built comprehensive curriculum covering all subjects in Chinese education system",
+        "Designed scalable architecture aiming to revolutionize traditional teaching methods"
+      ],
+      "achievement": {
+        "isConcept": true,
+        "text": "Successfully tested with 100 students, receiving positive feedback on the adaptive learning approach"
+      },
+      "technicalHighlights": "LLaMA 3, Unreal Engine 5, Digital Human, LLM Fine-tuning, Adaptive Learning Algorithms, Curriculum Design",
+      "hasMedia": false
+    },
+    {
+      "name": "Air Spring Quality Inspection System",
+      "details": [
+        "Developed high-precision computer vision system for air spring bellows inspection",
+        "Implemented multi-layer reinforcement cords detection algorithm with sub-millimeter accuracy",
+        "Designed three-tier validation system for inner layer, outer layer, and inter-layer spacing verification",
+        "Integrated with industrial PLC for automated production line control",
+        "Optimized image processing for ultra-high-definition camera (3 FPS)"
+      ],
+      "achievement": {
+        "isProduction": true,
+        "text": "Achieved 99.5% detection accuracy with zero false negatives in production environment"
+      },
+      "technicalHighlights": "Computer Vision, Deep Learning, PLC Integration, High-Speed Image Processing, Industrial Automation, Python, C++",
+      "hasMedia": true,
+      "mediaFolder": "air_spring_project",
+      "media": {
+        "images": [
+          {"path": "assets/projects/air_spring_project/1.jpg", "caption": "Detection Result 1"},
+          {"path": "assets/projects/air_spring_project/2.jpg", "caption": "Detection Result 2"},
+          {"path": "assets/projects/air_spring_project/3.jpg", "caption": "Detection Result 3"},
+          {"path": "assets/projects/air_spring_project/4.jpg", "caption": "Detection Result 4"},
+          {"path": "assets/projects/air_spring_project/5.jpg", "caption": "Detection Result 5"},
+          {"path": "assets/projects/air_spring_project/6.jpg", "caption": "Detection Result 6"},
+          {"path": "assets/projects/air_spring_project/7.jpg", "caption": "Detection Result 7"},
+          {"path": "assets/projects/air_spring_project/8.jpg", "caption": "Detection Result 8"},
+          {"path": "assets/projects/air_spring_project/9.jpg", "caption": "Detection Result 9"}
+        ],
+        "videos": [
+          {"path": "assets/projects/air_spring_project/1.mp4", "caption": "Detection Processing"}
+        ]
+      }
+    },
+    {
+      "name": "Monocular Distance Measurement System",
+      "details": [
+        "Developed safety-critical computer vision system to prevent electrical injuries from insulators",
+        "Evolved system from basic pixel-to-physical distance mapping to sophisticated NeRF-based 3D reconstruction",
+        "Implemented Neural Radiance Fields (NeRF) to generate high-fidelity 3D scene representation from single-view images",
+        "Achieved accurate distance calculation through neural implicit 3D scene representation",
+        "Built mobile-based warning system for electrical workers' safety",
+        "Designed robust detection algorithm for various lighting conditions",
+        "Integrated real-time alert system for dangerous proximity"
+      ],
+      "achievement": {
+        "isProduction": true,
+        "text": "Deployed in multiple power stations with zero electrical injury incidents reported"
+      },
+      "technicalHighlights": "NeRF (Neural Radiance Fields), 3D Scene Reconstruction, Computer Vision, Mobile Development, Real-time Processing, Safety Systems, Python, OpenCV",
+      "hasMedia": true,
+      "mediaFolder": "insulator_project",
+      "media": {
+        "images": [
+          {"path": "assets/projects/insulator_project/1.PNG", "caption": "Safety distance monitoring system"}
+        ],
+        "videos": [
+          {"path": "assets/projects/insulator_project/1.mp4", "caption": ""},
+          {"path": "assets/projects/insulator_project/3.mp4", "caption": ""}
+        ]
+      }
+    },
+    {
+      "name": "Brain-Computer Interface Data Processing Platform",
+      "details": [
+        "Architected and implemented brain signal processing pipeline",
+        "Optimized signal classification using reinforcement learning algorithms",
+        "Built web interface using Flask + Vue.js",
+        "Implemented containerized deployment with Docker"
+      ],
+      "achievement": {
+        "isProduction": true,
+        "text": "Improved signal processing accuracy by 40% and reduced latency by 50%"
+      },
+      "technicalHighlights": "Signal Processing, Reinforcement Learning, Flask, Vue.js, Docker, Python, Real-time Data Processing",
+      "hasMedia": false
+    },
+    {
+      "name": "LLM Model Optimization Project",
+      "details": [
+        "Implemented GPTQ quantization, compressing models to 4-bit",
+        "Applied LoRA for efficient model fine-tuning",
+        "Designed distributed inference architecture"
+      ],
+      "achievement": {
+        "isProduction": true,
+        "text": "Reduced deployment costs by 60% and increased inference speed by 3x"
+      },
+      "technicalHighlights": "GPTQ, LoRA, Model Quantization, Distributed Systems, MLOps, Python, PyTorch",
+      "hasMedia": false
+    },
+    {
+      "name": "Other Projects Showcase",
+      "details": [],
+      "achievement": "",
+      "technicalHighlights": "Computer Vision, Action Recognition, Skin Detection, Real-time Processing, Deep Learning",
+      "hasMedia": true,
+      "mediaFolder": "other_projects",
+      "media": {
+        "images": [
+          {"path": "assets/projects/other_projects/6.jpg", "caption": "Skin detection 1"},
+          {"path": "assets/projects/other_projects/5.jpg", "caption": "Skin detection 2"},
+          {"path": "assets/projects/other_projects/4.jpg", "caption": "Skin detection 3"}
+        ],
+        "videos": [
+          {"path": "assets/projects/other_projects/1.mp4", "caption": "Golf Action Capture"},
+          {"path": "assets/projects/other_projects/2.mp4", "caption": "Golf test"},
+          {"path": "assets/projects/other_projects/3.mp4", "caption": "Taiwan Player"},
+          {"path": "assets/projects/other_projects/gym.mp4", "caption": "Gym Action Capture"}
+        ]
+      }
+    }
+  ],
+  "previousWork": [
+    {
+      "company": "MotionRivalry, Shenzhen",
+      "period": "2019-2022",
+      "title": "AI Research Engineer",
+      "responsibilities": [
+        "Developed computer vision algorithms for sports performance analysis using OpenCV and YOLO",
+        "Implemented semantic segmentation solutions using U-Net for precise motion tracking",
+        "Established standardized deployment workflows for sports analysis systems",
+        "Collaborated with sports professionals to integrate AI solutions into training programs"
+      ]
+    },
+    {
+      "company": "Mozi Tech, Shenzhen",
+      "period": "2016-2019",
+      "title": "Senior AI Engineer",
+      "responsibilities": [
+        "Led development of AI-powered educational solutions for children using computer vision and deep learning",
+        "Designed and implemented computer vision algorithms using YOLO and U-Net for interactive learning experiences",
+        "Built scalable AI infrastructure for real-time processing of educational content",
+        "Mentored junior engineers and coordinated with cross-functional educational teams"
+      ]
+    }
+  ],
+  "highlights": [
+    "End-to-end leadership of multiple AI projects from conception to deployment",
+    "Strong expertise in model optimization and production deployment",
+    "Proven team collaboration and project management skills",
+    "Passionate about emerging technologies and continuous learning"
+  ],
+  "personalStatement": "I am an optimistic person who can handle work pressure far beyond what most people can endure.\n\nIn my work, I always focus on issues rather than individuals, never harbor suspicions about others, and regardless of what setbacks I encounter, I never project my emotions onto those around me.\n\nI possess strong social skills while being equally comfortable working independently. I maintain an unwavering focus on the bright, hopeful future that technology promises.",
+  "personalStatementMedia": {
+    "images": [
+      {"path": "assets/personal/1.jpg", "caption": "Personal Image 1"},
+      {"path": "assets/personal/2.jpg", "caption": "Personal Image 2"},
+      {"path": "assets/personal/3.jpg", "caption": "Personal Image 3"},
+      {"path": "assets/personal/4.jpg", "caption": "Personal Image 4"},
+      {"path": "assets/personal/5.jpg", "caption": "Personal Image 5"}
+    ]
+  }
+} 
