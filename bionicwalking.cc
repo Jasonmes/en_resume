@@ -1,57 +1,53 @@
 server {
-    listen 80;
-    listen [::]:80;
+    listen 443 ssl;
     server_name bionicwalking.cc;
 
-    # 添加访问日志和错误日志
-    access_log /var/log/nginx/bionicwalking.access.log;
-    error_log /var/log/nginx/bionicwalking.error.log debug;
+    ssl_certificate /etc/letsencrypt/live/bionicwalking.cc/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/bionicwalking.cc/privkey.pem;
 
-    # 处理 /en_resume 路径下的所有请求
-    location /en_resume {
-        proxy_pass http://localhost:8080;
-        
-        # 基本代理头
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_prefer_server_ciphers off;
+    ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384;
 
-        # 添加 CORS 头
-        add_header 'Access-Control-Allow-Origin' '*';
-        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
-        add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';
+    # 全局设置最大文件大小
+    client_max_body_size 100M;
 
-        # 超时设置
-        proxy_connect_timeout 60;
-        proxy_send_timeout 60;
-        proxy_read_timeout 60;
-
-        # 缓冲区设置
+    # 添加视频文件的 MIME 类型和大文件支持
+    location ~* \.(mp4|webm)$ {
+        add_header Content-Type "video/mp4";
+        add_header Accept-Ranges bytes;
+        client_max_body_size 100M;
+        proxy_max_temp_file_size 100M;
         proxy_buffer_size 128k;
-        proxy_buffers 4 256k;
-        proxy_busy_buffers_size 256k;
-
-        # 错误处理
-        proxy_intercept_errors on;
-        error_page 502 503 504 /50x.html;
+        proxy_buffers 32 128k;
     }
 
-    # 处理静态文件的特殊配置
-    location ~ ^/en_resume/.*\.(css|js|jpg|png|gif)$ {
-        proxy_pass http://localhost:8080;
+    location /en_resume/ {
+        proxy_pass http://127.0.0.1:8080;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
-        
-        # 添加缓存控制
-        expires 7d;
-        add_header Cache-Control "public, no-transform";
-    }
 
-    # 错误页面位置
-    location = /50x.html {
-        root /usr/share/nginx/html;
+        # 增加视频文件的传输限制
+        proxy_read_timeout 300;
+        proxy_connect_timeout 300;
+        proxy_send_timeout 300;
+        
+        # 增加最大文件传输大小
+        client_max_body_size 100M;
+        proxy_max_temp_file_size 100M;
+        proxy_buffer_size 128k;
+        proxy_buffers 32 128k;
+        
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
     }
+}
+
+server {
+    listen 80;
+    server_name bionicwalking.cc;
+    return 301 https://$server_name$request_uri;
 }
