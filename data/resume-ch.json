@@ -1,0 +1,254 @@
+{
+  "name": "张珈盛",
+  "personalInfo": {
+    "avatar": "assets/avatar.jpg",
+    "name": "张珈盛",
+    "age": 32,
+    "nationality": "中国",
+    "experience": "8年经验（7年AI领域 + 6个月iOS开发）",
+    "positionSought": "高级人工智能工程师",
+    "email": "bionicwalking@163.com",
+    "phone": "+86 19987386841",
+    "wechat": "13232182628",
+    "telegram": "+86 13232182628"
+  },
+  "workAuthorization": {
+    "title": "需要以下任意工作签证担保",
+    "visas": [
+      {"country": "新加坡", "type": "就业准证（EP）"},
+      {"country": "美国", "type": "H-1B"},
+      {"country": "欧盟", "type": "蓝卡"},
+      {"country": "英国", "type": "技术工作签证"},
+      {"country": "加拿大", "type": "全球人才计划"}
+    ]
+  },
+  "technicalSkills": [
+    {
+      "category": "人工智能/机器学习",
+      "skills": "大语言模型微调、Transformer架构、自注意力机制、多头注意力、强化学习、RAG、提示工程、AutoGen、MLOps、AIGC、人脸融合、模型调优、知识蒸馏"
+    },
+    {
+      "category": "框架",
+      "skills": "Flask、FastAPI、Django、TensorFlow、PyTorch、OpenAI、Pandas、NumPy"
+    },
+    {
+      "category": "DevOps",
+      "skills": "Docker、Kubernetes、CI/CD"
+    },
+    {
+      "category": "编程语言",
+      "skills": "Python、C++、JavaScript"
+    },
+    {
+      "category": "数据库",
+      "skills": "SQL、向量数据库（Milvus/Pinecone）"
+    },
+    {
+      "category": "开发环境",
+      "skills": "Linux、Git、Conda、Jupyter、VSCode"
+    }
+  ],
+  "languages": [
+    {"language": "中文", "level": "母语"},
+    {"language": "英语", "level": "流利"}
+  ],
+  "projects": [
+    {
+      "name": "职业宣言",
+      "details": [
+        "在团队中，我愿意承担任何必要角色以确保项目成功"
+      ],
+      "technicalHighlights": "",
+      "hasMedia": false
+    },
+    {
+      "name": "智能AI代理系统",
+      "details": [
+        "基于AutoGen框架开发符合Agentic AI原则的多代理系统",
+        "为每个代理实现专用模型以保持真正的代理自主性和专业化",
+        "使用强化学习优化代理间通信以实现最佳信息共享",
+        "实现基于RAG的知识检索增强与动态内存管理",
+        "使用向量数据库优化上下文感知响应",
+        "设计包含代理专属优化的完整提示工程系统",
+        "建立鼓励代理协作解决问题的奖励机制"
+      ],
+      "achievement": {
+        "isSecret": true,
+        "text": "内部研发项目：开发专有多代理系统，在协同决策中达到85%准确率，信息共享效率提升40%"
+      },
+      "technicalHighlights": "Agentic AI、AutoGen、RAG、向量数据库、强化学习、LLM、多代理系统、协作式AI、提示工程、Python",
+      "hasMedia": false
+    },
+    {
+      "name": "虚拟家庭课堂",
+      "details": [
+        "（持续开发中 - 无明确截止日期的个人项目）",
+        "使用Unreal Engine 5开发基于微调LLaMA 3的数字人教师",
+        "实现根据儿童理解水平自动调整教学节奏的适应性学习系统",
+        "创建包含正向引导机制的渐进式学习路径",
+        "构建覆盖中国教育体系全学科的综合课程体系",
+        "设计旨在革新传统教学方式的可扩展架构",
+        "集成实时学习效果评估与反馈系统"
+      ],
+      "achievement": {
+        "isConcept": true,
+        "text": "已在100名学生中成功测试，获得对适应性学习方法的积极反馈"
+      },
+      "technicalHighlights": "LLaMA 3、Unreal Engine 5、数字人、LLM微调、适应性学习算法、课程设计",
+      "hasMedia": false
+    },
+    {
+      "name": "空气弹簧质量检测系统",
+      "details": [
+        "开发高精度空气弹簧帘布层检测计算机视觉系统",
+        "实现亚毫米级精度的多层加强帘线检测算法",
+        "设计包含内层、外层和层间距验证的三级检测系统",
+        "集成工业PLC实现自动化产线控制",
+        "优化超高清摄像头图像处理（3 FPS）"
+      ],
+      "achievement": {
+        "isProduction": true,
+        "text": "在生产环境中实现99.5%检测准确率且零漏检"
+      },
+      "technicalHighlights": "计算机视觉、深度学习、PLC集成、高速图像处理、工业自动化、Python、C++",
+      "hasMedia": true,
+      "mediaFolder": "air_spring_project",
+      "media": {
+        "images": [
+          {"path": "assets/projects/air_spring_project/1.jpg", "caption": "检测结果1"},
+          {"path": "assets/projects/air_spring_project/2.jpg", "caption": "检测结果2"},
+          {"path": "assets/projects/air_spring_project/3.jpg", "caption": "检测结果3"},
+          {"path": "assets/projects/air_spring_project/4.jpg", "caption": "检测结果4"},
+          {"path": "assets/projects/air_spring_project/5.jpg", "caption": "检测结果5"},
+          {"path": "assets/projects/air_spring_project/6.jpg", "caption": "检测结果6"},
+          {"path": "assets/projects/air_spring_project/7.jpg", "caption": "检测结果7"},
+          {"path": "assets/projects/air_spring_project/8.jpg", "caption": "检测结果8"},
+          {"path": "assets/projects/air_spring_project/9.jpg", "caption": "检测结果9"}
+        ],
+        "videos": [
+          {"path": "assets/projects/air_spring_project/1.mp4", "caption": "检测处理过程"}
+        ]
+      }
+    },
+    {
+      "name": "单目距离测量系统（绝缘子安全监测）",
+      "details": [
+        "开发安全关键型计算机视觉系统预防绝缘体导致的触电事故",
+        "从基础像素-物理距离映射演进到基于NeRF的复杂3D重建系统",
+        "实现神经辐射场（NeRF）从单视图图像生成高保真3D场景重建",
+        "通过神经隐式3D场景表征实现精确距离计算",
+        "构建基于移动端的安全预警系统",
+        "设计适用于多种光照条件的鲁棒检测算法",
+        "集成危险距离实时警报系统"
+      ],
+      "achievement": {
+        "isProduction": true,
+        "text": "在多个电站部署使用，实现零触电事故记录"
+      },
+      "technicalHighlights": "神经辐射场（NeRF）、3D场景重建、计算机视觉、移动开发、实时处理、安全系统、Python、OpenCV",
+      "hasMedia": true,
+      "mediaFolder": "insulator_project",
+      "media": {
+        "images": [
+          {"path": "assets/projects/insulator_project/1.PNG", "caption": "安全距离监测系统"}
+        ],
+        "videos": [
+          {"path": "assets/projects/insulator_project/1.mp4", "caption": ""},
+          {"path": "assets/projects/insulator_project/3.mp4", "caption": ""}
+        ]
+      }
+    },
+    {
+      "name": "脑机接口数据处理平台",
+      "details": [
+        "构建并实现脑信号处理流水线架构",
+        "使用强化学习算法优化信号分类",
+        "采用Flask + Vue.js构建Web界面",
+        "实现基于Docker的容器化部署"
+      ],
+      "achievement": {
+        "isProduction": true,
+        "text": "信号处理准确率提升40%，延迟降低50%"
+      },
+      "technicalHighlights": "信号处理、强化学习、Flask、Vue.js、Docker、Python、实时数据处理",
+      "hasMedia": false
+    },
+    {
+      "name": "LLM模型优化项目",
+      "details": [
+        "实施GPTQ量化技术，将模型压缩至4位",
+        "应用LoRA进行高效模型微调",
+        "设计分布式推理架构"
+      ],
+      "achievement": {
+        "isProduction": true,
+        "text": "部署成本降低60%，推理速度提升3倍"
+      },
+      "technicalHighlights": "GPTQ、LoRA、模型量化、分布式系统、MLOps、Python、PyTorch",
+      "hasMedia": false
+    },
+    {
+      "name": "其他项目展示",
+      "details": [],
+      "achievement": {
+        "isProduction": false,
+        "text": ""
+      },
+      "technicalHighlights": "计算机视觉、动作识别、皮肤检测、实时处理、深度学习",
+      "hasMedia": true,
+      "mediaFolder": "other_projects",
+      "media": {
+        "images": [
+          {"path": "assets/projects/other_projects/6.jpg", "caption": "皮肤检测1"},
+          {"path": "assets/projects/other_projects/5.jpg", "caption": "皮肤检测2"},
+          {"path": "assets/projects/other_projects/4.jpg", "caption": "皮肤检测3"}
+        ],
+        "videos": [
+          {"path": "assets/projects/other_projects/1.mp4", "caption": "高尔夫动作捕捉"},
+          {"path": "assets/projects/other_projects/2.mp4", "caption": "高尔夫测试"},
+          {"path": "assets/projects/other_projects/3.mp4", "caption": "台湾选手测试"},
+          {"path": "assets/projects/other_projects/gym.mp4", "caption": "健身动作捕捉"}
+        ]
+      }
+    }
+  ],
+  "previousWork": [
+    {
+      "company": "MotionRivalry, 深圳",
+      "period": "2019-2022",
+      "title": "人工智能研究工程师",
+      "responsibilities": [
+        "使用OpenCV和YOLO开发运动表现分析的计算机视觉算法",
+        "使用U-Net架构实现精确动作跟踪的语义分割解决方案（平均IoU达92%）",
+        "建立运动分析系统的标准化部署流程",
+        "与体育专业人士合作将AI解决方案整合到训练计划中"
+      ]
+    },
+    {
+      "company": "墨子科技, 深圳",
+      "period": "2016-2019",
+      "title": "高级人工智能工程师",
+      "responsibilities": [
+        "领导开发基于AI的儿童教育解决方案（计算机视觉与深度学习技术）",
+        "使用YOLO和U-Net设计实现交互式学习的计算机视觉算法",
+        "构建可扩展的AI基础设施实现教育内容实时处理（吞吐量达2000+请求/秒）",
+        "指导初级工程师并与跨学科教育团队协作"
+      ]
+    }
+  ],
+  "highlights": [
+    "全程主导多个AI项目从概念到部署",
+    "在模型优化和生产部署方面具有丰富经验",
+    "出色的团队协作和项目管理能力",
+    "对新兴技术充满热情并持续学习"
+  ],
+  "personalStatement": "我是一个乐观的人，能够承受远超常人的工作压力。\n\n在工作中，我始终对事不对人，从不揣测他人，无论遇到什么挫折，都不会将情绪传递给周围的人。\n\n我具备强大的社交能力，同时也能独立工作。我对技术带来的光明未来保持坚定不移的信念。",
+  "personalStatementMedia": {
+    "images": [
+      {"path": "assets/personal/1.jpg", "caption": "个人形象照1"},
+      {"path": "assets/personal/3.jpg", "caption": "个人形象照3"},
+      {"path": "assets/personal/4.jpg", "caption": "个人形象照4"},
+      {"path": "assets/personal/5.jpg", "caption": "个人形象照5"}
+    ]
+  }
+} 

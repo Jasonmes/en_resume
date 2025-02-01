@@ -240,9 +240,9 @@
   ],
   "personalStatement": "I am an optimistic person who can handle work pressure far beyond what most people can endure.\n\nIn my work, I always focus on issues rather than individuals, never harbor suspicions about others, and regardless of what setbacks I encounter, I never project my emotions onto those around me.\n\nI possess strong social skills while being equally comfortable working independently. I maintain an unwavering focus on the bright, hopeful future that technology promises.",
   "personalStatementMedia": {
+    "active": true,
     "images": [
       {"path": "assets/personal/1.jpg", "caption": "Personal Image 1"},
-      {"path": "assets/personal/2.jpg", "caption": "Personal Image 2"},
       {"path": "assets/personal/3.jpg", "caption": "Personal Image 3"},
       {"path": "assets/personal/4.jpg", "caption": "Personal Image 4"},
       {"path": "assets/personal/5.jpg", "caption": "Personal Image 5"}

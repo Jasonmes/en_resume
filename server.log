@@ -1,0 +1,531 @@
+nohup: ignoring input
+INFO:__main__:Starting server...
+INFO:__main__:Current working directory: /root/en_resume
+INFO:__main__:Directory contents: ['sample.py', '.gitattributes', 'index.html', 'nohup.out', 'server.log', 'readme.md', 'js', 'nginx-set.md', '.git', 'assets', 'server.py', 'data', 'venv', 'bionicwalking.cc', '.DS_Store', 'styles.css', 'sampleweb.md', 'bionicwalking_backuo.cc']
+ * Serving Flask app 'server'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://155.138.237.64:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:Starting server...
+INFO:__main__:Current working directory: /root/en_resume
+INFO:__main__:Directory contents: ['sample.py', '.gitattributes', 'index.html', 'nohup.out', 'server.log', 'readme.md', 'js', 'nginx-set.md', '.git', 'assets', 'server.py', 'data', 'venv', 'bionicwalking.cc', '.DS_Store', 'styles.css', 'sampleweb.md', 'bionicwalking_backuo.cc']
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 774-334-832
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:19] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Requested file: styles.css
+DEBUG:__main__:Full path: /root/en_resume/styles.css
+DEBUG:__main__:Requested file: assets/avatar.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/avatar.jpg
+DEBUG:__main__:Requested file: js/main.js
+DEBUG:__main__:Full path: /root/en_resume/js/main.js
+DEBUG:__main__:Serving assets/avatar.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:20] "GET /en_resume/assets/avatar.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Serving styles.css with Content-Type: text/css
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:20] "GET /en_resume/styles.css HTTP/1.1" 200 -
+DEBUG:__main__:Serving js/main.js with Content-Type: text/javascript
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:20] "GET /en_resume/js/main.js HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: data/resume.json
+DEBUG:__main__:Full path: /root/en_resume/data/resume.json
+DEBUG:__main__:Serving data/resume.json with Content-Type: application/json
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:20] "GET /en_resume/data/resume.json HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/1.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:21] "GET /en_resume/assets/projects/air_spring_project/1.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/4.jpg with Content-Type: image/jpeg
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/2.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:21] "GET /en_resume/assets/projects/air_spring_project/2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:21] "GET /en_resume/assets/projects/air_spring_project/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/3.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:22] "GET /en_resume/assets/projects/air_spring_project/3.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/7.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:22] "GET /en_resume/assets/projects/air_spring_project/7.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/8.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:22] "GET /en_resume/assets/projects/air_spring_project/8.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:23] "GET /en_resume/assets/projects/air_spring_project/6.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:23] "GET /en_resume/assets/projects/air_spring_project/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/9.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:23] "GET /en_resume/assets/projects/air_spring_project/9.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/6.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:23] "GET /en_resume/assets/projects/other_projects/6.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/3.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/3.jpg
+DEBUG:__main__:Serving assets/personal/3.jpg with Content-Type: image/jpeg
+DEBUG:__main__:Requested file: assets/projects/other_projects/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/4.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:24] "GET /en_resume/assets/personal/3.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:24] "GET /en_resume/assets/projects/other_projects/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/4.jpg
+DEBUG:__main__:Serving assets/personal/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:24] "GET /en_resume/assets/personal/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/5.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:24] "GET /en_resume/assets/projects/other_projects/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/1.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/1.jpg
+DEBUG:__main__:Serving assets/personal/1.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:25] "GET /en_resume/assets/personal/1.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Serving assets/projects/insulator_project/1.PNG with Content-Type: image/png
+DEBUG:__main__:Requested file: assets/personal/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/5.jpg
+DEBUG:__main__:Serving assets/personal/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:25] "GET /en_resume/assets/personal/5.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:25] "GET /en_resume/assets/projects/insulator_project/1.PNG HTTP/1.1" 200 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:21:59] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:00] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Requested file: styles.css
+DEBUG:__main__:Full path: /root/en_resume/styles.css
+DEBUG:__main__:Serving styles.css with Content-Type: text/css
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:01] "GET /en_resume/styles.css HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: js/main.js
+DEBUG:__main__:Full path: /root/en_resume/js/main.js
+DEBUG:__main__:Serving js/main.js with Content-Type: text/javascript
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:01] "GET /en_resume/js/main.js HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/avatar.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/avatar.jpg
+DEBUG:__main__:Serving assets/avatar.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:01] "GET /en_resume/assets/avatar.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: data/resume.json
+DEBUG:__main__:Full path: /root/en_resume/data/resume.json
+DEBUG:__main__:Serving data/resume.json with Content-Type: application/json
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:01] "GET /en_resume/data/resume.json HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/1.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:01] "GET /en_resume/assets/projects/air_spring_project/1.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/2.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:01] "GET /en_resume/assets/projects/air_spring_project/2.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/5.jpg with Content-Type: image/jpeg
+DEBUG:__main__:Serving assets/projects/air_spring_project/3.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:01] "GET /en_resume/assets/projects/air_spring_project/5.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:01] "GET /en_resume/assets/projects/air_spring_project/3.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/4.jpg with Content-Type: image/jpeg
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:01] "GET /en_resume/assets/projects/air_spring_project/6.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:01] "GET /en_resume/assets/projects/air_spring_project/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/7.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:02] "GET /en_resume/assets/projects/air_spring_project/7.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/8.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:02] "GET /en_resume/assets/projects/air_spring_project/8.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:04] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/9.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:05] "GET /en_resume/assets/projects/air_spring_project/9.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: js/main.js
+DEBUG:__main__:Full path: /root/en_resume/js/main.js
+DEBUG:__main__:Serving js/main.js with Content-Type: text/javascript
+DEBUG:__main__:Requested file: assets/projects/other_projects/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/6.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:05] "GET /en_resume/assets/projects/other_projects/6.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:05] "GET /en_resume/js/main.js HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Serving assets/projects/insulator_project/1.PNG with Content-Type: image/png
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:06] "GET /en_resume/assets/projects/insulator_project/1.PNG HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/5.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:06] "GET /en_resume/assets/projects/other_projects/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: styles.css
+DEBUG:__main__:Full path: /root/en_resume/styles.css
+DEBUG:__main__:Serving styles.css with Content-Type: text/css
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:06] "GET /en_resume/styles.css HTTP/1.1" 200 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:06] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Requested file: assets/avatar.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/avatar.jpg
+DEBUG:__main__:Serving assets/avatar.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:06] "GET /en_resume/assets/avatar.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/3.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/3.jpg
+DEBUG:__main__:Serving assets/personal/3.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:06] "GET /en_resume/assets/personal/3.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: data/resume.json
+DEBUG:__main__:Full path: /root/en_resume/data/resume.json
+DEBUG:__main__:Serving data/resume.json with Content-Type: application/json
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:06] "GET /en_resume/data/resume.json HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/4.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:06] "GET /en_resume/assets/projects/other_projects/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/4.jpg
+DEBUG:__main__:Serving assets/personal/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:06] "GET /en_resume/assets/personal/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/5.jpg
+DEBUG:__main__:Serving assets/personal/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:06] "GET /en_resume/assets/personal/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/1.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:07] "GET /en_resume/assets/projects/air_spring_project/1.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/1.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/1.jpg
+DEBUG:__main__:Serving assets/personal/1.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:08] "GET /en_resume/assets/personal/1.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/2.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:09] "GET /en_resume/assets/projects/air_spring_project/2.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/3.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:09] "GET /en_resume/assets/projects/air_spring_project/3.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Serving assets/projects/insulator_project/1.PNG with Content-Type: image/png
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:09] "GET /en_resume/assets/projects/insulator_project/1.PNG HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:10] "GET /en_resume/assets/projects/air_spring_project/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:11] "GET /en_resume/assets/projects/air_spring_project/6.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/8.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:11] "GET /en_resume/assets/projects/air_spring_project/8.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/7.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:11] "GET /en_resume/assets/projects/air_spring_project/7.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:11] "GET /en_resume/assets/projects/air_spring_project/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/5.jpg
+DEBUG:__main__:Requested file: assets/projects/other_projects/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/4.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:14] "GET /en_resume/assets/projects/other_projects/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/5.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:14] "GET /en_resume/assets/projects/other_projects/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/9.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:14] "GET /en_resume/assets/projects/air_spring_project/9.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/6.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:15] "GET /en_resume/assets/projects/other_projects/6.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/3.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/3.jpg
+DEBUG:__main__:Serving assets/personal/3.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:15] "GET /en_resume/assets/personal/3.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/5.jpg
+DEBUG:__main__:Serving assets/personal/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:15] "GET /en_resume/assets/personal/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/4.jpg
+DEBUG:__main__:Serving assets/personal/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:15] "GET /en_resume/assets/personal/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/1.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/1.jpg
+DEBUG:__main__:Serving assets/personal/1.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:15] "GET /en_resume/assets/personal/1.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:32] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:22:48] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:23:39] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:24:12] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:24:20] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:52] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Requested file: assets/avatar.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/avatar.jpg
+DEBUG:__main__:Serving assets/avatar.jpg with Content-Type: image/jpeg
+DEBUG:__main__:Requested file: styles.css
+DEBUG:__main__:Full path: /root/en_resume/styles.css
+DEBUG:__main__:Serving styles.css with Content-Type: text/css
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:53] "GET /en_resume/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:53] "GET /en_resume/assets/avatar.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: js/main.js
+DEBUG:__main__:Full path: /root/en_resume/js/main.js
+DEBUG:__main__:Serving js/main.js with Content-Type: text/javascript
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:53] "GET /en_resume/js/main.js HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: data/resume.json
+DEBUG:__main__:Full path: /root/en_resume/data/resume.json
+DEBUG:__main__:Serving data/resume.json with Content-Type: application/json
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:54] "GET /en_resume/data/resume.json HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/1.jpg with Content-Type: image/jpeg
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/3.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:54] "GET /en_resume/assets/projects/air_spring_project/3.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:54] "GET /en_resume/assets/projects/air_spring_project/1.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Serving assets/projects/air_spring_project/2.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:54] "GET /en_resume/assets/projects/air_spring_project/2.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:54] "GET /en_resume/assets/projects/air_spring_project/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:54] "GET /en_resume/assets/projects/air_spring_project/6.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:54] "GET /en_resume/assets/projects/air_spring_project/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Serving assets/projects/insulator_project/1.PNG with Content-Type: image/png
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:57] "GET /en_resume/assets/projects/insulator_project/1.PNG HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/9.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:57] "GET /en_resume/assets/projects/air_spring_project/9.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/1.jpg
+DEBUG:__main__:Requested file: assets/projects/other_projects/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/4.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/4.jpg with Content-Type: image/jpeg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/1.jpg
+DEBUG:__main__:Serving assets/personal/1.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:57] "GET /en_resume/assets/personal/1.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:57] "GET /en_resume/assets/projects/other_projects/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/4.jpg
+DEBUG:__main__:Serving assets/personal/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:57] "GET /en_resume/assets/personal/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/8.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:57] "GET /en_resume/assets/projects/air_spring_project/8.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/3.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/3.jpg
+DEBUG:__main__:Serving assets/personal/3.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:57] "GET /en_resume/assets/personal/3.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/5.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:57] "GET /en_resume/assets/projects/other_projects/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/6.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:59] "GET /en_resume/assets/projects/other_projects/6.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/5.jpg
+DEBUG:__main__:Serving assets/personal/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:59] "GET /en_resume/assets/personal/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/7.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:25:59] "GET /en_resume/assets/projects/air_spring_project/7.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:02] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Requested file: assets/avatar.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/avatar.jpg
+DEBUG:__main__:Serving assets/avatar.jpg with Content-Type: image/jpeg
+DEBUG:__main__:Requested file: styles.css
+DEBUG:__main__:Full path: /root/en_resume/styles.css
+DEBUG:__main__:Serving styles.css with Content-Type: text/css
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:03] "GET /en_resume/assets/avatar.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:03] "GET /en_resume/styles.css HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: js/main.js
+DEBUG:__main__:Full path: /root/en_resume/js/main.js
+DEBUG:__main__:Serving js/main.js with Content-Type: text/javascript
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:03] "GET /en_resume/js/main.js HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: data/resume.json
+DEBUG:__main__:Full path: /root/en_resume/data/resume.json
+DEBUG:__main__:Serving data/resume.json with Content-Type: application/json
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:03] "GET /en_resume/data/resume.json HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/1.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:04] "GET /en_resume/assets/projects/air_spring_project/1.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/2.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:04] "GET /en_resume/assets/projects/air_spring_project/2.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/3.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:04] "GET /en_resume/assets/projects/air_spring_project/3.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/4.jpg with Content-Type: image/jpeg
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:04] "GET /en_resume/assets/projects/air_spring_project/5.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:04] "GET /en_resume/assets/projects/air_spring_project/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:05] "GET /en_resume/assets/projects/air_spring_project/6.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Serving assets/projects/insulator_project/1.PNG with Content-Type: image/png
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:05] "GET /en_resume/assets/projects/insulator_project/1.PNG HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/8.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:07] "GET /en_resume/assets/projects/air_spring_project/8.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/9.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:08] "GET /en_resume/assets/projects/air_spring_project/9.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/5.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:08] "GET /en_resume/assets/projects/other_projects/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/6.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:08] "GET /en_resume/assets/projects/other_projects/6.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Serving assets/projects/air_spring_project/7.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:08] "GET /en_resume/assets/projects/air_spring_project/7.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/4.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:28:08] "GET /en_resume/assets/projects/other_projects/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Serving index.html from: /root/en_resume/index.html
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:00] "[36mGET /en_resume/ HTTP/1.1[0m" 304 -
+DEBUG:__main__:Requested file: assets/avatar.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/avatar.jpg
+DEBUG:__main__:Serving assets/avatar.jpg with Content-Type: image/jpeg
+DEBUG:__main__:Requested file: js/main.js
+DEBUG:__main__:Full path: /root/en_resume/js/main.js
+DEBUG:__main__:Requested file: styles.css
+DEBUG:__main__:Full path: /root/en_resume/styles.css
+DEBUG:__main__:Serving styles.css with Content-Type: text/css
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:00] "GET /en_resume/styles.css HTTP/1.1" 200 -
+DEBUG:__main__:Serving js/main.js with Content-Type: text/javascript
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:00] "GET /en_resume/js/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:00] "GET /en_resume/assets/avatar.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: data/resume.json
+DEBUG:__main__:Full path: /root/en_resume/data/resume.json
+DEBUG:__main__:Serving data/resume.json with Content-Type: application/json
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:01] "GET /en_resume/data/resume.json HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/4.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:01] "GET /en_resume/assets/projects/air_spring_project/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/1.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/1.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:01] "GET /en_resume/assets/projects/air_spring_project/1.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/2.jpg
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/3.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/3.jpg with Content-Type: image/jpeg
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/6.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:01] "GET /en_resume/assets/projects/air_spring_project/6.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/5.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:01] "GET /en_resume/assets/projects/air_spring_project/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Serving assets/projects/air_spring_project/2.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:01] "GET /en_resume/assets/projects/air_spring_project/2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:01] "GET /en_resume/assets/projects/air_spring_project/3.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/insulator_project/1.PNG
+DEBUG:__main__:Serving assets/projects/insulator_project/1.PNG with Content-Type: image/png
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:04] "GET /en_resume/assets/projects/insulator_project/1.PNG HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/8.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/8.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:04] "GET /en_resume/assets/projects/air_spring_project/8.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/1.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/1.jpg
+DEBUG:__main__:Serving assets/personal/1.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:05] "GET /en_resume/assets/personal/1.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/4.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:06] "GET /en_resume/assets/projects/other_projects/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/6.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/6.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/6.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:07] "GET /en_resume/assets/projects/other_projects/6.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/4.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/4.jpg
+DEBUG:__main__:Serving assets/personal/4.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:07] "GET /en_resume/assets/personal/4.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/other_projects/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/other_projects/5.jpg
+DEBUG:__main__:Serving assets/projects/other_projects/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:08] "GET /en_resume/assets/projects/other_projects/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/9.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/9.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:08] "GET /en_resume/assets/projects/air_spring_project/9.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/5.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/5.jpg
+DEBUG:__main__:Serving assets/personal/5.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:08] "GET /en_resume/assets/personal/5.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/personal/3.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/personal/3.jpg
+DEBUG:__main__:Serving assets/personal/3.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:08] "GET /en_resume/assets/personal/3.jpg HTTP/1.1" 200 -
+DEBUG:__main__:Requested file: assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Full path: /root/en_resume/assets/projects/air_spring_project/7.jpg
+DEBUG:__main__:Serving assets/projects/air_spring_project/7.jpg with Content-Type: image/jpeg
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:29:08] "GET /en_resume/assets/projects/air_spring_project/7.jpg HTTP/1.1" 200 -

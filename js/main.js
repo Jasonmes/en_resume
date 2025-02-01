@@ -96,7 +96,7 @@ function renderResume(data) {
     const personalStatement = document.getElementById('personal-statement');
     personalStatement.innerHTML = `
         <p>${data.personalStatement}</p>
-        ${data.personalStatementMedia ? `
+        ${data.personalStatementMedia?.active ? `
             <div class="personal-statement-media">
                 ${data.personalStatementMedia.images.map(img => `
                     <img src="${img.path}" alt="${img.caption}">

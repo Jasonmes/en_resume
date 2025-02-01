@@ -23,18 +23,37 @@ server {
     }
 
     location /en_resume/ {
-        proxy_pass http://127.0.0.1:8080;
+        proxy_pass http://127.0.0.1:8080/en_resume/;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
 
-        # 增加视频文件的传输限制
         proxy_read_timeout 300;
         proxy_connect_timeout 300;
         proxy_send_timeout 300;
         
-        # 增加最大文件传输大小
+        client_max_body_size 100M;
+        proxy_max_temp_file_size 100M;
+        proxy_buffer_size 128k;
+        proxy_buffers 32 128k;
+        
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+    }
+
+    location /ch_resume/ {
+        proxy_pass http://127.0.0.1:8080/ch_resume/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        proxy_read_timeout 300;
+        proxy_connect_timeout 300;
+        proxy_send_timeout 300;
+        
         client_max_body_size 100M;
         proxy_max_temp_file_size 100M;
         proxy_buffer_size 128k;

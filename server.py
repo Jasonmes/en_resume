@@ -14,29 +14,51 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # 创建 Flask 应用
 app = Flask(__name__, static_folder=None)
 # 启用 CORS
-CORS(app, resources={r"/en_resume/*": {"origins": "*"}})
+CORS(app, resources={
+    r"/en_resume/*": {"origins": "*"},
+    r"/ch_resume/*": {"origins": "*"}
+})
 
+# 英文版路由
 @app.route('/en_resume/')
 @app.route('/en_resume')
-def index():
+def index_en():
+    return serve_index('index.html')
+
+# 中文版路由
+@app.route('/ch_resume/')
+@app.route('/ch_resume')
+def index_ch():
+    return serve_index('index_ch.html')
+
+def serve_index(filename):
     try:
-        file_path = os.path.join(BASE_DIR, 'index.html')
-        logger.debug(f"Serving index.html from: {file_path}")
+        file_path = os.path.join(BASE_DIR, filename)
+        logger.debug(f"Serving {filename} from: {file_path}")
         
         if not os.path.exists(file_path):
-            logger.error(f"index.html not found at: {file_path}")
+            logger.error(f"{filename} not found at: {file_path}")
             return make_response(("File not found", 404))
             
         return send_file(
             file_path,
             mimetype='text/html',
-            download_name='index.html'
+            download_name=filename
         )
     except Exception as e:
-        logger.error(f"Error serving index: {str(e)}")
+        logger.error(f"Error serving {filename}: {str(e)}")
         return make_response(("Internal Server Error", 500))
 
+# 英文版静态文件路由
 @app.route('/en_resume/<path:filename>')
+def serve_static_en(filename):
+    return serve_static(filename)
+
+# 中文版静态文件路由
+@app.route('/ch_resume/<path:filename>')
+def serve_static_ch(filename):
+    return serve_static(filename)
+
 def serve_static(filename):
     try:
         file_path = os.path.join(BASE_DIR, filename)
@@ -83,7 +105,6 @@ def serve_static(filename):
 
 @app.after_request
 def after_request(response):
-    # 如果响应没有明确设置的Content-Type，设置一个默认值
     if not response.headers.get('Content-Type'):
         response.headers['Content-Type'] = 'text/plain'
         
