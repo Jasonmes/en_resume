@@ -58,20 +58,20 @@
   },
   "metrics": [
     {
-      "value": "6 Agent",
-      "label": "AlphaContract AI 已落地的并行审计拓扑"
-    },
-    {
-      "value": "22 项",
-      "label": "统一合并的结构化合约风险字段"
-    },
-    {
-      "value": "21+ 模块",
-      "label": "模块化合约能力可复用组合"
+      "value": "8 年",
+      "label": "AI、后端交付与自动化系统经验"
     },
     {
       "value": "EVM + Solana",
-      "label": "当前全链产品方向的目标运行时"
+      "label": "覆盖合约系统、多链执行与异构链建模"
+    },
+    {
+      "value": "Go / Node.js / Python",
+      "label": "常用的后端与执行编排技术栈"
+    },
+    {
+      "value": "深圳 / Remote",
+      "label": "可远程协作，也可搬迁"
     }
   ],
   "focus": [
@@ -216,10 +216,10 @@
       ]
     },
     {
-      "name": "AlphaContract AI 多智能体合约审计平台",
+      "name": "AlphaContract AI 多智能体合约代码审计平台",
       "period": "2025",
       "role": "Lead Engineer",
-      "summary": "搭建基于 Go 的合约安全平台，完成源码抓取、并行 LLM 审计和结构化风险输出，覆盖多条 EVM 链。",
+      "summary": "搭建基于 Go 的合约代码审计平台，完成源码抓取、并行 LLM 审计和结构化风险输出，覆盖多条 EVM 链。",
       "badges": [
         "安全",
         "生产研发",

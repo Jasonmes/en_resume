@@ -58,20 +58,20 @@
   },
   "metrics": [
     {
-      "value": "6-agent",
-      "label": "parallel audit topology shipped in AlphaContract AI"
-    },
-    {
-      "value": "22 fields",
-      "label": "merged contract-risk outputs in one structured report"
-    },
-    {
-      "value": "21+ modules",
-      "label": "reusable smart-contract capabilities mapped in modular flows"
+      "value": "8 years",
+      "label": "across AI systems, backend delivery, and applied automation"
     },
     {
       "value": "EVM + Solana",
-      "label": "target runtimes in my current omni-chain design direction"
+      "label": "contract systems, multi-chain execution, and heterogeneous-chain modeling"
+    },
+    {
+      "value": "Go / Node.js / Python",
+      "label": "backend and orchestration stack used most often"
+    },
+    {
+      "value": "Shenzhen / Remote",
+      "label": "remote friendly and open to relocation"
     }
   ],
   "focus": [
@@ -216,10 +216,10 @@
       ]
     },
     {
-      "name": "AlphaContract AI Multi-Agent Audit Platform",
+      "name": "AlphaContract AI Multi-Agent Contract Code Audit Platform",
       "period": "2025",
       "role": "Lead Engineer",
-      "summary": "Built a Go-based contract security platform that retrieves source code, runs parallel LLM audits, and returns structured risk findings across multiple EVM chains.",
+      "summary": "Built a Go-based contract code audit platform that retrieves source code, runs parallel LLM audits, and returns structured risk findings across multiple EVM chains.",
       "badges": [
         "Security",
         "Production R&D",

@@ -31,6 +31,23 @@ function renderOptionalParagraph(text, className = "") {
     return `<p${classAttr}>${escapeHtml(value)}</p>`;
 }
 
+function renderHeroFacts(data) {
+    const items = [
+        data.profile.location,
+        data.profile.currentFocus
+    ].filter(Boolean);
+
+    if (!items.length) {
+        return "";
+    }
+
+    return `
+        <div class="hero-facts">
+            ${items.map(item => `<span class="hero-fact">${escapeHtml(item)}</span>`).join("")}
+        </div>
+    `;
+}
+
 function buildLangToggle() {
     const current = document.body.dataset.lang;
     const languages = [
@@ -323,22 +340,9 @@ function renderMain(data) {
             <div class="hero-copy">
                 <span class="eyebrow">${escapeHtml(data.profile.experience)}</span>
                 <h1>${escapeHtml(data.profile.headline)}</h1>
-                ${renderOptionalParagraph(data.profile.availability, "hero-summary")}
-            </div>
-
-            <div class="hero-signals">
-                <div class="signal-card">
-                    <span>${escapeHtml(data.ui.locationTitle)}</span>
-                    <strong>${escapeHtml(data.profile.location)}</strong>
-                </div>
-                <div class="signal-card">
-                    <span>${escapeHtml(data.ui.currentFocusTitle)}</span>
-                    <strong>${escapeHtml(data.profile.currentFocus)}</strong>
-                </div>
-            </div>
-
-            <div class="metric-grid">
-                ${data.metrics.map(renderMetric).join("")}
+                ${renderOptionalParagraph(data.profile.summary, "hero-summary")}
+                ${renderOptionalParagraph(data.profile.availability, "hero-summary hero-summary-secondary")}
+                ${renderHeroFacts(data)}
             </div>
         </section>
 
