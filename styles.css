@@ -101,9 +101,7 @@ video {
 }
 
 .site-header {
-    position: sticky;
-    top: 16px;
-    z-index: 20;
+    position: static;
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
@@ -242,9 +240,9 @@ video {
 
 .sidebar {
     position: sticky;
-    top: 102px;
+    top: 16px;
     align-self: start;
-    max-height: calc(100vh - 118px);
+    max-height: calc(100vh - 32px);
     overflow: auto;
     display: grid;
     gap: 12px;
