@@ -411,11 +411,7 @@ function renderResume(data) {
 
     header.innerHTML = `
         <div class="header-brand">
-            <p class="eyebrow">${escapeHtml(data.ui.headerKicker)}</p>
-            <div>
-                <strong>${escapeHtml(data.profile.name)}</strong>
-                <span>${escapeHtml(data.ui.headerSubline)}</span>
-            </div>
+            <strong>${escapeHtml(data.profile.name)}</strong>
         </div>
         <nav class="header-nav">
             <a href="#featured">${escapeHtml(data.ui.navFeatured)}</a>
