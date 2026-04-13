@@ -401,6 +401,47 @@ function createRevealObserver() {
     elements.forEach(element => observer.observe(element));
 }
 
+function syncResponsiveProfileCard() {
+    const sidebar = document.getElementById("sidebar-root");
+    const main = document.getElementById("main-root");
+    const profileCard = document.querySelector(".profile-card");
+
+    if (!sidebar || !main || !profileCard) {
+        return;
+    }
+
+    if (window.matchMedia("(max-width: 820px)").matches) {
+        if (main.firstElementChild !== profileCard) {
+            main.insertBefore(profileCard, main.firstElementChild);
+        }
+        return;
+    }
+
+    if (sidebar.firstElementChild !== profileCard) {
+        sidebar.insertBefore(profileCard, sidebar.firstElementChild);
+    }
+}
+
+let hasBoundResponsiveProfileCard = false;
+
+function bindResponsiveProfileCard() {
+    if (hasBoundResponsiveProfileCard) {
+        return;
+    }
+
+    const sync = () => syncResponsiveProfileCard();
+    const mediaQuery = window.matchMedia("(max-width: 820px)");
+
+    if (typeof mediaQuery.addEventListener === "function") {
+        mediaQuery.addEventListener("change", sync);
+    } else if (typeof mediaQuery.addListener === "function") {
+        mediaQuery.addListener(sync);
+    }
+
+    window.addEventListener("resize", sync, { passive: true });
+    hasBoundResponsiveProfileCard = true;
+}
+
 function renderResume(data) {
     document.title = data.metaTitle;
     document.documentElement.lang = data.locale;
@@ -424,6 +465,8 @@ function renderResume(data) {
     sidebar.innerHTML = renderSidebar(data);
     main.innerHTML = renderMain(data);
 
+    syncResponsiveProfileCard();
+    bindResponsiveProfileCard();
     createRevealObserver();
 }
 
