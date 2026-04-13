@@ -20,6 +20,17 @@ function renderMetric(metric) {
     `;
 }
 
+function renderOptionalParagraph(text, className = "") {
+    const value = String(text ?? "").trim();
+
+    if (!value) {
+        return "";
+    }
+
+    const classAttr = className ? ` class="${className}"` : "";
+    return `<p${classAttr}>${escapeHtml(value)}</p>`;
+}
+
 function buildLangToggle() {
     const current = document.body.dataset.lang;
     const languages = [
@@ -312,7 +323,7 @@ function renderMain(data) {
             <div class="hero-copy">
                 <span class="eyebrow">${escapeHtml(data.profile.experience)}</span>
                 <h1>${escapeHtml(data.profile.headline)}</h1>
-                <p class="hero-summary">${escapeHtml(data.profile.availability)}</p>
+                ${renderOptionalParagraph(data.profile.availability, "hero-summary")}
             </div>
 
             <div class="hero-signals">
@@ -335,7 +346,7 @@ function renderMain(data) {
             <div class="section-head" data-reveal>
                 <span class="eyebrow">${escapeHtml(data.ui.featuredKicker)}</span>
                 <h2>${escapeHtml(data.ui.featuredTitle)}</h2>
-                <p>${escapeHtml(data.ui.featuredIntro)}</p>
+                ${renderOptionalParagraph(data.ui.featuredIntro)}
             </div>
             <div class="project-stack">
                 ${data.featuredProjects.map((project, index) => renderFeaturedProject(project, index, data.ui)).join("")}
@@ -346,7 +357,7 @@ function renderMain(data) {
             <div class="section-head" data-reveal>
                 <span class="eyebrow">${escapeHtml(data.ui.archiveKicker)}</span>
                 <h2>${escapeHtml(data.ui.archiveTitle)}</h2>
-                <p>${escapeHtml(data.ui.archiveIntro)}</p>
+                ${renderOptionalParagraph(data.ui.archiveIntro)}
             </div>
             <div class="archive-list">
                 ${data.projectArchive.map((project, index) => renderArchiveProject(project, index, data.ui)).join("")}
@@ -357,7 +368,7 @@ function renderMain(data) {
             <div class="section-head" data-reveal>
                 <span class="eyebrow">${escapeHtml(data.ui.experienceKicker)}</span>
                 <h2>${escapeHtml(data.ui.experienceTitle)}</h2>
-                <p>${escapeHtml(data.ui.experienceIntro)}</p>
+                ${renderOptionalParagraph(data.ui.experienceIntro)}
             </div>
             <div class="experience-stack">
                 ${data.previousWork.map((item, index) => renderExperienceItem(item, index)).join("")}
