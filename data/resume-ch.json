@@ -1,254 +1,534 @@
 {
-  "name": "张珈盛",
-  "personalInfo": {
+  "locale": "zh-CN",
+  "metaTitle": "张珈盛 | AI 与区块链基础设施工程师",
+  "ui": {
+    "headerKicker": "高级核心构建者简历",
+    "headerSubline": "AI · 区块链 · Agent 系统 · 跨链基础设施",
+    "navFeatured": "精选项目",
+    "navArchive": "全部项目",
+    "navExperience": "工作经历",
+    "contactTitle": "联系信息",
+    "contactLabels": {
+      "location": "所在城市",
+      "email": "邮箱",
+      "phone": "电话",
+      "wechat": "微信",
+      "telegram": "Telegram"
+    },
+    "focusTitle": "当前聚焦",
+    "mobilityTitle": "签证与流动性",
+    "skillsTitle": "核心技术栈",
+    "languagesTitle": "语言能力",
+    "highlightsTitle": "工作方式",
+    "locationTitle": "Base",
+    "currentFocusTitle": "岗位匹配",
+    "featuredKicker": "优先阅读",
+    "featuredTitle": "精选项目",
+    "featuredIntro": "这几项最能代表我现在的工作方向：合约智能、多个 Agent 协作执行、多链系统，以及能够在生产环境真正跑起来的基础设施。",
+    "archiveKicker": "完整项目索引",
+    "archiveTitle": "全部项目概览",
+    "archiveIntro": "这里把之前做过的重要项目都压缩列出来，避免只看到最近两三个方向。早期 AI 与计算机视觉项目也全部保留。",
+    "experienceKicker": "更早期基础",
+    "experienceTitle": "过往经历",
+    "experienceIntro": "在更深入进入区块链与合约基础设施之前，我长期在生产环境里交付 AI 系统，对部署质量、稳定性和可观测性有比较强的工程习惯。",
+    "detailsTitle": "关键工作",
+    "stackTitle": "技术栈",
+    "impactTitle": "结果与价值",
+    "impactInlineLabel": "结果：",
+    "mediaTitle": "项目缩略图",
+    "archiveExpandLabel": "展开详情"
+  },
+  "profile": {
     "avatar": "assets/avatar.jpg",
     "name": "张珈盛",
-    "age": 32,
-    "nationality": "中国",
-    "experience": "8年经验（7年AI领域 + 6个月iOS开发）",
-    "positionSought": "高级人工智能工程师",
+    "alias": "Forrest",
+    "headline": "AI 与区块链基础设施工程师",
+    "summary": "我主要做 Agent 驱动的合约系统、多链安全分析链路，以及把 LLM 编排能力真正接到执行层的开发者工具。",
+    "location": "中国深圳 · 可远程 / 可搬迁",
+    "experience": "8 年 AI、后端交付与自动化系统经验",
+    "availability": "更适合高级 IC、核心构建者或早期创始工程师岗位，方向包括 AI 基础设施、区块链安全、合约自动化、多链系统和开发者平台。",
+    "currentFocus": "AI × 区块链 × 异构链基础设施"
+  },
+  "contact": {
+    "location": "深圳，中国",
     "email": "bionicwalking@163.com",
     "phone": "+86 19987386841",
     "wechat": "13232182628",
     "telegram": "+86 13232182628"
   },
+  "metrics": [
+    {
+      "value": "6 Agent",
+      "label": "AlphaContract AI 已落地的并行审计拓扑"
+    },
+    {
+      "value": "22 项",
+      "label": "统一合并的结构化合约风险字段"
+    },
+    {
+      "value": "21+ 模块",
+      "label": "模块化合约能力可复用组合"
+    },
+    {
+      "value": "EVM + Solana",
+      "label": "当前全链产品方向的目标运行时"
+    }
+  ],
+  "focus": [
+    "Agent 驱动安全系统",
+    "EVM 底层与合约组合能力",
+    "Solana 执行模型与账户体系理解",
+    "跨链适配、桥接与中继链路",
+    "Go、Node.js、TypeScript、Python",
+    "可观测性、消息队列与生产稳定性"
+  ],
   "workAuthorization": {
-    "title": "需要以下任意工作签证担保",
+    "title": "接受搬迁与雇主担保，目标地区包括新加坡、美国、欧盟、英国与加拿大。",
     "visas": [
-      {"country": "新加坡", "type": "就业准证（EP）"},
-      {"country": "美国", "type": "H-1B"},
-      {"country": "欧盟", "type": "蓝卡"},
-      {"country": "英国", "type": "技术工作签证"},
-      {"country": "加拿大", "type": "全球人才计划"}
+      "新加坡 EP",
+      "美国 H-1B",
+      "欧盟蓝卡",
+      "英国技术工作签证",
+      "加拿大 Global Talent Stream"
     ]
   },
-  "technicalSkills": [
+  "skills": [
     {
-      "category": "人工智能/机器学习",
-      "skills": "大语言模型微调、Transformer架构、自注意力机制、多头注意力、强化学习、RAG、提示工程、AutoGen、MLOps、AIGC、人脸融合、模型调优、知识蒸馏"
+      "category": "区块链协议与合约",
+      "items": [
+        "Solidity",
+        "Foundry",
+        "ERC-20 / EIP-712",
+        "合约安全审计",
+        "EVM internals",
+        "OP Superchain",
+        "桥路由设计",
+        "Solana",
+        "Anchor",
+        "CPI / PDA 概念"
+      ]
     },
     {
-      "category": "框架",
-      "skills": "Flask、FastAPI、Django、TensorFlow、PyTorch、OpenAI、Pandas、NumPy"
+      "category": "AI 系统",
+      "items": [
+        "Agentic AI",
+        "多 Agent 编排",
+        "RAG",
+        "Structured outputs",
+        "Prompt systems",
+        "LLM 评测",
+        "AWS Bedrock",
+        "OpenAI / Claude"
+      ]
     },
     {
-      "category": "DevOps",
-      "skills": "Docker、Kubernetes、CI/CD"
+      "category": "后端与基础设施",
+      "items": [
+        "Go",
+        "Node.js",
+        "TypeScript",
+        "Python",
+        "Redis",
+        "Kafka",
+        "微服务",
+        "JSON-RPC",
+        "Docker",
+        "可观测性"
+      ]
     },
     {
-      "category": "编程语言",
-      "skills": "Python、C++、JavaScript"
-    },
-    {
-      "category": "数据库",
-      "skills": "SQL、向量数据库（Milvus/Pinecone）"
-    },
-    {
-      "category": "开发环境",
-      "skills": "Linux、Git、Conda、Jupyter、VSCode"
+      "category": "工程交付",
+      "items": [
+        "API 设计",
+        "性能调优",
+        "有状态任务流水线",
+        "链数据标准化",
+        "风险自动化",
+        "快速原型",
+        "跨团队推进"
+      ]
     }
   ],
   "languages": [
-    {"language": "中文", "level": "母语"},
-    {"language": "英语", "level": "流利"}
+    {
+      "language": "中文",
+      "level": "母语"
+    },
+    {
+      "language": "英文",
+      "level": "可用于专业沟通"
+    }
   ],
-  "projects": [
+  "highlights": [
+    "擅长把模糊的业务诉求快速翻译成可落地的底层技术方案。",
+    "能够在协议逻辑、AI 编排、后端服务与面向用户的产品流程之间快速切换。",
+    "偏好用可量化指标来做交付：时延、成功率、内存占用、失败可见性、运维体验。",
+    "适应研发期架构频繁变化的环境，能边探索边收敛。"
+  ],
+  "featuredProjects": [
     {
-      "name": "职业宣言",
-      "details": [
-        "在团队中，我愿意承担任何必要角色以确保项目成功"
+      "name": "OmniChain Contract Intelligence Studio",
+      "period": "2025 - 至今",
+      "role": "Founder / Lead Builder",
+      "summary": "基于模块化合约能力库继续向前推进，设计一个更前沿的产品方向：把业务意图直接翻译成 EVM 与 Solana 可执行的合约系统，并通过 Node.js 控制平面串起异构链执行流程。",
+      "badges": [
+        "精选",
+        "研发",
+        "全链方向"
       ],
-      "technicalHighlights": "",
-      "hasMedia": false
+      "metrics": [
+        {
+          "value": "11 个场景",
+          "label": "来自模块化合约场景库的起点"
+        },
+        {
+          "value": "21+ 模块",
+          "label": "可组合 EVM 合约能力"
+        },
+        {
+          "value": "EVM + Solana",
+          "label": "统一工作流下的执行运行时"
+        },
+        {
+          "value": "Node.js 控制平面",
+          "label": "负责操作编排与执行追踪"
+        }
+      ],
+      "details": [
+        "以模块化合约场景引擎为基础，把发币、白名单、费用拆分、桥接、治理等流程统一抽象成一个 intent-driven 的产品架构。",
+        "不再只停留在 EVM：额外设计了 Solana 程序模板、账户模型感知校验，以及交易与指令两套不同的执行规划逻辑。",
+        "规划 Node.js 控制平面来处理钱包会话、链能力注册、异步任务、事件流与运营面板，把协议层与产品层真正接起来。",
+        "围绕 JSON-RPC、浏览器 API、桥接中继与索引器构建异构链适配层，让同一套流程可以覆盖 Ethereum、Base、Optimism、Arbitrum、Polygon 与 Solana。",
+        "加入预执行模拟、费用估算、桥路径选择与策略守卫，让系统在部署前就能判断是走 OP 原生路径还是通用桥路径。"
+      ],
+      "achievement": "把原本更像知识库与脚手架的模块化合约体系，推进成一个更接近产品级的全链合约智能工作台方向，同时兼顾产品可理解性与底层运行时约束。",
+      "technicalHighlights": [
+        "Solidity",
+        "Foundry",
+        "EVM internals",
+        "Solana",
+        "Anchor",
+        "Node.js",
+        "TypeScript",
+        "JSON-RPC",
+        "Bridge routing",
+        "AI agents"
+      ]
     },
     {
-      "name": "智能AI代理系统",
-      "details": [
-        "基于AutoGen框架开发符合Agentic AI原则的多代理系统",
-        "为每个代理实现专用模型以保持真正的代理自主性和专业化",
-        "使用强化学习优化代理间通信以实现最佳信息共享",
-        "实现基于RAG的知识检索增强与动态内存管理",
-        "使用向量数据库优化上下文感知响应",
-        "设计包含代理专属优化的完整提示工程系统",
-        "建立鼓励代理协作解决问题的奖励机制"
+      "name": "AlphaContract AI 多智能体合约审计平台",
+      "period": "2025",
+      "role": "Lead Engineer",
+      "summary": "搭建基于 Go 的合约安全平台，完成源码抓取、并行 LLM 审计和结构化风险输出，覆盖多条 EVM 链。",
+      "badges": [
+        "安全",
+        "生产研发",
+        "多 Agent"
       ],
-      "achievement": {
-        "isSecret": true,
-        "text": "内部研发项目：开发专有多代理系统，在协同决策中达到85%准确率，信息共享效率提升40%"
-      },
-      "technicalHighlights": "Agentic AI、AutoGen、RAG、向量数据库、强化学习、LLM、多代理系统、协作式AI、提示工程、Python",
-      "hasMedia": false
-    },
-    {
-      "name": "虚拟家庭课堂",
-      "details": [
-        "（持续开发中 - 无明确截止日期的个人项目）",
-        "使用Unreal Engine 5开发基于微调LLaMA 3的数字人教师",
-        "实现根据儿童理解水平自动调整教学节奏的适应性学习系统",
-        "创建包含正向引导机制的渐进式学习路径",
-        "构建覆盖中国教育体系全学科的综合课程体系",
-        "设计旨在革新传统教学方式的可扩展架构",
-        "集成实时学习效果评估与反馈系统"
+      "metrics": [
+        {
+          "value": "6 组",
+          "label": "并行审计 Agent"
+        },
+        {
+          "value": "22 项",
+          "label": "结构化风险字段"
+        },
+        {
+          "value": "5+ 条链",
+          "label": "ETH / BSC / Polygon / Arbitrum / Base"
+        },
+        {
+          "value": "93%",
+          "label": "Redis 占用下降"
+        }
       ],
-      "achievement": {
-        "isConcept": true,
-        "text": "已在100名学生中成功测试，获得对适应性学习方法的积极反馈"
-      },
-      "technicalHighlights": "LLaMA 3、Unreal Engine 5、数字人、LLM微调、适应性学习算法、课程设计",
-      "hasMedia": false
+      "details": [
+        "把平台拆成 gateway、code retrieval、audit 三层微服务，用 Redis、Kafka 和 ants worker pool 把同步入口与异步 LLM 执行解耦。",
+        "将审计逻辑重构为 6 个并行 Agent 组，覆盖管理员权限、税费、交易限制、黑白名单、反鲸鱼和诈骗风险，并统一合并成结构化 JSON。",
+        "围绕 Etherscan 家族 API 做多链源码抓取与标准化，缓存合约源码和解析结果，降低重复请求开销。",
+        "修复 RequestTracker 与监控面板的观测盲区，把分析窗口扩到 10,000 行，同时让阶段级失败原因对运维可见。",
+        "引入按状态 TTL 的 Redis 生命周期治理与重试友好规则，解决长时间运行后的脏任务堆积。"
+      ],
+      "achievement": "100 地址批量测试达到 83% 完成率，平均处理时延 10-12 秒；同时把预计 30 天 Redis 内存从 5.37GB 压到 378MB。",
+      "technicalHighlights": [
+        "Go",
+        "AWS Bedrock",
+        "Redis",
+        "Kafka",
+        "微服务",
+        "合约安全",
+        "Etherscan APIs",
+        "Structured outputs",
+        "可观测性"
+      ]
     },
     {
       "name": "空气弹簧质量检测系统",
-      "details": [
-        "开发高精度空气弹簧帘布层检测计算机视觉系统",
-        "实现亚毫米级精度的多层加强帘线检测算法",
-        "设计包含内层、外层和层间距验证的三级检测系统",
-        "集成工业PLC实现自动化产线控制",
-        "优化超高清摄像头图像处理（3 FPS）"
+      "period": "已生产部署",
+      "role": "Lead Computer Vision Engineer",
+      "summary": "交付高精度空气弹簧帘布层检测系统，把工业成像、多层加强帘线分析与 PLC 产线控制真正接到一起。",
+      "badges": [
+        "生产",
+        "计算机视觉"
       ],
-      "achievement": {
-        "isProduction": true,
-        "text": "在生产环境中实现99.5%检测准确率且零漏检"
-      },
-      "technicalHighlights": "计算机视觉、深度学习、PLC集成、高速图像处理、工业自动化、Python、C++",
-      "hasMedia": true,
-      "mediaFolder": "air_spring_project",
+      "metrics": [
+        {
+          "value": "99.5%",
+          "label": "检测准确率"
+        },
+        {
+          "value": "0",
+          "label": "生产环境漏检记录"
+        },
+        {
+          "value": "亚毫米级",
+          "label": "层间距离检测精度"
+        },
+        {
+          "value": "PLC",
+          "label": "产线控制联动"
+        }
+      ],
+      "details": [
+        "构建多层检测流水线，同时验证内层、外层与层间距，在工业现场光照条件下保持稳定。",
+        "针对超高清工业相机做图像处理优化，让检测吞吐能够满足实际生产节奏。",
+        "把模型输出接入 PLC，使缺陷判断可以直接驱动下游产线动作。",
+        "重点不是实验室效果，而是持续可用的工厂交付。"
+      ],
+      "achievement": "在生产环境达到 99.5% 检测准确率，并保持零漏检。",
+      "technicalHighlights": [
+        "Computer Vision",
+        "Deep Learning",
+        "PLC Integration",
+        "Industrial Automation",
+        "Python",
+        "C++"
+      ],
       "media": {
         "images": [
-          {"path": "assets/projects/air_spring_project/1.jpg", "caption": "检测结果1"},
-          {"path": "assets/projects/air_spring_project/2.jpg", "caption": "检测结果2"},
-          {"path": "assets/projects/air_spring_project/3.jpg", "caption": "检测结果3"},
-          {"path": "assets/projects/air_spring_project/4.jpg", "caption": "检测结果4"},
-          {"path": "assets/projects/air_spring_project/5.jpg", "caption": "检测结果5"},
-          {"path": "assets/projects/air_spring_project/6.jpg", "caption": "检测结果6"},
-          {"path": "assets/projects/air_spring_project/7.jpg", "caption": "检测结果7"},
-          {"path": "assets/projects/air_spring_project/8.jpg", "caption": "检测结果8"},
-          {"path": "assets/projects/air_spring_project/9.jpg", "caption": "检测结果9"}
+          {
+            "path": "assets/projects/air_spring_project/1.jpg",
+            "caption": "检测结果 1"
+          },
+          {
+            "path": "assets/projects/air_spring_project/2.jpg",
+            "caption": "检测结果 2"
+          },
+          {
+            "path": "assets/projects/air_spring_project/3.jpg",
+            "caption": "检测结果 3"
+          },
+          {
+            "path": "assets/projects/air_spring_project/4.jpg",
+            "caption": "检测结果 4"
+          }
         ],
         "videos": [
-          {"path": "assets/projects/air_spring_project/1.mp4", "caption": "检测处理过程"}
+          {
+            "path": "assets/projects/air_spring_project/1.mp4",
+            "caption": "检测处理过程"
+          }
         ]
       }
     },
     {
-      "name": "单目距离测量系统（绝缘子安全监测）",
-      "details": [
-        "开发安全关键型计算机视觉系统预防绝缘体导致的触电事故",
-        "从基础像素-物理距离映射演进到基于NeRF的复杂3D重建系统",
-        "实现神经辐射场（NeRF）从单视图图像生成高保真3D场景重建",
-        "通过神经隐式3D场景表征实现精确距离计算",
-        "构建基于移动端的安全预警系统",
-        "设计适用于多种光照条件的鲁棒检测算法",
-        "集成危险距离实时警报系统"
+      "name": "单目距离测量系统",
+      "period": "已生产部署",
+      "role": "Lead Computer Vision Engineer",
+      "summary": "面向绝缘子安全监测场景，构建从像素映射逐步演进到基于 NeRF 的单视图 3D 场景理解系统，用于电力作业安全预警。",
+      "badges": [
+        "生产",
+        "安全关键"
       ],
-      "achievement": {
-        "isProduction": true,
-        "text": "在多个电站部署使用，实现零触电事故记录"
-      },
-      "technicalHighlights": "神经辐射场（NeRF）、3D场景重建、计算机视觉、移动开发、实时处理、安全系统、Python、OpenCV",
-      "hasMedia": true,
-      "mediaFolder": "insulator_project",
+      "metrics": [
+        {
+          "value": "0 事故",
+          "label": "覆盖站点相关流程未出现触电事故"
+        },
+        {
+          "value": "NeRF",
+          "label": "从 2D 估计升级到 3D 表征"
+        },
+        {
+          "value": "移动端",
+          "label": "现场预警流程可落地"
+        },
+        {
+          "value": "实时",
+          "label": "危险距离告警"
+        }
+      ],
+      "details": [
+        "将系统从简单的像素到物理距离映射，升级为更复杂的基于 NeRF 的场景重建路线。",
+        "利用单视图图像恢复场景结构，提高距离估计在复杂环境下的可靠性。",
+        "构建移动端预警流程，让一线人员在时效要求很高的环境中获得风险提醒。",
+        "这个项目里鲁棒性与误判代价都非常高，因此工程重点始终围绕安全可靠。"
+      ],
+      "achievement": "在多个电站完成部署，并在覆盖流程中保持零触电事故记录。",
+      "technicalHighlights": [
+        "NeRF",
+        "3D Scene Reconstruction",
+        "Computer Vision",
+        "Safety Systems",
+        "Mobile Workflow",
+        "Python",
+        "OpenCV"
+      ],
       "media": {
         "images": [
-          {"path": "assets/projects/insulator_project/1.PNG", "caption": "安全距离监测系统"}
+          {
+            "path": "assets/projects/insulator_project/1.PNG",
+            "caption": "安全距离监测"
+          }
         ],
         "videos": [
-          {"path": "assets/projects/insulator_project/1.mp4", "caption": ""},
-          {"path": "assets/projects/insulator_project/3.mp4", "caption": ""}
+          {
+            "path": "assets/projects/insulator_project/1.mp4",
+            "caption": "距离测量演示"
+          },
+          {
+            "path": "assets/projects/insulator_project/3.mp4",
+            "caption": "现场安全流程"
+          }
         ]
       }
+    }
+  ],
+  "projectArchive": [
+    {
+      "name": "Agentic Collaboration System",
+      "period": "2024 - 2025",
+      "category": "Agentic AI",
+      "badge": "内部研发",
+      "summary": "构建多 Agent 协作系统，把规划、记忆、检索与执行职责拆开，提高角色专业化与系统稳定性。",
+      "achievement": "沉淀出后续可直接复用到合约安全与合约配置系统中的 Agent 设计模式。",
+      "technicalHighlights": [
+        "Agentic AI",
+        "RAG",
+        "向量检索",
+        "Prompt systems",
+        "Python",
+        "工作流编排"
+      ]
+    },
+    {
+      "name": "虚拟家庭课堂",
+      "period": "长期进行中",
+      "category": "数字人 / 教育 AI",
+      "badge": "长期项目",
+      "summary": "利用 Unreal Engine 5 与微调 LLaMA 3 设计数字人教师与适应性家庭学习流程。",
+      "achievement": "在早期学生测试中验证了适应性教学节奏的方向价值。",
+      "technicalHighlights": [
+        "LLaMA 3",
+        "Unreal Engine 5",
+        "Digital Human",
+        "Adaptive Learning",
+        "Curriculum Design"
+      ]
     },
     {
       "name": "脑机接口数据处理平台",
-      "details": [
-        "构建并实现脑信号处理流水线架构",
-        "使用强化学习算法优化信号分类",
-        "采用Flask + Vue.js构建Web界面",
-        "实现基于Docker的容器化部署"
-      ],
-      "achievement": {
-        "isProduction": true,
-        "text": "信号处理准确率提升40%，延迟降低50%"
-      },
-      "technicalHighlights": "信号处理、强化学习、Flask、Vue.js、Docker、Python、实时数据处理",
-      "hasMedia": false
+      "period": "已生产",
+      "category": "信号处理",
+      "badge": "生产",
+      "summary": "完成脑信号处理流水线、强化学习分类优化、Flask + Vue 界面与 Docker 化部署。",
+      "achievement": "信号处理准确率提升 40%，系统延迟降低 50%。",
+      "technicalHighlights": [
+        "Signal Processing",
+        "Reinforcement Learning",
+        "Flask",
+        "Vue.js",
+        "Docker",
+        "Python"
+      ]
     },
     {
-      "name": "LLM模型优化项目",
-      "details": [
-        "实施GPTQ量化技术，将模型压缩至4位",
-        "应用LoRA进行高效模型微调",
-        "设计分布式推理架构"
-      ],
-      "achievement": {
-        "isProduction": true,
-        "text": "部署成本降低60%，推理速度提升3倍"
-      },
-      "technicalHighlights": "GPTQ、LoRA、模型量化、分布式系统、MLOps、Python、PyTorch",
-      "hasMedia": false
+      "name": "LLM 模型优化项目",
+      "period": "已生产",
+      "category": "模型基础设施",
+      "badge": "生产",
+      "summary": "围绕 GPTQ 量化、LoRA 微调和分布式推理架构降低部署成本并提升推理速度。",
+      "achievement": "部署成本下降 60%，推理速度提升 3 倍。",
+      "technicalHighlights": [
+        "GPTQ",
+        "LoRA",
+        "模型量化",
+        "分布式推理",
+        "PyTorch",
+        "MLOps"
+      ]
     },
     {
-      "name": "其他项目展示",
-      "details": [],
-      "achievement": {
-        "isProduction": false,
-        "text": ""
-      },
-      "technicalHighlights": "计算机视觉、动作识别、皮肤检测、实时处理、深度学习",
-      "hasMedia": true,
-      "mediaFolder": "other_projects",
+      "name": "其他视觉项目展示",
+      "period": "多个阶段",
+      "category": "视觉实验集",
+      "badge": "媒体",
+      "summary": "补充展示动作识别、皮肤检测、运动捕捉和实时视觉处理等更早期项目。",
+      "achievement": "体现了早期计算机视觉方向上的广度和持续实验能力。",
+      "technicalHighlights": [
+        "Action Recognition",
+        "Skin Detection",
+        "Realtime Processing",
+        "Sports Capture",
+        "Deep Learning"
+      ],
       "media": {
         "images": [
-          {"path": "assets/projects/other_projects/6.jpg", "caption": "皮肤检测1"},
-          {"path": "assets/projects/other_projects/5.jpg", "caption": "皮肤检测2"},
-          {"path": "assets/projects/other_projects/4.jpg", "caption": "皮肤检测3"}
+          {
+            "path": "assets/projects/other_projects/6.jpg",
+            "caption": "皮肤检测 1"
+          },
+          {
+            "path": "assets/projects/other_projects/5.jpg",
+            "caption": "皮肤检测 2"
+          },
+          {
+            "path": "assets/projects/other_projects/4.jpg",
+            "caption": "皮肤检测 3"
+          }
         ],
         "videos": [
-          {"path": "assets/projects/other_projects/1.mp4", "caption": "高尔夫动作捕捉"},
-          {"path": "assets/projects/other_projects/2.mp4", "caption": "高尔夫测试"},
-          {"path": "assets/projects/other_projects/3.mp4", "caption": "台湾选手测试"},
-          {"path": "assets/projects/other_projects/gym.mp4", "caption": "健身动作捕捉"}
+          {
+            "path": "assets/projects/other_projects/1.mp4",
+            "caption": "高尔夫动作捕捉"
+          },
+          {
+            "path": "assets/projects/other_projects/2.mp4",
+            "caption": "高尔夫测试"
+          },
+          {
+            "path": "assets/projects/other_projects/3.mp4",
+            "caption": "台湾选手测试"
+          },
+          {
+            "path": "assets/projects/other_projects/gym.mp4",
+            "caption": "健身动作捕捉"
+          }
         ]
       }
     }
   ],
   "previousWork": [
     {
-      "company": "MotionRivalry, 深圳",
-      "period": "2019-2022",
-      "title": "人工智能研究工程师",
+      "company": "MotionRivalry，深圳",
+      "period": "2019 - 2022",
+      "title": "AI Research Engineer",
       "responsibilities": [
-        "使用OpenCV和YOLO开发运动表现分析的计算机视觉算法",
-        "使用U-Net架构实现精确动作跟踪的语义分割解决方案（平均IoU达92%）",
-        "建立运动分析系统的标准化部署流程",
-        "与体育专业人士合作将AI解决方案整合到训练计划中"
+        "交付面向运动表现分析的计算机视觉系统，涵盖 OpenCV、检测链路和可部署模型流程。",
+        "长期处理分割、动作理解与鲁棒性问题，更关注真实可用性而不是 Demo 指标。",
+        "建立可重复部署流程，并与业务用户紧密协作，把系统真正放进实际工作流。"
       ]
     },
     {
-      "company": "墨子科技, 深圳",
-      "period": "2016-2019",
+      "company": "墨子科技，深圳",
+      "period": "2016 - 2019",
       "title": "高级人工智能工程师",
       "responsibilities": [
-        "领导开发基于AI的儿童教育解决方案（计算机视觉与深度学习技术）",
-        "使用YOLO和U-Net设计实现交互式学习的计算机视觉算法",
-        "构建可扩展的AI基础设施实现教育内容实时处理（吞吐量达2000+请求/秒）",
-        "指导初级工程师并与跨学科教育团队协作"
+        "负责 AI 教育产品中的计算机视觉与深度学习交互场景研发。",
+        "构建可扩展后端与模型服务能力，支撑实时教育内容处理。",
+        "带教初级工程师，并协调产品、算法与实现团队推动交付。"
       ]
     }
-  ],
-  "highlights": [
-    "全程主导多个AI项目从概念到部署",
-    "在模型优化和生产部署方面具有丰富经验",
-    "出色的团队协作和项目管理能力",
-    "对新兴技术充满热情并持续学习"
-  ],
-  "personalStatement": "我是一个乐观的人，能够承受远超常人的工作压力。\n\n在工作中，我始终对事不对人，从不揣测他人，无论遇到什么挫折，都不会将情绪传递给周围的人。\n\n我具备强大的社交能力，同时也能独立工作。我对技术带来的光明未来保持坚定不移的信念。",
-  "personalStatementMedia": {
-    "images": [
-      {"path": "assets/personal/1.jpg", "caption": "个人形象照1"},
-      {"path": "assets/personal/3.jpg", "caption": "个人形象照3"},
-      {"path": "assets/personal/4.jpg", "caption": "个人形象照4"},
-      {"path": "assets/personal/5.jpg", "caption": "个人形象照5"}
-    ]
-  }
-} 
+  ]
+}

@@ -1,239 +1,434 @@
-async function loadResumeData() {
-    try {
-        const response = await fetch('data/resume.json');
-        const data = await response.json();
-        renderResume(data);
-    } catch (error) {
-        console.error('Error loading resume data:', error);
+function escapeHtml(value) {
+    return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#39;");
+}
+
+function renderBadge(text, variant = "default") {
+    return `<span class="badge badge-${variant}">${escapeHtml(text)}</span>`;
+}
+
+function renderMetric(metric) {
+    return `
+        <article class="metric-card">
+            <div class="metric-value">${escapeHtml(metric.value)}</div>
+            <div class="metric-label">${escapeHtml(metric.label)}</div>
+        </article>
+    `;
+}
+
+function buildLangToggle() {
+    const current = document.body.dataset.lang;
+    const languages = [
+        { code: "en", label: "EN", url: document.body.dataset.enUrl },
+        { code: "zh", label: "中文", url: document.body.dataset.zhUrl },
+        { code: "ja", label: "日本語", url: document.body.dataset.jaUrl }
+    ].filter(item => item.url);
+
+    return `
+        <div class="lang-toggle" role="group" aria-label="Language switch">
+            ${languages.map(item => `
+                <a href="${escapeHtml(item.url)}" class="lang-pill ${current === item.code ? "active" : ""}">${escapeHtml(item.label)}</a>
+            `).join("")}
+        </div>
+    `;
+}
+
+function renderMediaPreview(media, options = {}) {
+    if (!media) {
+        return "";
     }
+
+    const { limit = 4, variant = "default" } = options;
+    const images = (media.images || []).map(item => ({ ...item, kind: "image" }));
+    const videos = (media.videos || []).map(item => ({ ...item, kind: "video" }));
+    const items = [...images, ...videos];
+
+    if (!items.length) {
+        return "";
+    }
+
+    const visible = items.slice(0, limit);
+    const extra = items.length - visible.length;
+
+    return `
+        <div class="media-preview-grid media-preview-grid-${variant}">
+            ${visible.map((item, index) => {
+                const isLastExtra = extra > 0 && index === visible.length - 1;
+                const overlay = isLastExtra ? `<span class="thumb-overlay">+${extra}</span>` : "";
+                const inner = item.kind === "image"
+                    ? `<img src="${escapeHtml(item.path)}" alt="${escapeHtml(item.caption || "Project image")}">`
+                    : `<video muted playsinline preload="metadata">
+                            <source src="${escapeHtml(item.path)}" type="${item.path.toLowerCase().endsWith(".mov") ? "video/quicktime" : "video/mp4"}">
+                       </video>
+                       <span class="video-tag">Video</span>`;
+
+                return `
+                    <a class="media-thumb ${item.kind === "video" ? "video" : ""}" href="${escapeHtml(item.path)}" target="_blank" rel="noopener noreferrer">
+                        ${inner}
+                        ${overlay}
+                    </a>
+                `;
+            }).join("")}
+        </div>
+    `;
+}
+
+function renderProjectVisual(project, ui, options = {}) {
+    const { limit = 4, variant = "feature" } = options;
+
+    if (project.media) {
+        return `
+            <div class="project-visual media-visual project-visual-${variant}">
+                <p class="visual-label">${escapeHtml(ui.mediaTitle)}</p>
+                ${renderMediaPreview(project.media, { limit, variant })}
+            </div>
+        `;
+    }
+
+    return `
+        <div class="project-visual abstract-visual project-visual-${variant}">
+            <p class="visual-label">${escapeHtml(ui.stackTitle)}</p>
+            <div class="visual-chip-grid">
+                ${project.technicalHighlights.slice(0, 8).map(item => `<span class="visual-chip">${escapeHtml(item)}</span>`).join("")}
+            </div>
+        </div>
+    `;
+}
+
+function renderFeaturedProject(project, index, ui) {
+    const visual = project.media ? renderProjectVisual(project, ui, { limit: 4, variant: "feature" }) : "";
+
+    return `
+        <article class="project-card featured-card ${project.media ? "" : "featured-card-text"}" data-reveal style="--delay:${index * 80}ms">
+            <div class="project-main">
+                <div class="project-order-shell">
+                    <div class="project-order">${String(index + 1).padStart(2, "0")}</div>
+                </div>
+                <div class="project-copy">
+                    <div class="project-heading">
+                        <div class="project-meta">
+                            <span>${escapeHtml(project.period)}</span>
+                            <span class="meta-dot"></span>
+                            <span>${escapeHtml(project.role)}</span>
+                        </div>
+                        <h3>${escapeHtml(project.name)}</h3>
+                        <div class="badge-row">
+                            ${project.badges.map((badge, badgeIndex) => renderBadge(badge, badgeIndex === 0 ? "accent" : "default")).join("")}
+                        </div>
+                        <p class="project-summary">${escapeHtml(project.summary)}</p>
+                    </div>
+
+                    <div class="metric-grid compact">
+                        ${project.metrics.map(renderMetric).join("")}
+                    </div>
+
+                    <div class="project-split">
+                        <div class="project-detail-panel">
+                            <p class="section-label">${escapeHtml(ui.detailsTitle)}</p>
+                            <ul class="detail-list detail-list-tight">
+                                ${project.details.map(item => `<li>${escapeHtml(item)}</li>`).join("")}
+                            </ul>
+                        </div>
+
+                        <div class="project-side-column">
+                            <div class="achievement-box">
+                                <p class="section-label">${escapeHtml(ui.impactTitle)}</p>
+                                <p>${escapeHtml(project.achievement)}</p>
+                            </div>
+
+                            <div class="project-stack-panel">
+                                <p class="section-label">${escapeHtml(ui.stackTitle)}</p>
+                                <div class="stack-wrap">
+                                    ${project.technicalHighlights.map(item => `<span class="stack-pill">${escapeHtml(item)}</span>`).join("")}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            ${visual}
+        </article>
+    `;
+}
+
+function renderArchiveProject(project, index, ui) {
+    const hasMedia = Boolean(project.media && ((project.media.images || []).length || (project.media.videos || []).length));
+
+    return `
+        <details class="project-card archive-card" data-reveal style="--delay:${index * 60}ms">
+            <summary class="archive-summary-row">
+                <div class="archive-summary-main">
+                    <div class="archive-index">${String(index + 1).padStart(2, "0")}</div>
+                    <div class="archive-copy">
+                        <div class="project-meta">
+                            <span>${escapeHtml(project.period)}</span>
+                            <span class="meta-dot"></span>
+                            <span>${escapeHtml(project.category)}</span>
+                        </div>
+                        <h3>${escapeHtml(project.name)}</h3>
+                        <p class="archive-summary">${escapeHtml(project.summary)}</p>
+                    </div>
+                </div>
+
+                <div class="archive-summary-side">
+                    ${project.badge ? renderBadge(project.badge, "ghost") : ""}
+                    <span class="archive-toggle">${escapeHtml(ui.archiveExpandLabel)}</span>
+                </div>
+            </summary>
+
+            <div class="archive-panel">
+                <div class="archive-panel-copy">
+                    <div class="archive-panel-block">
+                        <p class="section-label">${escapeHtml(ui.impactTitle)}</p>
+                        <p class="archive-impact">${escapeHtml(project.achievement)}</p>
+                    </div>
+
+                    <div class="archive-panel-block">
+                        <p class="section-label">${escapeHtml(ui.stackTitle)}</p>
+                        <div class="stack-wrap compact-stack">
+                            ${project.technicalHighlights.map(item => `<span class="stack-pill">${escapeHtml(item)}</span>`).join("")}
+                        </div>
+                    </div>
+                </div>
+
+                ${hasMedia ? renderProjectVisual(project, ui, { limit: 3, variant: "compact" }) : ""}
+            </div>
+        </details>
+    `;
+}
+
+function renderSkillGroup(group) {
+    return `
+        <article class="skill-card">
+            <h4>${escapeHtml(group.category)}</h4>
+            <div class="chip-grid">
+                ${group.items.map(item => `<span class="chip">${escapeHtml(item)}</span>`).join("")}
+            </div>
+        </article>
+    `;
+}
+
+function renderExperienceItem(item, index) {
+    return `
+        <article class="experience-card" data-reveal style="--delay:${index * 60}ms">
+            <div class="experience-head">
+                <div>
+                    <h3>${escapeHtml(item.company)}</h3>
+                    <p class="experience-role">${escapeHtml(item.title)}</p>
+                </div>
+                <span class="experience-period">${escapeHtml(item.period)}</span>
+            </div>
+            <ul class="detail-list detail-list-tight">
+                ${item.responsibilities.map(line => `<li>${escapeHtml(line)}</li>`).join("")}
+            </ul>
+        </article>
+    `;
+}
+
+function renderSidebar(data) {
+    return `
+        <section class="profile-card" data-reveal>
+            <div class="profile-top">
+                <div class="avatar-shell">
+                    <img src="${escapeHtml(data.profile.avatar)}" alt="${escapeHtml(data.profile.name)}">
+                </div>
+
+                <div class="profile-copy">
+                    <p class="eyebrow">${escapeHtml(data.profile.alias)}</p>
+                    <h2>${escapeHtml(data.profile.name)}</h2>
+                    <p class="profile-headline">${escapeHtml(data.profile.headline)}</p>
+                    <p class="profile-summary">${escapeHtml(data.profile.summary)}</p>
+                </div>
+            </div>
+
+            <div class="profile-contact-block">
+                <p class="section-label">${escapeHtml(data.ui.contactTitle)}</p>
+                <div class="profile-contact-grid">
+                    ${Object.entries(data.contact).map(([key, value]) => `
+                        <div class="contact-tile contact-tile-${escapeHtml(key)}">
+                            <span>${escapeHtml(data.ui.contactLabels[key] || key)}</span>
+                            <strong>${escapeHtml(value)}</strong>
+                        </div>
+                    `).join("")}
+                </div>
+            </div>
+        </section>
+
+        <section class="sidebar-card" data-reveal>
+            <div class="sidebar-section">
+                <p class="section-label">${escapeHtml(data.ui.focusTitle)}</p>
+                <div class="chip-grid">
+                    ${data.focus.map(item => `<span class="chip">${escapeHtml(item)}</span>`).join("")}
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <p class="section-label">${escapeHtml(data.ui.mobilityTitle)}</p>
+                <p class="sidebar-copy">${escapeHtml(data.workAuthorization.title)}</p>
+                <ul class="mini-list mini-list-tight">
+                    ${data.workAuthorization.visas.map(item => `<li>${escapeHtml(item)}</li>`).join("")}
+                </ul>
+            </div>
+        </section>
+
+        <section class="sidebar-card" data-reveal>
+            <p class="section-label">${escapeHtml(data.ui.skillsTitle)}</p>
+            <div class="skill-stack">
+                ${data.skills.map(renderSkillGroup).join("")}
+            </div>
+        </section>
+
+        <section class="sidebar-card" data-reveal>
+            <div class="sidebar-section">
+                <p class="section-label">${escapeHtml(data.ui.languagesTitle)}</p>
+                <div class="language-list">
+                    ${data.languages.map(item => `
+                        <div class="language-row">
+                            <span>${escapeHtml(item.language)}</span>
+                            <strong>${escapeHtml(item.level)}</strong>
+                        </div>
+                    `).join("")}
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <p class="section-label">${escapeHtml(data.ui.highlightsTitle)}</p>
+                <ul class="mini-list">
+                    ${data.highlights.map(item => `<li>${escapeHtml(item)}</li>`).join("")}
+                </ul>
+            </div>
+        </section>
+    `;
+}
+
+function renderMain(data) {
+    return `
+        <section class="hero-panel" data-reveal>
+            <div class="hero-copy">
+                <span class="eyebrow">${escapeHtml(data.profile.experience)}</span>
+                <h1>${escapeHtml(data.profile.headline)}</h1>
+                <p class="hero-summary">${escapeHtml(data.profile.availability)}</p>
+            </div>
+
+            <div class="hero-signals">
+                <div class="signal-card">
+                    <span>${escapeHtml(data.ui.locationTitle)}</span>
+                    <strong>${escapeHtml(data.profile.location)}</strong>
+                </div>
+                <div class="signal-card">
+                    <span>${escapeHtml(data.ui.currentFocusTitle)}</span>
+                    <strong>${escapeHtml(data.profile.currentFocus)}</strong>
+                </div>
+            </div>
+
+            <div class="metric-grid">
+                ${data.metrics.map(renderMetric).join("")}
+            </div>
+        </section>
+
+        <section class="content-panel" id="featured">
+            <div class="section-head" data-reveal>
+                <span class="eyebrow">${escapeHtml(data.ui.featuredKicker)}</span>
+                <h2>${escapeHtml(data.ui.featuredTitle)}</h2>
+                <p>${escapeHtml(data.ui.featuredIntro)}</p>
+            </div>
+            <div class="project-stack">
+                ${data.featuredProjects.map((project, index) => renderFeaturedProject(project, index, data.ui)).join("")}
+            </div>
+        </section>
+
+        <section class="content-panel" id="archive">
+            <div class="section-head" data-reveal>
+                <span class="eyebrow">${escapeHtml(data.ui.archiveKicker)}</span>
+                <h2>${escapeHtml(data.ui.archiveTitle)}</h2>
+                <p>${escapeHtml(data.ui.archiveIntro)}</p>
+            </div>
+            <div class="archive-list">
+                ${data.projectArchive.map((project, index) => renderArchiveProject(project, index, data.ui)).join("")}
+            </div>
+        </section>
+
+        <section class="content-panel" id="experience">
+            <div class="section-head" data-reveal>
+                <span class="eyebrow">${escapeHtml(data.ui.experienceKicker)}</span>
+                <h2>${escapeHtml(data.ui.experienceTitle)}</h2>
+                <p>${escapeHtml(data.ui.experienceIntro)}</p>
+            </div>
+            <div class="experience-stack">
+                ${data.previousWork.map((item, index) => renderExperienceItem(item, index)).join("")}
+            </div>
+        </section>
+    `;
+}
+
+function createRevealObserver() {
+    const elements = document.querySelectorAll("[data-reveal]");
+
+    if (!("IntersectionObserver" in window)) {
+        elements.forEach(element => element.classList.add("is-visible"));
+        return;
+    }
+
+    const observer = new IntersectionObserver(entries => {
+        for (const entry of entries) {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                observer.unobserve(entry.target);
+            }
+        }
+    }, { threshold: 0.12 });
+
+    elements.forEach(element => observer.observe(element));
 }
 
 function renderResume(data) {
-    // Render Personal Info
-    const personalInfo = document.getElementById('personal-info');
-    const labelMap = {
-        name: 'Name',
-        age: 'Age',
-        nationality: 'Nationality',
-        experience: 'Experience',
-        positionSought: 'Position',
-        email: 'Email',
-        phone: 'Phone',
-        wechat: 'WeChat',
-        telegram: 'Telegram'
-    };
-    
-    personalInfo.innerHTML = Object.entries(data.personalInfo)
-        .filter(([key]) => !['avatar', 'qrCode'].includes(key))
-        .map(([key, value]) => {
-            const label = labelMap[key] || key;
-            return `<p><strong>${label}:</strong> ${value}</p>`;
-        })
-        .join('');
+    document.title = data.metaTitle;
+    document.documentElement.lang = data.locale;
 
-    // Render Visa Info
-    const visaInfo = document.getElementById('visa-info');
-    visaInfo.innerHTML = `
-        <p>${data.workAuthorization.title}:</p>
-        <ul>
-            ${data.workAuthorization.visas
-                .map(visa => `<li>${visa.country}: ${visa.type}</li>`)
-                .join('')}
-        </ul>
-    `;
+    const header = document.getElementById("header-root");
+    const sidebar = document.getElementById("sidebar-root");
+    const main = document.getElementById("main-root");
 
-    // Render Technical Skills
-    const technicalSkills = document.getElementById('technical-skills');
-    technicalSkills.innerHTML = data.technicalSkills
-        .map(skill => `
-            <div class="skill-category">
-                <h3>${skill.category}</h3>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: ${skill.proficiency || '90'}%"></div>
-                </div>
-                <p>${skill.skills}</p>
+    header.innerHTML = `
+        <div class="header-brand">
+            <p class="eyebrow">${escapeHtml(data.ui.headerKicker)}</p>
+            <div>
+                <strong>${escapeHtml(data.profile.name)}</strong>
+                <span>${escapeHtml(data.ui.headerSubline)}</span>
             </div>
-        `)
-        .join('');
-
-    // Render Languages
-    const languages = document.getElementById('languages');
-    languages.innerHTML = data.languages
-        .map(lang => `<p>${lang.language}: ${lang.level}</p>`)
-        .join('');
-
-    // Render Projects
-    renderProjects(data);
-
-    // Render Previous Work Experience
-    const experience = document.getElementById('professional-experience');
-    experience.innerHTML = `
-        <h2>Previous Work Experience</h2>
-        ${data.previousWork.map(exp => `
-            <div class="experience-item">
-                <h3>${exp.company} (${exp.period})</h3>
-                <h4>${exp.title}</h4>
-                <ul>
-                    ${exp.responsibilities
-                        .map(resp => `<li>${resp}</li>`)
-                        .join('')}
-                </ul>
-            </div>
-        `).join('')}
-    `;
-
-    // Render Highlights
-    const highlights = document.getElementById('highlights');
-    highlights.innerHTML = `
-        <ul>
-            ${data.highlights
-                .map(highlight => `<li>${highlight}</li>`)
-                .join('')}
-        </ul>
-    `;
-
-    // Render Personal Statement
-    const personalStatement = document.getElementById('personal-statement');
-    personalStatement.innerHTML = `
-        <p>${data.personalStatement}</p>
-        ${data.personalStatementMedia?.active ? `
-            <div class="personal-statement-media">
-                ${data.personalStatementMedia.images.map(img => `
-                    <img src="${img.path}" alt="${img.caption}">
-                `).join('')}
-            </div>
-        ` : ''}
-    `;
-}
-
-function renderProjects(data) {
-    const projects = document.getElementById('projects');
-    projects.innerHTML = data.projects
-        .map(project => {
-            if (project.name === "Professional Statement") {
-                return `
-                    <div class="professional-statement">
-                        <p class="statement-text">${project.details[0]}</p>
-                    </div>
-                `;
-            }
-
-            // 生成项目标签
-            const projectTags = project.achievement ? renderProjectTags(project.achievement) : '';
-
-            return `
-                <div class="experience-item project-card ${project.details.length === 0 ? 'media-only' : ''}">
-                    <h3>${projectTags}${project.name}</h3>
-                    ${project.projectLink ? `
-                        <div class="project-link">
-                            <a href="${project.projectLink.url}" target="_blank" rel="noopener noreferrer">${project.projectLink.text}</a>
-                        </div>
-                    ` : ''}
-                    ${project.details.length > 0 ? `
-                        <div class="technical-stack">
-                            ${renderTechnicalStack(project.technicalHighlights)}
-                        </div>
-                        <ul>
-                            ${project.details
-                                .map(detail => `<li>${detail}</li>`)
-                                .join('')}
-                            ${project.achievement ? `<li>${renderAchievement(project.achievement)}</li>` : ''}
-                        </ul>
-                    ` : ''}
-                    ${project.hasMedia ? `
-                        <div class="media-section">
-                            <div class="media-header" onclick="toggleMedia(this)">
-                                <span class="media-title">View Project Media</span>
-                                <div class="expand-icon">▼</div>
-                            </div>
-                            <div class="media-content">
-                                ${project.media.images && project.media.images.length > 0 ? `
-                                    <div class="media-gallery">
-                                        ${project.media.images.map(img => `
-                                            <div class="media-item">
-                                                <img src="${img.path}" alt="${img.caption}"
-                                                    onerror="this.onerror=null; this.src='${img.path.toLowerCase()}'">
-                                                <p class="caption">${img.caption}</p>
-                                            </div>
-                                        `).join('')}
-                                    </div>
-                                ` : ''}
-                                ${project.media.videos && project.media.videos.length > 0 ? `
-                                    <div class="video-gallery">
-                                        ${project.media.videos.map(video => `
-                                            <div class="media-item video">
-                                                <video controls playsinline>
-                                                    <source src="${video.path}" type="${video.path.toLowerCase().endsWith('.mov') ? 'video/quicktime' : 'video/mp4'}">
-                                                    <source src="${video.path.toLowerCase()}" type="${video.path.toLowerCase().endsWith('.mov') ? 'video/quicktime' : 'video/mp4'}">
-                                                    Your browser does not support this video format.
-                                                </video>
-                                                <p class="caption">${video.caption}</p>
-                                            </div>
-                                        `).join('')}
-                                    </div>
-                                ` : ''}
-                            </div>
-                        </div>
-                    ` : ''}
-                </div>
-            `;
-        })
-        .join('');
-}
-
-function toggleMedia(header) {
-    const mediaSection = header.closest('.media-section');
-    const content = mediaSection.querySelector('.media-content');
-    const icon = header.querySelector('.expand-icon');
-    
-    if (content.style.maxHeight) {
-        content.style.maxHeight = null;
-        icon.style.transform = 'rotate(0deg)';
-    } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-        icon.style.transform = 'rotate(180deg)';
-    }
-}
-
-function renderTechnicalStack(technicalHighlights) {
-    return technicalHighlights.split(', ').map(tech => 
-        `<span class="skill-tag">${tech}</span>`
-    ).join('');
-}
-
-function renderSkills(skills) {
-    return skills.map(skill => `
-        <div class="skill-category">
-            <h3>${skill.category}</h3>
-            <div class="skill-bar">
-                <div class="skill-progress" style="width: ${skill.proficiency || '90'}%"></div>
-            </div>
-            <p>${skill.skills}</p>
         </div>
-    `).join('');
+        <nav class="header-nav">
+            <a href="#featured">${escapeHtml(data.ui.navFeatured)}</a>
+            <a href="#archive">${escapeHtml(data.ui.navArchive)}</a>
+            <a href="#experience">${escapeHtml(data.ui.navExperience)}</a>
+        </nav>
+        ${buildLangToggle()}
+    `;
+
+    sidebar.innerHTML = renderSidebar(data);
+    main.innerHTML = renderMain(data);
+
+    createRevealObserver();
 }
 
-function renderProjectTags(achievement) {
-    if (typeof achievement === 'string') return '';
-    
-    const tags = [];
-    if (achievement.isSecret) {
-        tags.push('<span class="secret-tag">SECRET</span>');
+async function loadResumeData() {
+    try {
+        const response = await fetch(document.body.dataset.resumeFile);
+
+        if (!response.ok) {
+            throw new Error(`Failed to load resume data: ${response.status}`);
+        }
+
+        const data = await response.json();
+        renderResume(data);
+    } catch (error) {
+        console.error("Error loading resume data:", error);
     }
-    if (achievement.isProduction) {
-        tags.push('<span class="production-tag">PRODUCTION</span>');
-    }
-    
-    return tags.join(' ');
 }
 
-function renderAchievement(achievement) {
-    if (typeof achievement === 'string') {
-        return `<strong>Achievement:</strong> ${achievement}`;
-    }
-    
-    return `<strong>Achievement:</strong> ${achievement.text}`;
-}
-
-// Load resume data when page loads
-document.addEventListener('DOMContentLoaded', loadResumeData); 
+document.addEventListener("DOMContentLoaded", loadResumeData);

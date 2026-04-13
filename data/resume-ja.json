@@ -1,0 +1,534 @@
+{
+  "locale": "ja",
+  "metaTitle": "張珈盛 | AI・ブロックチェーン基盤エンジニア",
+  "ui": {
+    "headerKicker": "シニアビルダープロフィール",
+    "headerSubline": "AI・ブロックチェーン・エージェントシステム・クロスチェーン基盤",
+    "navFeatured": "主要案件",
+    "navArchive": "全プロジェクト",
+    "navExperience": "職務経歴",
+    "contactTitle": "連絡先",
+    "contactLabels": {
+      "location": "拠点",
+      "email": "メール",
+      "phone": "電話",
+      "wechat": "WeChat",
+      "telegram": "Telegram"
+    },
+    "focusTitle": "現在の注力領域",
+    "mobilityTitle": "ビザ・転居対応",
+    "skillsTitle": "コアスタック",
+    "languagesTitle": "言語",
+    "highlightsTitle": "働き方",
+    "locationTitle": "拠点",
+    "currentFocusTitle": "適した役割",
+    "featuredKicker": "優先して見る案件",
+    "featuredTitle": "主要プロジェクト",
+    "featuredIntro": "現在の仕事の方向性を最もよく表している案件です。コントラクトインテリジェンス、マルチエージェント実行、マルチチェーンシステム、そして本番運用に耐える基盤構築に集中しています。",
+    "archiveKicker": "全体像",
+    "archiveTitle": "全プロジェクト一覧",
+    "archiveIntro": "直近の方向性だけでなく、これまで手掛けた重要案件も簡潔に一覧化しています。初期の AI・コンピュータビジョン案件もすべて残しています。",
+    "experienceKicker": "基盤となる経験",
+    "experienceTitle": "これまでの職務経験",
+    "experienceIntro": "ブロックチェーンやエージェント基盤に深く取り組む前から、本番環境で動く AI システムを継続的に届けてきました。モデル品質だけでなく、運用品質や可観測性も重視してきました。",
+    "detailsTitle": "実装内容",
+    "stackTitle": "技術スタック",
+    "impactTitle": "成果",
+    "impactInlineLabel": "成果:",
+    "mediaTitle": "メディア",
+    "archiveExpandLabel": "詳細を見る"
+  },
+  "profile": {
+    "avatar": "assets/avatar.jpg",
+    "name": "張珈盛",
+    "alias": "Forrest",
+    "headline": "AI・ブロックチェーン基盤エンジニア",
+    "summary": "エージェント型コントラクトシステム、マルチチェーンのセキュリティ分析基盤、そして LLM オーケストレーションを実行レイヤーに接続する開発者向けツールを構築しています。",
+    "location": "中国・深圳・リモート / 転居可",
+    "experience": "AI システム、バックエンド、運用自動化で 8 年",
+    "availability": "AI 基盤、ブロックチェーンセキュリティ、コントラクト自動化、クロスチェーンシステム、開発者プラットフォーム領域におけるシニア IC、コアビルダー、初期フェーズのファウンディングエンジニアに適しています。",
+    "currentFocus": "AI × ブロックチェーン × 異種チェーン基盤"
+  },
+  "contact": {
+    "location": "深圳、中国",
+    "email": "bionicwalking@163.com",
+    "phone": "+86 19987386841",
+    "wechat": "13232182628",
+    "telegram": "+86 13232182628"
+  },
+  "metrics": [
+    {
+      "value": "6 Agent",
+      "label": "AlphaContract AI で実装した並列監査トポロジー"
+    },
+    {
+      "value": "22 項目",
+      "label": "統合レポートにまとめた構造化リスク項目"
+    },
+    {
+      "value": "21+ モジュール",
+      "label": "再利用可能なモジュラー型コントラクト能力"
+    },
+    {
+      "value": "EVM + Solana",
+      "label": "現在のオムニチェーン構想で想定する実行基盤"
+    }
+  ],
+  "focus": [
+    "エージェント型セキュリティシステム",
+    "EVM 内部構造とコントラクト構成",
+    "Solana の実行モデルとアカウント体系",
+    "クロスチェーンアダプタ、ブリッジ、リレイヤー",
+    "Go、Node.js、TypeScript、Python",
+    "可観測性、キュー、プロダクションハードニング"
+  ],
+  "workAuthorization": {
+    "title": "シンガポール、米国、EU、英国、カナダ向けの就労ビザスポンサーと転居に対応可能です。",
+    "visas": [
+      "シンガポール EP",
+      "米国 H-1B",
+      "EU ブルーカード",
+      "英国 Skilled Worker",
+      "カナダ Global Talent Stream"
+    ]
+  },
+  "skills": [
+    {
+      "category": "ブロックチェーン・コントラクト",
+      "items": [
+        "Solidity",
+        "Foundry",
+        "ERC-20 / EIP-712",
+        "コントラクトセキュリティレビュー",
+        "EVM internals",
+        "OP Superchain",
+        "ブリッジルーティング",
+        "Solana",
+        "Anchor",
+        "CPI / PDA concepts"
+      ]
+    },
+    {
+      "category": "AI システム",
+      "items": [
+        "Agentic AI",
+        "マルチエージェントオーケストレーション",
+        "RAG",
+        "Structured outputs",
+        "Prompt systems",
+        "LLM evaluation",
+        "AWS Bedrock",
+        "OpenAI / Claude"
+      ]
+    },
+    {
+      "category": "バックエンド・基盤",
+      "items": [
+        "Go",
+        "Node.js",
+        "TypeScript",
+        "Python",
+        "Redis",
+        "Kafka",
+        "Microservices",
+        "JSON-RPC",
+        "Docker",
+        "Observability"
+      ]
+    },
+    {
+      "category": "デリバリー",
+      "items": [
+        "API design",
+        "Performance tuning",
+        "Stateful task pipelines",
+        "Chain data normalization",
+        "Risk automation",
+        "Rapid prototyping",
+        "Cross-functional execution"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "中国語",
+      "level": "ネイティブ"
+    },
+    {
+      "language": "英語",
+      "level": "実務レベル"
+    }
+  ],
+  "highlights": [
+    "曖昧なプロダクト要件を、低レイヤーまで落とし込んだ実装計画に素早く変換できます。",
+    "プロトコルロジック、AI オーケストレーション、バックエンド、UI に近いプロダクトフローを横断して動けます。",
+    "遅延、成功率、メモリ使用量、障害可視性、運用しやすさなど、測定可能な指標で成果を捉えることを重視します。",
+    "アーキテクチャがまだ流動的な R&D 環境でも、探索しながら収束させていく働き方に慣れています。"
+  ],
+  "featuredProjects": [
+    {
+      "name": "OmniChain Contract Intelligence Studio",
+      "period": "2025 - 現在",
+      "role": "Founder / Lead Builder",
+      "summary": "モジュラー型コントラクトの能力群を起点に、ビジネス意図を EVM と Solana の実行可能なコントラクトシステムへ変換し、Node.js 制御プレーンで異種チェーン実行を束ねる先進的なプロダクト方向を設計しました。",
+      "badges": [
+        "主要案件",
+        "R&D",
+        "オムニチェーン"
+      ],
+      "metrics": [
+        {
+          "value": "11 シナリオ",
+          "label": "モジュラー型コントラクトのプレイブックを起点に設計"
+        },
+        {
+          "value": "21+ モジュール",
+          "label": "組み合わせ可能な EVM ビルディングブロック"
+        },
+        {
+          "value": "EVM + Solana",
+          "label": "単一ワークフロー内で想定した実行ランタイム"
+        },
+        {
+          "value": "Node.js 制御プレーン",
+          "label": "オペレーションと実行オーケストレーション層"
+        }
+      ],
+      "details": [
+        "モジュラー型コントラクトのシナリオエンジンを起点に、トークン発行、ホワイトリスト、手数料分配、ブリッジ、ガバナンスの流れを意図駆動型のアーキテクチャへ統合しました。",
+        "EVM に留まらず、Solana プログラムテンプレート、アカウントモデルを意識した検証、トランザクションとインストラクションで異なる実行計画も設計しました。",
+        "Node.js 制御プレーンでは、ウォレットセッション、チェーン能力レジストリ、非同期ジョブ、イベントストリーム、オペレータ向けダッシュボードを扱う構成を計画しました。",
+        "JSON-RPC、エクスプローラ API、ブリッジリレイヤー、インデクサフィードを前提にチェーン抽象化を設計し、Ethereum、Base、Optimism、Arbitrum、Polygon、Solana を同じワークフローで扱えるようにしました。",
+        "事前シミュレーション、手数料見積もり、ブリッジ経路選択、ポリシーガードレールを加え、デプロイ前に OP ネイティブ経路か汎用ブリッジ経路かを判断できるようにしました。"
+      ],
+      "achievement": "モジュラー型コントラクトの知識ベースを、プロダクトチームにも理解しやすく、かつ低レベルのランタイム制約も尊重したプロダクト級のオムニチェーン設計へ押し上げました。",
+      "technicalHighlights": [
+        "Solidity",
+        "Foundry",
+        "EVM internals",
+        "Solana",
+        "Anchor",
+        "Node.js",
+        "TypeScript",
+        "JSON-RPC",
+        "Bridge routing",
+        "AI agents"
+      ]
+    },
+    {
+      "name": "AlphaContract AI マルチエージェント監査プラットフォーム",
+      "period": "2025",
+      "role": "Lead Engineer",
+      "summary": "Go ベースのコントラクトセキュリティ基盤を構築し、ソースコード取得、並列 LLM 監査、構造化リスク出力を複数の EVM チェーンで実現しました。",
+      "badges": [
+        "セキュリティ",
+        "本番 R&D",
+        "マルチエージェント"
+      ],
+      "metrics": [
+        {
+          "value": "6 グループ",
+          "label": "並列監査エージェント"
+        },
+        {
+          "value": "22 項目",
+          "label": "構造化リスクフィールド"
+        },
+        {
+          "value": "5+ チェーン",
+          "label": "ETH / BSC / Polygon / Arbitrum / Base"
+        },
+        {
+          "value": "93%",
+          "label": "Redis 使用量の削減"
+        }
+      ],
+      "details": [
+        "プラットフォームを gateway、code retrieval、audit の 3 つのマイクロサービスに分割し、Redis、Kafka、ants worker pool を使って同期入口と非同期 LLM 実行を疎結合化しました。",
+        "監査ロジックを 6 つの並列エージェントグループに再設計し、管理者権限、税、取引制限、ブラックリスト、アンチホエール、詐欺シグナルを構造化 JSON に統合しました。",
+        "Etherscan 系 API に対するマルチチェーンソース取得と標準化を行い、ソースコードと解析結果をキャッシュして繰り返し分析を安定させました。",
+        "RequestTracker と監視パネルの観測漏れを解消し、解析ウィンドウを 10,000 行まで拡張し、ステージ単位の失敗理由を運用側から見えるようにしました。",
+        "状態別 TTL と再試行を考慮した Redis ライフサイクル管理を導入し、長時間運用時の古いタスク蓄積を解消しました。"
+      ],
+      "achievement": "100 アドレスのバッチ検証で 83% の完了率、平均 10〜12 秒の処理時間を実現し、30 日想定の Redis メモリ使用量を 5.37GB から 378MB に削減しました。",
+      "technicalHighlights": [
+        "Go",
+        "AWS Bedrock",
+        "Redis",
+        "Kafka",
+        "Microservices",
+        "Contract security",
+        "Etherscan APIs",
+        "Structured outputs",
+        "Observability"
+      ]
+    },
+    {
+      "name": "エアスプリング品質検査システム",
+      "period": "本番導入済み",
+      "role": "Lead Computer Vision Engineer",
+      "summary": "高精度なエアスプリング帘布層検査システムを構築し、工業画像、多層補強コード解析、PLC 連携によるライン制御まで実運用に接続しました。",
+      "badges": [
+        "本番",
+        "コンピュータビジョン"
+      ],
+      "metrics": [
+        {
+          "value": "99.5%",
+          "label": "検出精度"
+        },
+        {
+          "value": "0",
+          "label": "本番環境での見逃し件数"
+        },
+        {
+          "value": "サブミリ級",
+          "label": "層間距離の測定精度"
+        },
+        {
+          "value": "PLC",
+          "label": "ライン制御連携"
+        }
+      ],
+      "details": [
+        "内層、外層、層間距離を同時に検証する多層検査パイプラインを構築し、工場の照明条件下でも安定して動作させました。",
+        "超高解像度の工業カメラ入力に対する画像処理を最適化し、実際の生産スループットに耐える処理性能を確保しました。",
+        "モデル出力を PLC に接続し、不良判定がそのまま後段のライン動作に反映される構成にしました。",
+        "研究室のデモではなく、継続運用できる工場向け導入を前提に仕上げました。"
+      ],
+      "achievement": "本番環境で 99.5% の検出精度を達成し、見逃しゼロを維持しました。",
+      "technicalHighlights": [
+        "Computer Vision",
+        "Deep Learning",
+        "PLC Integration",
+        "Industrial Automation",
+        "Python",
+        "C++"
+      ],
+      "media": {
+        "images": [
+          {
+            "path": "assets/projects/air_spring_project/1.jpg",
+            "caption": "検査結果 1"
+          },
+          {
+            "path": "assets/projects/air_spring_project/2.jpg",
+            "caption": "検査結果 2"
+          },
+          {
+            "path": "assets/projects/air_spring_project/3.jpg",
+            "caption": "検査結果 3"
+          },
+          {
+            "path": "assets/projects/air_spring_project/4.jpg",
+            "caption": "検査結果 4"
+          }
+        ],
+        "videos": [
+          {
+            "path": "assets/projects/air_spring_project/1.mp4",
+            "caption": "検査処理フロー"
+          }
+        ]
+      }
+    },
+    {
+      "name": "単眼距離計測システム",
+      "period": "本番導入済み",
+      "role": "Lead Computer Vision Engineer",
+      "summary": "碍子安全監視向けに、画素マッピングから NeRF ベースの単視点 3D シーン理解へ進化させた距離計測システムを構築し、電力作業の安全警告に活用しました。",
+      "badges": [
+        "本番",
+        "安全性重視"
+      ],
+      "metrics": [
+        {
+          "value": "0 事故",
+          "label": "対象拠点の運用フローで感電事故ゼロ"
+        },
+        {
+          "value": "NeRF",
+          "label": "2D 推定から 3D 表現へ進化"
+        },
+        {
+          "value": "モバイル",
+          "label": "現場警告フローを実運用化"
+        },
+        {
+          "value": "リアルタイム",
+          "label": "危険距離アラート"
+        }
+      ],
+      "details": [
+        "単純な画素から物理距離への換算から、より高度な NeRF ベースのシーン再構成アプローチへ発展させました。",
+        "単視点画像からシーン構造を復元し、複雑な現場条件でも距離推定の信頼性を高めました。",
+        "モバイル向け警告フローを構築し、時間制約の大きい現場作業者が危険通知を受け取れるようにしました。",
+        "誤判定のコストが高い領域のため、設計の中心は常に安全性とロバスト性でした。"
+      ],
+      "achievement": "複数の変電所で導入され、対象運用フロー内で感電事故ゼロを維持しました。",
+      "technicalHighlights": [
+        "NeRF",
+        "3D Scene Reconstruction",
+        "Computer Vision",
+        "Safety Systems",
+        "Mobile Workflow",
+        "Python",
+        "OpenCV"
+      ],
+      "media": {
+        "images": [
+          {
+            "path": "assets/projects/insulator_project/1.PNG",
+            "caption": "安全距離監視"
+          }
+        ],
+        "videos": [
+          {
+            "path": "assets/projects/insulator_project/1.mp4",
+            "caption": "距離計測デモ"
+          },
+          {
+            "path": "assets/projects/insulator_project/3.mp4",
+            "caption": "現場安全フロー"
+          }
+        ]
+      }
+    }
+  ],
+  "projectArchive": [
+    {
+      "name": "Agentic Collaboration System",
+      "period": "2024 - 2025",
+      "category": "Agentic AI",
+      "badge": "社内 R&D",
+      "summary": "計画、記憶、検索、実行の役割を分離したマルチエージェント AI システムを構築し、専門性と安定性を高めました。",
+      "achievement": "後続のコントラクトセキュリティやコントラクト設定ワークフローに再利用できるエージェント設計パターンを整理しました。",
+      "technicalHighlights": [
+        "Agentic AI",
+        "RAG",
+        "Vector retrieval",
+        "Prompt systems",
+        "Python",
+        "Workflow orchestration"
+      ]
+    },
+    {
+      "name": "バーチャル家庭教室",
+      "period": "継続中",
+      "category": "デジタルヒューマン / 教育 AI",
+      "badge": "長期プロジェクト",
+      "summary": "Unreal Engine 5 と微調整した LLaMA 3 を用いて、デジタル教師と適応型の家庭学習フローを設計しました。",
+      "achievement": "初期の学習者テストで、適応型ペース設計の有効性を確認しました。",
+      "technicalHighlights": [
+        "LLaMA 3",
+        "Unreal Engine 5",
+        "Digital Human",
+        "Adaptive Learning",
+        "Curriculum Design"
+      ]
+    },
+    {
+      "name": "BMI データ処理プラットフォーム",
+      "period": "本番",
+      "category": "信号処理",
+      "badge": "本番",
+      "summary": "脳信号処理パイプライン、強化学習による分類最適化、Flask + Vue UI、Docker デプロイを構築しました。",
+      "achievement": "信号処理精度を 40% 向上させ、レイテンシを 50% 削減しました。",
+      "technicalHighlights": [
+        "Signal Processing",
+        "Reinforcement Learning",
+        "Flask",
+        "Vue.js",
+        "Docker",
+        "Python"
+      ]
+    },
+    {
+      "name": "LLM モデル最適化プロジェクト",
+      "period": "本番",
+      "category": "モデル基盤",
+      "badge": "本番",
+      "summary": "GPTQ 量子化、LoRA 微調整、分散推論設計により、デプロイコストを下げつつ推論速度を改善しました。",
+      "achievement": "デプロイコストを 60% 削減し、推論速度を 3 倍に向上させました。",
+      "technicalHighlights": [
+        "GPTQ",
+        "LoRA",
+        "Model Quantization",
+        "Distributed Inference",
+        "PyTorch",
+        "MLOps"
+      ]
+    },
+    {
+      "name": "その他ビジョンプロジェクト集",
+      "period": "複数年",
+      "category": "ビジョン実験",
+      "badge": "メディア",
+      "summary": "アクション認識、肌検出、スポーツキャプチャ、リアルタイム視覚処理など、初期の追加案件をまとめたコレクションです。",
+      "achievement": "初期のコンピュータビジョン領域での幅広い経験と継続的な検証力を示しています。",
+      "technicalHighlights": [
+        "Action Recognition",
+        "Skin Detection",
+        "Realtime Processing",
+        "Sports Capture",
+        "Deep Learning"
+      ],
+      "media": {
+        "images": [
+          {
+            "path": "assets/projects/other_projects/6.jpg",
+            "caption": "肌検出 1"
+          },
+          {
+            "path": "assets/projects/other_projects/5.jpg",
+            "caption": "肌検出 2"
+          },
+          {
+            "path": "assets/projects/other_projects/4.jpg",
+            "caption": "肌検出 3"
+          }
+        ],
+        "videos": [
+          {
+            "path": "assets/projects/other_projects/1.mp4",
+            "caption": "ゴルフ動作キャプチャ"
+          },
+          {
+            "path": "assets/projects/other_projects/2.mp4",
+            "caption": "ゴルフテスト"
+          },
+          {
+            "path": "assets/projects/other_projects/3.mp4",
+            "caption": "台湾選手テスト"
+          },
+          {
+            "path": "assets/projects/other_projects/gym.mp4",
+            "caption": "ジム動作キャプチャ"
+          }
+        ]
+      }
+    }
+  ],
+  "previousWork": [
+    {
+      "company": "MotionRivalry, Shenzhen",
+      "period": "2019 - 2022",
+      "title": "AI Research Engineer",
+      "responsibilities": [
+        "スポーツパフォーマンス分析向けのコンピュータビジョンシステムを提供し、OpenCV、検出パイプライン、本番デプロイ可能なモデル運用を担当しました。",
+        "セグメンテーションや動作理解の領域で、デモ指標よりも実環境での頑健性を重視して改善を行いました。",
+        "再現可能なデプロイ手順を整備し、現場ユーザーと密に連携してシステムを実運用に乗せました。"
+      ]
+    },
+    {
+      "company": "Mozi Tech, Shenzhen",
+      "period": "2016 - 2019",
+      "title": "Senior AI Engineer",
+      "responsibilities": [
+        "AI 教育プロダクトにおけるコンピュータビジョンと深層学習インタラクション領域を担当しました。",
+        "リアルタイム教育コンテンツ処理を支えるスケーラブルなバックエンドとモデルサービス基盤を構築しました。",
+        "ジュニアエンジニアの育成と、プロダクト・アルゴリズム・実装チーム横断でのデリバリー推進を行いました。"
+      ]
+    }
+  ]
+}

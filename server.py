@@ -16,7 +16,8 @@ app = Flask(__name__, static_folder=None)
 # 启用 CORS
 CORS(app, resources={
     r"/en_resume/*": {"origins": "*"},
-    r"/ch_resume/*": {"origins": "*"}
+    r"/ch_resume/*": {"origins": "*"},
+    r"/ja_resume/*": {"origins": "*"}
 })
 
 # 英文版路由
@@ -30,6 +31,12 @@ def index_en():
 @app.route('/ch_resume')
 def index_ch():
     return serve_index('index_ch.html')
+
+# 日文版路由
+@app.route('/ja_resume/')
+@app.route('/ja_resume')
+def index_ja():
+    return serve_index('index_ja.html')
 
 def serve_index(filename):
     try:
@@ -57,6 +64,11 @@ def serve_static_en(filename):
 # 中文版静态文件路由
 @app.route('/ch_resume/<path:filename>')
 def serve_static_ch(filename):
+    return serve_static(filename)
+
+# 日文版静态文件路由
+@app.route('/ja_resume/<path:filename>')
+def serve_static_ja(filename):
     return serve_static(filename)
 
 def serve_static(filename):
