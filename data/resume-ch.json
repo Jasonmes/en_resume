@@ -511,6 +511,26 @@
   ],
   "previousWork": [
     {
+      "company": "Gate 交易所",
+      "period": "2025.02 - 2026.01",
+      "title": "Lead Engineer",
+      "responsibilities": [
+        "负责合约安全分析与链上风险识别相关研发，推动多 Agent 审计能力在工程侧落地。",
+        "设计源码抓取、并行审计、结构化风险输出链路，覆盖多条 EVM 链，并持续优化稳定性与可观测性。",
+        "推进 Redis、Kafka 与异步任务链路治理，处理长任务生命周期、缓存复用和运维监控问题。"
+      ]
+    },
+    {
+      "company": "RobotFuture",
+      "period": "2022.02 - 2025.01",
+      "title": "技术总监",
+      "responsibilities": [
+        "制定并推进 AI 技术路线，带领 8+ 人研发团队，覆盖多智能体、3D 视觉与企业级 AI 架构。",
+        "推动数字人、工业质检、教育 AI 等方向的方案落地，协调产品、算法与工程团队协同交付。",
+        "负责技术预研、MLOps 流程与关键架构决策，支撑模型训练、部署和团队工程化建设。"
+      ]
+    },
+    {
       "company": "MotionRivalry，深圳",
       "period": "2019 - 2022",
       "title": "AI Research Engineer",

@@ -511,6 +511,26 @@
   ],
   "previousWork": [
     {
+      "company": "Gate.io",
+      "period": "Feb 2025 - Jan 2026",
+      "title": "Lead Engineer",
+      "responsibilities": [
+        "Worked on contract-security analysis and on-chain risk tooling, pushing multi-agent audit capabilities into production engineering workflows.",
+        "Built source-code retrieval, parallel auditing, and structured risk-output pipelines across multiple EVM chains, with a focus on reliability and observability.",
+        "Improved Redis, Kafka, and async task lifecycle management to handle long-running jobs, cache reuse, and operator monitoring."
+      ]
+    },
+    {
+      "company": "RobotFuture",
+      "period": "Feb 2022 - Jan 2025",
+      "title": "Technical Director",
+      "responsibilities": [
+        "Set the AI technology roadmap and led an 8+ person R&D team across multi-agent systems, 3D vision, and enterprise AI architecture.",
+        "Drove delivery across digital humans, industrial inspection, and education AI projects in close coordination with product, algorithm, and engineering teams.",
+        "Owned technical exploration, MLOps workflows, and key architecture decisions for model training, deployment, and team engineering practices."
+      ]
+    },
+    {
       "company": "MotionRivalry, Shenzhen",
       "period": "2019 - 2022",
       "title": "AI Research Engineer",
