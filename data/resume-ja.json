@@ -10,6 +10,7 @@
     "contactTitle": "連絡先",
     "contactLabels": {
       "location": "拠点",
+      "education": "学歴",
       "email": "メール",
       "phone": "電話",
       "wechat": "WeChat",
@@ -51,6 +52,7 @@
   },
   "contact": {
     "location": "深圳、中国",
+    "education": "広州大学・コンピュータ専攻",
     "email": "bionicwalking@163.com",
     "phone": "+86 19987386841",
     "wechat": "13232182628",

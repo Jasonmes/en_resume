@@ -10,6 +10,7 @@
     "contactTitle": "Connect",
     "contactLabels": {
       "location": "Location",
+      "education": "Education",
       "email": "Email",
       "phone": "Phone",
       "wechat": "WeChat",
@@ -51,6 +52,7 @@
   },
   "contact": {
     "location": "Shenzhen, China",
+    "education": "Guangzhou University, Computer Science",
     "email": "bionicwalking@163.com",
     "phone": "+86 19987386841",
     "wechat": "13232182628",

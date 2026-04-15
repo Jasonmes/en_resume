@@ -399,6 +399,10 @@ video {
     grid-column: 1 / -1;
 }
 
+.contact-tile-education {
+    grid-column: 1 / -1;
+}
+
 .sidebar-section + .sidebar-section {
     margin-top: 16px;
     padding-top: 16px;
