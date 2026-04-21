@@ -1,58 +1,56 @@
 {
   "locale": "zh-CN",
-  "metaTitle": "张珈盛 | AI 与区块链基础设施工程师",
+  "metaTitle": "张珈盛 | 算法与系统工程师",
   "ui": {
-    "headerKicker": "高级核心构建者简历",
-    "headerSubline": "AI · 区块链 · Agent 系统 · 跨链基础设施",
-    "navFeatured": "精选项目",
-    "navArchive": "全部项目",
-    "navExperience": "工作经历",
+    "headerKicker": "个人简历",
+    "headerSubline": "合约安全 · 计算机视觉 · 工程交付",
+    "navFeatured": "项目",
+    "navArchive": "补充项目",
+    "navExperience": "经历",
     "contactTitle": "联系信息",
     "contactLabels": {
       "location": "所在城市",
-      "education": "学历",
       "email": "邮箱",
       "phone": "电话",
       "wechat": "微信",
       "telegram": "Telegram"
     },
-    "focusTitle": "当前聚焦",
-    "mobilityTitle": "签证与流动性",
-    "skillsTitle": "核心技术栈",
+    "focusTitle": "长期方向",
+    "mobilityTitle": "协作方式",
+    "skillsTitle": "核心能力",
     "languagesTitle": "语言能力",
-    "highlightsTitle": "工作方式",
+    "highlightsTitle": "我的判断",
     "locationTitle": "Base",
-    "currentFocusTitle": "岗位匹配",
-    "featuredKicker": "优先阅读",
-    "featuredTitle": "精选项目",
+    "currentFocusTitle": "当前方向",
+    "featuredKicker": "真实项目",
+    "featuredTitle": "保留项目",
     "featuredIntro": "",
-    "archiveKicker": "完整项目索引",
-    "archiveTitle": "全部项目概览",
+    "archiveKicker": "补充说明",
+    "archiveTitle": "其他真实项目",
     "archiveIntro": "",
-    "experienceKicker": "更早期基础",
-    "experienceTitle": "过往经历",
+    "experienceKicker": "工作经历",
+    "experienceTitle": "这些年做过的事",
     "experienceIntro": "",
-    "detailsTitle": "关键工作",
+    "detailsTitle": "我负责的部分",
     "stackTitle": "技术栈",
-    "impactTitle": "结果与价值",
+    "impactTitle": "结果",
     "impactInlineLabel": "结果：",
-    "mediaTitle": "项目缩略图",
+    "mediaTitle": "项目资料",
     "archiveExpandLabel": "展开详情"
   },
   "profile": {
     "avatar": "assets/avatar.jpg",
     "name": "张珈盛",
     "alias": "Forrest",
-    "headline": "AI 与区块链基础设施工程师",
-    "summary": "我主要做 Agent 驱动的合约系统、多链安全分析链路，以及把 LLM 编排能力真正接到执行层的开发者工具。",
+    "headline": "算法与系统工程师",
+    "summary": "过去近十年，我做过工业视觉、运动分析、教育场景里的算法与工程交付，最近一段真实经历是在 Gate 做合约代码安全审计相关研发。比起讲概念，我更在意系统能不能真的进入业务流程并稳定运行。",
     "location": "中国深圳 · 可远程 / 可搬迁",
-    "experience": "8 年 AI、后端交付与自动化系统经验",
+    "experience": "近 10 年算法、视觉与系统交付经验",
     "availability": "",
-    "currentFocus": "AI × 区块链 × 异构链基础设施"
+    "currentFocus": "合约代码安全审计、工业视觉、模型部署与稳定交付"
   },
   "contact": {
     "location": "深圳，中国",
-    "education": "广州大学 · 计算机专业",
     "email": "bionicwalking@163.com",
     "phone": "+86 19987386841",
     "wechat": "13232182628",
@@ -60,94 +58,89 @@
   },
   "metrics": [
     {
-      "value": "8 年",
-      "label": "AI、后端交付与自动化系统经验"
+      "value": "近 10 年",
+      "label": "持续做算法、系统与工程落地"
     },
     {
-      "value": "EVM + Solana",
-      "label": "覆盖合约系统、多链执行与异构链建模"
+      "value": "工业视觉 / 运动分析 / 合约安全",
+      "label": "真实做过并长期投入的方向"
     },
     {
-      "value": "Go / Node.js / Python",
-      "label": "常用的后端与执行编排技术栈"
+      "value": "Go / Python / C++",
+      "label": "最常用的实现与部署工具"
     },
     {
       "value": "深圳 / Remote",
-      "label": "可远程协作，也可搬迁"
+      "label": "可远程协作，也接受搬迁"
     }
   ],
   "focus": [
-    "Agent 驱动安全系统",
-    "EVM 底层与合约组合能力",
-    "Solana 执行模型与账户体系理解",
-    "跨链适配、桥接与中继链路",
-    "Go、Node.js、TypeScript、Python",
-    "可观测性、消息队列与生产稳定性"
+    "合约代码安全审计",
+    "工业视觉落地",
+    "动作识别与实时视频处理",
+    "数据清洗与标注规范",
+    "审计流程与长任务稳定性",
+    "Go / Python / C++ / Flask",
+    "现场部署与系统可靠性"
   ],
   "workAuthorization": {
-    "title": "接受搬迁与雇主担保，目标地区包括新加坡、美国、欧盟、英国与加拿大。",
+    "title": "可远程协作，也接受因工作机会搬迁。",
     "visas": [
-      "新加坡 EP",
-      "美国 H-1B",
-      "欧盟蓝卡",
-      "英国技术工作签证",
-      "加拿大 Global Talent Stream"
+      "深圳现场",
+      "远程协作",
+      "可搬迁"
     ]
   },
   "skills": [
     {
-      "category": "区块链协议与合约",
-      "items": [
-        "Solidity",
-        "Foundry",
-        "ERC-20 / EIP-712",
-        "合约安全审计",
-        "EVM internals",
-        "OP Superchain",
-        "桥路由设计",
-        "Solana",
-        "Anchor",
-        "CPI / PDA 概念"
-      ]
-    },
-    {
-      "category": "AI 系统",
-      "items": [
-        "Agentic AI",
-        "多 Agent 编排",
-        "RAG",
-        "Structured outputs",
-        "Prompt systems",
-        "LLM 评测",
-        "AWS Bedrock",
-        "OpenAI / Claude"
-      ]
-    },
-    {
-      "category": "后端与基础设施",
+      "category": "合约安全与后端",
       "items": [
         "Go",
-        "Node.js",
-        "TypeScript",
-        "Python",
+        "EVM",
+        "合约代码审计",
+        "源码抓取",
         "Redis",
         "Kafka",
-        "微服务",
-        "JSON-RPC",
-        "Docker",
+        "任务编排",
         "可观测性"
+      ]
+    },
+    {
+      "category": "计算机视觉",
+      "items": [
+        "OpenCV",
+        "YOLO",
+        "U-Net",
+        "图像分割",
+        "目标检测",
+        "几何测量",
+        "相机标定",
+        "3D 重建"
+      ]
+    },
+    {
+      "category": "机器学习",
+      "items": [
+        "PyTorch",
+        "数据清洗",
+        "数据增强",
+        "Hard Negative Mining",
+        "特征工程",
+        "模型调参",
+        "误检分析",
+        "效果复盘"
       ]
     },
     {
       "category": "工程交付",
       "items": [
-        "API 设计",
-        "性能调优",
-        "有状态任务流水线",
-        "链数据标准化",
-        "风险自动化",
-        "快速原型",
-        "跨团队推进"
+        "标注规范",
+        "阈值校准",
+        "现场联调",
+        "生产部署",
+        "跨团队协作",
+        "问题定位",
+        "稳定性优化"
       ]
     }
   ],
@@ -162,126 +155,70 @@
     }
   ],
   "highlights": [
-    "擅长把模糊的业务诉求快速翻译成可落地的底层技术方案。",
-    "能够在协议逻辑、AI 编排、后端服务与面向用户的产品流程之间快速切换。",
-    "偏好用可量化指标来做交付：时延、成功率、内存占用、失败可见性、运维体验。",
-    "适应研发期架构频繁变化的环境，能边探索边收敛。"
+    "更擅长把项目做实，而不是把故事讲大。",
+    "习惯从数据质量、误检原因和部署约束里找问题。",
+    "能在算法、后端、安全审计和现场流程之间来回切换。",
+    "很多能力来自长期自学、项目实践和反复复盘。"
   ],
   "featuredProjects": [
     {
-      "name": "OmniChain Contract Intelligence Studio",
-      "period": "2025 - 至今",
-      "role": "Founder / Lead Builder",
-      "summary": "基于模块化合约能力库继续向前推进，设计一个更前沿的产品方向：把业务意图直接翻译成 EVM 与 Solana 可执行的合约系统，并通过 Node.js 控制平面串起异构链执行流程。",
+      "name": "合约代码安全审计平台",
+      "period": "2025 - 2026",
+      "role": "Gate · 合约安全审计研发",
+      "summary": "在 Gate 做过合约代码安全审计相关研发，主要负责源码抓取、审计流程编排、结构化风险输出，以及长任务运行过程里的稳定性问题处理。",
       "badges": [
-        "精选",
-        "研发",
-        "全链方向"
+        "真实项目",
+        "Gate",
+        "合约安全"
       ],
       "metrics": [
         {
-          "value": "11 个场景",
-          "label": "来自模块化合约场景库的起点"
+          "value": "Go",
+          "label": "核心实现语言"
         },
         {
-          "value": "21+ 模块",
-          "label": "可组合 EVM 合约能力"
+          "value": "多条 EVM 链",
+          "label": "面向真实合约源码分析"
         },
         {
-          "value": "EVM + Solana",
-          "label": "统一工作流下的执行运行时"
+          "value": "Redis / Kafka",
+          "label": "长任务与异步流程治理"
         },
         {
-          "value": "Node.js 控制平面",
-          "label": "负责操作编排与执行追踪"
+          "value": "结构化输出",
+          "label": "审计结果可追踪、可回收"
         }
       ],
       "details": [
-        "以模块化合约场景引擎为基础，把发币、白名单、费用拆分、桥接、治理等流程统一抽象成一个 intent-driven 的产品架构。",
-        "不再只停留在 EVM：额外设计了 Solana 程序模板、账户模型感知校验，以及交易与指令两套不同的执行规划逻辑。",
-        "规划 Node.js 控制平面来处理钱包会话、链能力注册、异步任务、事件流与运营面板，把协议层与产品层真正接起来。",
-        "围绕 JSON-RPC、浏览器 API、桥接中继与索引器构建异构链适配层，让同一套流程可以覆盖 Ethereum、Base、Optimism、Arbitrum、Polygon 与 Solana。",
-        "加入预执行模拟、费用估算、桥路径选择与策略守卫，让系统在部署前就能判断是走 OP 原生路径还是通用桥路径。"
+        "负责多链合约源码抓取、标准化和分析前处理，给后续审计流程提供稳定输入。",
+        "把审计流程拆成可追踪的阶段，便于长任务执行、失败重试和结果回收。",
+        "处理 Redis 缓存、任务生命周期和监控可见性问题，让平台长期运行更稳定。",
+        "这段经历让我把过去做算法系统的能力，真正转到安全审计和后端工程上。"
       ],
-      "achievement": "把原本更像知识库与脚手架的模块化合约体系，推进成一个更接近产品级的全链合约智能工作台方向，同时兼顾产品可理解性与底层运行时约束。",
-      "technicalHighlights": [
-        "Solidity",
-        "Foundry",
-        "EVM internals",
-        "Solana",
-        "Anchor",
-        "Node.js",
-        "TypeScript",
-        "JSON-RPC",
-        "Bridge routing",
-        "AI agents"
-      ]
-    },
-    {
-      "name": "AlphaContract AI 多智能体合约代码审计平台",
-      "period": "2025",
-      "role": "Lead Engineer",
-      "summary": "搭建基于 Go 的合约代码审计平台，完成源码抓取、并行 LLM 审计和结构化风险输出，覆盖多条 EVM 链。",
-      "badges": [
-        "安全",
-        "生产研发",
-        "多 Agent"
-      ],
-      "metrics": [
-        {
-          "value": "6 组",
-          "label": "并行审计 Agent"
-        },
-        {
-          "value": "22 项",
-          "label": "结构化风险字段"
-        },
-        {
-          "value": "5+ 条链",
-          "label": "ETH / BSC / Polygon / Arbitrum / Base"
-        },
-        {
-          "value": "93%",
-          "label": "Redis 占用下降"
-        }
-      ],
-      "details": [
-        "把平台拆成 gateway、code retrieval、audit 三层微服务，用 Redis、Kafka 和 ants worker pool 把同步入口与异步 LLM 执行解耦。",
-        "将审计逻辑重构为 6 个并行 Agent 组，覆盖管理员权限、税费、交易限制、黑白名单、反鲸鱼和诈骗风险，并统一合并成结构化 JSON。",
-        "围绕 Etherscan 家族 API 做多链源码抓取与标准化，缓存合约源码和解析结果，降低重复请求开销。",
-        "修复 RequestTracker 与监控面板的观测盲区，把分析窗口扩到 10,000 行，同时让阶段级失败原因对运维可见。",
-        "引入按状态 TTL 的 Redis 生命周期治理与重试友好规则，解决长时间运行后的脏任务堆积。"
-      ],
-      "achievement": "100 地址批量测试达到 83% 完成率，平均处理时延 10-12 秒；同时把预计 30 天 Redis 内存从 5.37GB 压到 378MB。",
+      "achievement": "这是我最近一段最真实的工程经历，重点不在包装，而在把审计流程做稳、做清楚、做得能长期运行。",
       "technicalHighlights": [
         "Go",
-        "AWS Bedrock",
+        "EVM",
+        "合约代码审计",
         "Redis",
         "Kafka",
-        "微服务",
-        "合约安全",
-        "Etherscan APIs",
-        "Structured outputs",
         "可观测性"
       ]
     },
     {
       "name": "空气弹簧质量检测系统",
-      "period": "已生产部署",
-      "role": "Lead Computer Vision Engineer",
-      "summary": "交付高精度空气弹簧帘布层检测系统，把工业成像、多层加强帘线分析与 PLC 产线控制真正接到一起。",
+      "period": "2021 - 2024",
+      "role": "算法负责人",
+      "summary": "负责空气弹簧帘布层检测，从图像处理、模型训练到 PLC 联动落地，重点是把精度和稳定性真正带进产线。",
       "badges": [
-        "生产",
-        "计算机视觉"
+        "真实项目",
+        "已部署",
+        "工业视觉"
       ],
       "metrics": [
         {
           "value": "99.5%",
-          "label": "检测准确率"
-        },
-        {
-          "value": "0",
-          "label": "生产环境漏检记录"
+          "label": "项目资料中的检测准确率"
         },
         {
           "value": "亚毫米级",
@@ -289,23 +226,27 @@
         },
         {
           "value": "PLC",
-          "label": "产线控制联动"
+          "label": "可直接联动产线流程"
+        },
+        {
+          "value": "长期运行",
+          "label": "目标是稳定而不是一次性演示"
         }
       ],
       "details": [
-        "构建多层检测流水线，同时验证内层、外层与层间距，在工业现场光照条件下保持稳定。",
-        "针对超高清工业相机做图像处理优化，让检测吞吐能够满足实际生产节奏。",
-        "把模型输出接入 PLC，使缺陷判断可以直接驱动下游产线动作。",
-        "重点不是实验室效果，而是持续可用的工厂交付。"
+        "处理多层结构图像，检测内层、外层和层间距离，并持续优化现场稳定性。",
+        "针对工业相机图像做预处理、ROI 和阈值调优，保证真实节拍下也能跑稳。",
+        "把算法结果接入 PLC，让异常判断能够进入下游产线动作。",
+        "反复做误检复盘，重点不在演示效果，而在连续可用。"
       ],
-      "achievement": "在生产环境达到 99.5% 检测准确率，并保持零漏检。",
+      "achievement": "这个项目让我确认，自己更适合做需要反复打磨、最后能落到生产环境的视觉系统。",
       "technicalHighlights": [
-        "Computer Vision",
-        "Deep Learning",
-        "PLC Integration",
-        "Industrial Automation",
+        "OpenCV",
         "Python",
-        "C++"
+        "C++",
+        "工业相机",
+        "深度学习",
+        "PLC Integration"
       ],
       "media": {
         "images": [
@@ -335,47 +276,47 @@
       }
     },
     {
-      "name": "单目距离测量系统",
-      "period": "已生产部署",
-      "role": "Lead Computer Vision Engineer",
-      "summary": "面向绝缘子安全监测场景，构建从像素映射逐步演进到基于 NeRF 的单视图 3D 场景理解系统，用于电力作业安全预警。",
+      "name": "单目安全距离测量系统",
+      "period": "2021 - 2024",
+      "role": "算法负责人",
+      "summary": "做过面向电力安全场景的单目距离测量与预警，路线从二维映射逐步走到更稳定的场景重建思路，核心是降低误判和现场使用门槛。",
       "badges": [
-        "生产",
-        "安全关键"
+        "真实项目",
+        "安全场景",
+        "已部署"
       ],
       "metrics": [
         {
-          "value": "0 事故",
-          "label": "覆盖站点相关流程未出现触电事故"
+          "value": "多个站点",
+          "label": "实际部署与现场验证"
         },
         {
-          "value": "NeRF",
-          "label": "从 2D 估计升级到 3D 表征"
+          "value": "实时预警",
+          "label": "结果直接进入安全流程"
+        },
+        {
+          "value": "单目方案",
+          "label": "在硬件受限场景里继续迭代"
         },
         {
           "value": "移动端",
-          "label": "现场预警流程可落地"
-        },
-        {
-          "value": "实时",
-          "label": "危险距离告警"
+          "label": "一线人员可直接使用"
         }
       ],
       "details": [
-        "将系统从简单的像素到物理距离映射，升级为更复杂的基于 NeRF 的场景重建路线。",
-        "利用单视图图像恢复场景结构，提高距离估计在复杂环境下的可靠性。",
-        "构建移动端预警流程，让一线人员在时效要求很高的环境中获得风险提醒。",
-        "这个项目里鲁棒性与误判代价都非常高，因此工程重点始终围绕安全可靠。"
+        "从像素到物理距离映射做起，逐步引入几何约束和场景理解方法提高稳定性。",
+        "处理复杂光照、角度变化和单视图信息不足等问题，优先解决真实误判。",
+        "把结果接到移动端预警流程里，让一线人员能在现场直接使用。",
+        "这个项目误判代价很高，所以工程重点始终围绕可靠和可解释。"
       ],
-      "achievement": "在多个电站完成部署，并在覆盖流程中保持零触电事故记录。",
+      "achievement": "这是一个让我长期记住的项目：算法不是为了好看，而是直接关系到现场安全。",
       "technicalHighlights": [
-        "NeRF",
-        "3D Scene Reconstruction",
-        "Computer Vision",
-        "Safety Systems",
-        "Mobile Workflow",
+        "OpenCV",
+        "相机标定",
+        "几何约束",
+        "3D 重建",
         "Python",
-        "OpenCV"
+        "移动端流程"
       ],
       "media": {
         "images": [
@@ -395,99 +336,63 @@
           }
         ]
       }
-    }
-  ],
-  "projectArchive": [
+    },
     {
-      "name": "Agentic Collaboration System",
-      "period": "2024 - 2025",
-      "category": "Agentic AI",
-      "badge": "内部研发",
-      "summary": "构建多 Agent 协作系统，把规划、记忆、检索与执行职责拆开，提高角色专业化与系统稳定性。",
-      "achievement": "沉淀出后续可直接复用到合约安全与合约配置系统中的 Agent 设计模式。",
+      "name": "运动分析与动作捕捉项目集",
+      "period": "2019 - 2022",
+      "role": "计算机视觉工程师",
+      "summary": "围绕动作识别、运动捕捉和实时视频分析做过一批长期迭代项目，更多是在真实测试里反复调参数、修误检、把模型跑稳。",
+      "badges": [
+        "真实项目",
+        "运动分析",
+        "长期迭代"
+      ],
+      "metrics": [
+        {
+          "value": "OpenCV + YOLO",
+          "label": "主要识别与处理工具"
+        },
+        {
+          "value": "实时视频",
+          "label": "持续处理速度和稳定性"
+        },
+        {
+          "value": "多轮测试",
+          "label": "和实际使用方一起迭代"
+        },
+        {
+          "value": "可部署流程",
+          "label": "不是只停在实验截图"
+        }
+      ],
+      "details": [
+        "做过高尔夫动作分析、动作捕捉和实时视觉处理的原型与交付。",
+        "把检测、分割和后处理组合起来，尽量兼顾速度、鲁棒性和可用性。",
+        "和实际使用方一起测试，不断调整阈值、ROI 与部署流程。",
+        "这些项目没有宏大包装，但很能说明我的基本功。"
+      ],
+      "achievement": "这批项目让我建立了最扎实的一层能力：怎么把视觉模型从能跑，做到能用。",
       "technicalHighlights": [
-        "Agentic AI",
-        "RAG",
-        "向量检索",
-        "Prompt systems",
+        "OpenCV",
+        "YOLO",
+        "U-Net",
         "Python",
-        "工作流编排"
-      ]
-    },
-    {
-      "name": "虚拟家庭课堂",
-      "period": "长期进行中",
-      "category": "数字人 / 教育 AI",
-      "badge": "长期项目",
-      "summary": "利用 Unreal Engine 5 与微调 LLaMA 3 设计数字人教师与适应性家庭学习流程。",
-      "achievement": "在早期学生测试中验证了适应性教学节奏的方向价值。",
-      "technicalHighlights": [
-        "LLaMA 3",
-        "Unreal Engine 5",
-        "Digital Human",
-        "Adaptive Learning",
-        "Curriculum Design"
-      ]
-    },
-    {
-      "name": "脑机接口数据处理平台",
-      "period": "已生产",
-      "category": "信号处理",
-      "badge": "生产",
-      "summary": "完成脑信号处理流水线、强化学习分类优化、Flask + Vue 界面与 Docker 化部署。",
-      "achievement": "信号处理准确率提升 40%，系统延迟降低 50%。",
-      "technicalHighlights": [
-        "Signal Processing",
-        "Reinforcement Learning",
-        "Flask",
-        "Vue.js",
-        "Docker",
-        "Python"
-      ]
-    },
-    {
-      "name": "LLM 模型优化项目",
-      "period": "已生产",
-      "category": "模型基础设施",
-      "badge": "生产",
-      "summary": "围绕 GPTQ 量化、LoRA 微调和分布式推理架构降低部署成本并提升推理速度。",
-      "achievement": "部署成本下降 60%，推理速度提升 3 倍。",
-      "technicalHighlights": [
-        "GPTQ",
-        "LoRA",
-        "模型量化",
-        "分布式推理",
-        "PyTorch",
-        "MLOps"
-      ]
-    },
-    {
-      "name": "其他视觉项目展示",
-      "period": "多个阶段",
-      "category": "视觉实验集",
-      "badge": "媒体",
-      "summary": "补充展示动作识别、皮肤检测、运动捕捉和实时视觉处理等更早期项目。",
-      "achievement": "体现了早期计算机视觉方向上的广度和持续实验能力。",
-      "technicalHighlights": [
-        "Action Recognition",
-        "Skin Detection",
         "Realtime Processing",
-        "Sports Capture",
-        "Deep Learning"
+        "Sports Capture"
       ],
       "media": {
         "images": [
           {
             "path": "assets/projects/other_projects/6.jpg",
-            "caption": "皮肤检测 1"
+            "caption": "视觉实验 1"
           },
           {
             "path": "assets/projects/other_projects/5.jpg",
-            "caption": "皮肤检测 2"
+            "caption": "视觉实验 2"
           },
           {
             "path": "assets/projects/other_projects/4.jpg",
-            "caption": "皮肤检测 3"
+            "caption": "视觉实验 3"
           }
         ],
         "videos": [
@@ -511,25 +416,33 @@
       }
     }
   ],
+  "projectArchive": [
+    {
+      "name": "教育 AI 视觉交互项目",
+      "period": "2016 - 2019",
+      "category": "教育 AI",
+      "badge": "真实经历",
+      "summary": "在教育产品里做过视觉识别、交互流程和模型服务，偏向把算法能力接到具体产品场景。",
+      "achievement": "这是我较早的一段工程训练，帮我建立了产品协作和交付意识。",
+      "technicalHighlights": [
+        "Python",
+        "Computer Vision",
+        "Model Serving",
+        "Realtime Processing",
+        "Flask",
+        "跨团队协作"
+      ]
+    }
+  ],
   "previousWork": [
     {
       "company": "Gate 交易所",
       "period": "2025.02 - 2026.01",
-      "title": "Lead Engineer",
+      "title": "合约安全审计研发",
       "responsibilities": [
-        "负责合约安全分析与链上风险识别相关研发，推动多 Agent 审计能力在工程侧落地。",
-        "设计源码抓取、并行审计、结构化风险输出链路，覆盖多条 EVM 链，并持续优化稳定性与可观测性。",
-        "推进 Redis、Kafka 与异步任务链路治理，处理长任务生命周期、缓存复用和运维监控问题。"
-      ]
-    },
-    {
-      "company": "RobotFuture",
-      "period": "2022.02 - 2025.01",
-      "title": "技术总监",
-      "responsibilities": [
-        "制定并推进 AI 技术路线，带领 8+ 人研发团队，覆盖多智能体、3D 视觉与企业级 AI 架构。",
-        "推动数字人、工业质检、教育 AI 等方向的方案落地，协调产品、算法与工程团队协同交付。",
-        "负责技术预研、MLOps 流程与关键架构决策，支撑模型训练、部署和团队工程化建设。"
+        "负责合约代码安全审计相关研发，处理源码抓取、审计流程编排和结构化风险输出。",
+        "维护长任务执行链路，持续处理 Redis、异步流程和监控可见性问题。",
+        "把审计结果做成可追踪、可重试、可回收的工程流程，而不是一次性分析脚本。"
       ]
     },
     {
@@ -537,9 +450,9 @@
       "period": "2019 - 2022",
       "title": "AI Research Engineer",
       "responsibilities": [
-        "交付面向运动表现分析的计算机视觉系统，涵盖 OpenCV、检测链路和可部署模型流程。",
-        "长期处理分割、动作理解与鲁棒性问题，更关注真实可用性而不是 Demo 指标。",
-        "建立可重复部署流程，并与业务用户紧密协作，把系统真正放进实际工作流。"
+        "交付面向运动表现分析的计算机视觉系统，涵盖检测、分割和可部署模型流程。",
+        "长期处理动作理解、鲁棒性和实时性问题，更关注真实可用性而不是漂亮指标。",
+        "建立可重复部署流程，并和业务用户紧密协作，把系统真正放进工作流。"
       ]
     },
     {
@@ -547,9 +460,9 @@
       "period": "2016 - 2019",
       "title": "高级人工智能工程师",
       "responsibilities": [
-        "负责 AI 教育产品中的计算机视觉与深度学习交互场景研发。",
-        "构建可扩展后端与模型服务能力，支撑实时教育内容处理。",
-        "带教初级工程师，并协调产品、算法与实现团队推动交付。"
+        "负责教育 AI 产品中的计算机视觉与深度学习交互场景研发。",
+        "构建后端与模型服务能力，支撑实时教育内容处理。",
+        "带教初级工程师，并协调产品、算法与实现团队推进交付。"
       ]
     }
   ]

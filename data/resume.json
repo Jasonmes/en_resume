@@ -1,58 +1,56 @@
 {
   "locale": "en",
-  "metaTitle": "Jiasheng Zhang | AI & Blockchain Infrastructure Engineer",
+  "metaTitle": "Jiasheng Zhang | Algorithms & Systems Engineer",
   "ui": {
-    "headerKicker": "Senior builder profile",
-    "headerSubline": "AI · Blockchain · Agent Systems · Cross-chain Infra",
-    "navFeatured": "Featured",
-    "navArchive": "All Projects",
+    "headerKicker": "Resume",
+    "headerSubline": "Contract Security · Computer Vision · Engineering Delivery",
+    "navFeatured": "Projects",
+    "navArchive": "More",
     "navExperience": "Experience",
     "contactTitle": "Connect",
     "contactLabels": {
       "location": "Location",
-      "education": "Education",
       "email": "Email",
       "phone": "Phone",
       "wechat": "WeChat",
       "telegram": "Telegram"
     },
-    "focusTitle": "Current Focus",
-    "mobilityTitle": "Mobility",
-    "skillsTitle": "Core Stack",
+    "focusTitle": "Long-Term Focus",
+    "mobilityTitle": "Working Style",
+    "skillsTitle": "Core Capabilities",
     "languagesTitle": "Languages",
-    "highlightsTitle": "Operating Style",
+    "highlightsTitle": "How I Work",
     "locationTitle": "Base",
-    "currentFocusTitle": "Role Fit",
-    "featuredKicker": "Priority Read",
-    "featuredTitle": "Featured Projects",
+    "currentFocusTitle": "Current Direction",
+    "featuredKicker": "Real Projects",
+    "featuredTitle": "Kept Projects",
     "featuredIntro": "",
-    "archiveKicker": "Full Coverage",
-    "archiveTitle": "All Project Highlights",
+    "archiveKicker": "Additional Context",
+    "archiveTitle": "Other Real Work",
     "archiveIntro": "",
-    "experienceKicker": "Earlier Foundation",
-    "experienceTitle": "Previous Experience",
+    "experienceKicker": "Work History",
+    "experienceTitle": "What I have done",
     "experienceIntro": "",
-    "detailsTitle": "What I built",
+    "detailsTitle": "What I owned",
     "stackTitle": "Stack",
-    "impactTitle": "Impact",
-    "impactInlineLabel": "Impact:",
-    "mediaTitle": "Media",
+    "impactTitle": "Outcome",
+    "impactInlineLabel": "Outcome:",
+    "mediaTitle": "Project Media",
     "archiveExpandLabel": "View details"
   },
   "profile": {
     "avatar": "assets/avatar.jpg",
     "name": "Jiasheng Zhang",
     "alias": "Forrest",
-    "headline": "Senior AI & Blockchain Infrastructure Engineer",
-    "summary": "I build agentic contract systems, multi-chain security pipelines, and developer tools that connect LLM orchestration with real execution layers.",
+    "headline": "Algorithms & Systems Engineer",
+    "summary": "Over the past decade, I have worked on industrial vision, motion analysis, and education-oriented AI, and my most recent real experience was at Gate on contract-code security-audit engineering. I care more about whether a system can enter a real workflow and stay stable than whether the story sounds impressive.",
     "location": "Shenzhen, China · Remote / Relocation",
-    "experience": "8 years across AI systems, backend delivery, and applied automation",
+    "experience": "Nearly 10 years across algorithms, vision, and systems delivery",
     "availability": "",
-    "currentFocus": "AI x blockchain x heterogeneous-chain infrastructure"
+    "currentFocus": "contract-code security audit, industrial vision, model deployment, and reliable delivery"
   },
   "contact": {
     "location": "Shenzhen, China",
-    "education": "Guangzhou University, Computer Science",
     "email": "bionicwalking@163.com",
     "phone": "+86 19987386841",
     "wechat": "13232182628",
@@ -60,16 +58,16 @@
   },
   "metrics": [
     {
-      "value": "8 years",
-      "label": "across AI systems, backend delivery, and applied automation"
+      "value": "Nearly 10 years",
+      "label": "building algorithms, systems, and engineering delivery loops"
     },
     {
-      "value": "EVM + Solana",
-      "label": "contract systems, multi-chain execution, and heterogeneous-chain modeling"
+      "value": "Industrial vision / motion analysis / contract security",
+      "label": "the areas I have actually worked in for years"
     },
     {
-      "value": "Go / Node.js / Python",
-      "label": "backend and orchestration stack used most often"
+      "value": "Go / Python / C++",
+      "label": "the tools I have used most often in delivery"
     },
     {
       "value": "Shenzhen / Remote",
@@ -77,77 +75,72 @@
     }
   ],
   "focus": [
-    "Agentic security systems",
-    "EVM internals and contract composition",
-    "Solana execution and account-model thinking",
-    "Cross-chain adapters, bridges, and relayers",
-    "Go, Node.js, TypeScript, Python",
-    "Observability, queues, and production hardening"
+    "Contract-code security audit",
+    "Industrial vision in production",
+    "Motion recognition and realtime video processing",
+    "Data cleaning and annotation rules",
+    "Audit workflow and long-running task stability",
+    "Go / Python / C++ / Flask",
+    "Onsite deployment and system reliability"
   ],
   "workAuthorization": {
-    "title": "Comfortable with relocation and employer-sponsored visas for Singapore, the US, the EU, the UK, and Canada.",
+    "title": "Comfortable with remote collaboration and open to relocation for the right role.",
     "visas": [
-      "Singapore EP",
-      "US H-1B",
-      "EU Blue Card",
-      "UK Skilled Worker",
-      "Canada Global Talent Stream"
+      "Onsite in Shenzhen",
+      "Remote collaboration",
+      "Relocation"
     ]
   },
   "skills": [
     {
-      "category": "Blockchain Protocols",
-      "items": [
-        "Solidity",
-        "Foundry",
-        "ERC-20 / EIP-712",
-        "Contract security review",
-        "EVM internals",
-        "OP Superchain",
-        "Bridge routing",
-        "Solana",
-        "Anchor",
-        "CPI / PDA concepts"
-      ]
-    },
-    {
-      "category": "AI Systems",
-      "items": [
-        "Agentic AI",
-        "Multi-agent orchestration",
-        "RAG",
-        "Structured outputs",
-        "Prompt systems",
-        "LLM evaluation",
-        "AWS Bedrock",
-        "OpenAI / Claude"
-      ]
-    },
-    {
-      "category": "Backend & Infra",
+      "category": "Contract Security & Backend",
       "items": [
         "Go",
-        "Node.js",
-        "TypeScript",
-        "Python",
+        "EVM",
+        "Contract code review",
+        "Source retrieval",
         "Redis",
         "Kafka",
-        "Microservices",
-        "JSON-RPC",
-        "Docker",
+        "Task orchestration",
         "Observability"
+      ]
+    },
+    {
+      "category": "Computer Vision",
+      "items": [
+        "OpenCV",
+        "YOLO",
+        "U-Net",
+        "Image segmentation",
+        "Object detection",
+        "Geometric measurement",
+        "Camera calibration",
+        "3D reconstruction"
+      ]
+    },
+    {
+      "category": "Machine Learning",
+      "items": [
+        "PyTorch",
+        "Data cleaning",
+        "Data augmentation",
+        "Hard negative mining",
+        "Feature engineering",
+        "Model tuning",
+        "False-positive analysis",
+        "Evaluation loops"
       ]
     },
     {
       "category": "Delivery",
       "items": [
-        "API design",
-        "Performance tuning",
-        "Stateful task pipelines",
-        "Chain data normalization",
-        "Risk automation",
-        "Rapid prototyping",
-        "Cross-functional execution"
+        "Annotation standards",
+        "Threshold calibration",
+        "Onsite debugging",
+        "Production rollout",
+        "Cross-functional work",
+        "Issue diagnosis",
+        "Reliability tuning"
       ]
     }
   ],
@@ -162,220 +155,168 @@
     }
   ],
   "highlights": [
-    "Translate ambiguous product asks into low-level technical execution plans quickly.",
-    "Comfortable switching between protocol logic, AI orchestration, backend services, and UI-facing product flows.",
-    "Prefer measurable delivery: latency, success rate, memory footprint, failure visibility, and operator ergonomics.",
-    "Operate well in messy R&D environments where the architecture is still moving."
+    "I am better at making projects real than making them sound big.",
+    "I usually start from data quality, false positives, and deployment constraints.",
+    "I can move between algorithms, backend work, security-audit flows, and operational workflows.",
+    "Most of my ability comes from self-learning, project practice, and repeated review."
   ],
   "featuredProjects": [
     {
-      "name": "OmniChain Contract Intelligence Studio",
-      "period": "2025 - Present",
-      "role": "Founder / Lead Builder",
-      "summary": "Designed a frontier product direction that converts business intent into deployable contract systems across EVM and Solana, with Node.js orchestration and heterogeneous-chain adapters.",
+      "name": "Contract Code Security Audit Platform",
+      "period": "2025 - 2026",
+      "role": "Gate · Security Audit Engineer",
+      "summary": "Worked on contract-code security-audit engineering at Gate, focusing on source retrieval, audit-flow orchestration, structured risk output, and stability issues in long-running analysis jobs.",
       "badges": [
-        "Featured",
-        "R&D",
-        "Omni-chain"
+        "Real Project",
+        "Gate",
+        "Contract Security"
       ],
       "metrics": [
         {
-          "value": "11 scenarios",
-          "label": "starting point from modular contract playbooks"
+          "value": "Go",
+          "label": "core implementation language"
         },
         {
-          "value": "21+ modules",
-          "label": "EVM building blocks available for composition"
+          "value": "Multiple EVM chains",
+          "label": "real contract-source analysis"
         },
         {
-          "value": "EVM + Solana",
-          "label": "execution runtimes modeled in one workflow"
+          "value": "Redis / Kafka",
+          "label": "long-running and async workflow handling"
         },
         {
-          "value": "Node.js control plane",
-          "label": "operator and execution orchestration layer"
+          "value": "Structured output",
+          "label": "audit results stayed traceable and reusable"
         }
       ],
       "details": [
-        "Started from the modular-contract scene engine and unified token launch, whitelist, fee split, bridge, and governance flows into one intent-driven architecture.",
-        "Extended the design beyond pure EVM by defining Solana program templates, account-model aware validation, and runtime-specific execution planners for transactions versus instructions.",
-        "Planned a Node.js orchestration layer for wallet session handling, chain capability registry, async job processing, event streaming, and operator dashboards.",
-        "Built the chain abstraction around JSON-RPC, explorer APIs, bridge relayers, and indexer feeds so the same workflow can target Ethereum, Base, Optimism, Arbitrum, Polygon, and Solana.",
-        "Added preflight simulation, fee estimation, bridge-path selection, and policy guardrails so the system can choose native OP routes versus generic bridge routes before deployment."
+        "Handled multichain contract-source retrieval, normalization, and preprocessing to feed downstream audit stages with stable inputs.",
+        "Split the audit flow into traceable stages so long-running jobs could be retried, observed, and recovered more cleanly.",
+        "Worked on Redis lifecycle issues, task management, and monitoring visibility so the platform stayed stable over time.",
+        "This was where my earlier systems experience shifted into security-audit and backend engineering work."
       ],
-      "achievement": "Turned a modular-contract knowledge base into a product-grade omni-chain design direction that stays understandable to product teams while still respecting low-level runtime constraints.",
-      "technicalHighlights": [
-        "Solidity",
-        "Foundry",
-        "EVM internals",
-        "Solana",
-        "Anchor",
-        "Node.js",
-        "TypeScript",
-        "JSON-RPC",
-        "Bridge routing",
-        "AI agents"
-      ]
-    },
-    {
-      "name": "AlphaContract AI Multi-Agent Contract Code Audit Platform",
-      "period": "2025",
-      "role": "Lead Engineer",
-      "summary": "Built a Go-based contract code audit platform that retrieves source code, runs parallel LLM audits, and returns structured risk findings across multiple EVM chains.",
-      "badges": [
-        "Security",
-        "Production R&D",
-        "Multi-agent"
-      ],
-      "metrics": [
-        {
-          "value": "6 groups",
-          "label": "parallel audit agents"
-        },
-        {
-          "value": "22 checks",
-          "label": "structured risk fields"
-        },
-        {
-          "value": "5+ chains",
-          "label": "Ethereum, BSC, Polygon, Arbitrum, Base"
-        },
-        {
-          "value": "93%",
-          "label": "Redis footprint reduction"
-        }
-      ],
-      "details": [
-        "Split the platform into gateway, code retrieval, and audit microservices, using Redis, Kafka, and an ants worker pool to decouple request intake from asynchronous LLM execution.",
-        "Reworked contract analysis into 6 parallel agent groups covering admin controls, taxes, trading restrictions, blacklist logic, anti-whale rules, and scam signals with structured JSON merges.",
-        "Normalized multi-chain contract source retrieval against Etherscan-family APIs and cached parsed source data to stabilize repeated analysis flows.",
-        "Closed observability gaps in request tracking and monitoring, expanded the event window to 10,000 lines, and made stage-level failure reasons visible to operations.",
-        "Introduced per-state Redis TTL policies and retry-aware lifecycle rules so stale tasks no longer accumulated indefinitely in long-running environments."
-      ],
-      "achievement": "Reached 83% completion in 100-address batch tests with average 10-12 second processing, while cutting projected 30-day Redis memory usage from 5.37GB to 378MB.",
+      "achievement": "This is the most recent and most grounded part of my work history: not a big narrative, just making an audit workflow stable, readable, and durable.",
       "technicalHighlights": [
         "Go",
-        "AWS Bedrock",
+        "EVM",
+        "Contract security",
         "Redis",
         "Kafka",
-        "Microservices",
-        "Contract security",
-        "Etherscan APIs",
-        "Structured outputs",
         "Observability"
       ]
     },
     {
       "name": "Air Spring Quality Inspection System",
-      "period": "Production Deployment",
-      "role": "Lead Computer Vision Engineer",
-      "summary": "Delivered a high-precision inspection system for air spring bellows, combining industrial imaging, multilayer reinforcement-cord analysis, and PLC-linked production control.",
+      "period": "2021 - 2024",
+      "role": "Algorithm Lead",
+      "summary": "Owned air-spring reinforcement-layer inspection from image processing and model training through PLC integration, with the real goal of stable production use instead of a one-off demo.",
       "badges": [
-        "Production",
-        "Computer Vision"
+        "Real Project",
+        "Deployed",
+        "Industrial Vision"
       ],
       "metrics": [
         {
           "value": "99.5%",
-          "label": "detection accuracy"
-        },
-        {
-          "value": "0",
-          "label": "false negatives reported in production"
+          "label": "accuracy recorded in project materials"
         },
         {
           "value": "Sub-mm",
-          "label": "cord spacing measurement accuracy"
+          "label": "inter-layer distance precision"
         },
         {
           "value": "PLC",
-          "label": "line-control integration"
+          "label": "directly connected to line control"
+        },
+        {
+          "value": "Long-running",
+          "label": "built for stability, not a demo"
         }
       ],
       "details": [
-        "Built a multilayer inspection pipeline that validated inner layer, outer layer, and inter-layer spacing under industrial lighting constraints.",
-        "Optimized image processing for ultra-high-definition camera input while keeping throughput usable for factory operations.",
-        "Connected model outputs to industrial PLC control so defects could directly drive downstream production actions.",
-        "Made the system robust enough for sustained deployment instead of one-off lab demos."
+        "Worked on multilayer image inspection for inner layer, outer layer, and distance measurement while improving onsite stability.",
+        "Tuned preprocessing, ROI logic, and thresholds for industrial-camera images so the system could keep up with the real production rhythm.",
+        "Connected model outputs to PLC logic so defect decisions could enter downstream factory actions.",
+        "Spent a lot of time on false-positive review and iteration because continuous usability mattered more than presentation quality."
       ],
-      "achievement": "Reached 99.5% detection accuracy with zero false negatives in the production environment.",
+      "achievement": "This project made it clear that I am best suited to the kind of vision work that needs repeated iteration until it truly survives production.",
       "technicalHighlights": [
-        "Computer Vision",
-        "Deep Learning",
-        "PLC Integration",
-        "Industrial Automation",
+        "OpenCV",
         "Python",
-        "C++"
+        "C++",
+        "Industrial cameras",
+        "Deep learning",
+        "PLC integration"
       ],
       "media": {
         "images": [
           {
             "path": "assets/projects/air_spring_project/1.jpg",
-            "caption": "Detection result 1"
+            "caption": "Inspection result 1"
           },
           {
             "path": "assets/projects/air_spring_project/2.jpg",
-            "caption": "Detection result 2"
+            "caption": "Inspection result 2"
           },
           {
             "path": "assets/projects/air_spring_project/3.jpg",
-            "caption": "Detection result 3"
+            "caption": "Inspection result 3"
           },
           {
             "path": "assets/projects/air_spring_project/4.jpg",
-            "caption": "Detection result 4"
+            "caption": "Inspection result 4"
           }
         ],
         "videos": [
           {
             "path": "assets/projects/air_spring_project/1.mp4",
-            "caption": "Detection processing"
+            "caption": "Inspection process"
           }
         ]
       }
     },
     {
-      "name": "Monocular Distance Measurement System",
-      "period": "Production Deployment",
-      "role": "Lead Computer Vision Engineer",
-      "summary": "Built a safety-critical insulator monitoring system that evolved from direct pixel mapping into NeRF-based single-view 3D scene understanding for electrical worker safety.",
+      "name": "Monocular Safety Distance Measurement System",
+      "period": "2021 - 2024",
+      "role": "Algorithm Lead",
+      "summary": "Worked on monocular distance estimation and warning for power-safety scenarios, moving from simple 2D mapping toward more stable scene-reconstruction ideas to reduce false alarms and keep the workflow usable onsite.",
       "badges": [
-        "Production",
-        "Safety-critical"
+        "Real Project",
+        "Safety Scenario",
+        "Deployed"
       ],
       "metrics": [
         {
-          "value": "0 incidents",
-          "label": "reported after deployment in covered stations"
+          "value": "Multiple sites",
+          "label": "real deployment and field validation"
         },
         {
-          "value": "NeRF",
-          "label": "scene representation shift from 2D to 3D"
+          "value": "Realtime alerts",
+          "label": "results fed directly into safety flow"
         },
         {
-          "value": "Mobile",
-          "label": "warning workflow delivered to field use"
+          "value": "Monocular setup",
+          "label": "kept improving under hardware limits"
         },
         {
-          "value": "Realtime",
-          "label": "danger proximity alerts"
+          "value": "Mobile workflow",
+          "label": "usable by frontline staff"
         }
       ],
       "details": [
-        "Moved the system from simple pixel-to-physical heuristics to a more advanced NeRF-based scene-reconstruction approach.",
-        "Used single-view imagery to recover scene structure and improve distance estimation reliability under varied conditions.",
-        "Built a mobile-friendly warning flow so field workers could receive danger alerts in time-sensitive environments.",
-        "Focused on reliability and robustness because false judgement in this domain directly affects worker safety."
+        "Started from pixel-to-distance mapping and gradually introduced geometric constraints and scene-understanding ideas to improve stability.",
+        "Handled changing lighting, camera angles, and limited information from single-view images with a focus on real failure cases.",
+        "Integrated the result into a mobile warning flow so frontline workers could use it directly in the field.",
+        "Because the cost of a wrong warning was high, the engineering priority stayed on reliability and interpretability."
       ],
-      "achievement": "Deployed in multiple power stations with zero electrical-injury incidents reported in covered workflows.",
+      "achievement": "This is the kind of project I remember for a long time because the algorithm was not just a model result, it affected real safety decisions.",
       "technicalHighlights": [
-        "NeRF",
-        "3D Scene Reconstruction",
-        "Computer Vision",
-        "Safety Systems",
-        "Mobile Workflow",
+        "OpenCV",
+        "Camera calibration",
+        "Geometric constraints",
+        "3D reconstruction",
         "Python",
-        "OpenCV"
+        "Mobile workflow"
       ],
       "media": {
         "images": [
@@ -391,109 +332,73 @@
           },
           {
             "path": "assets/projects/insulator_project/3.mp4",
-            "caption": "Field safety flow"
+            "caption": "Field safety workflow"
           }
         ]
       }
-    }
-  ],
-  "projectArchive": [
+    },
     {
-      "name": "Agentic Collaboration System",
-      "period": "2024 - 2025",
-      "category": "Agentic AI",
-      "badge": "Internal R&D",
-      "summary": "Built a multi-agent AI system that separated planning, memory, retrieval, and execution responsibilities to improve specialization and stability.",
-      "achievement": "Created reusable agent design patterns that later fed directly into contract-security and smart-contract configuration workflows.",
+      "name": "Motion Analysis & Capture Project Set",
+      "period": "2019 - 2022",
+      "role": "Computer Vision Engineer",
+      "summary": "Spent several years on motion recognition, sports capture, and realtime video-analysis projects where most of the work was repeated tuning, failure review, and making the pipeline stable in real tests.",
+      "badges": [
+        "Real Project",
+        "Motion Analysis",
+        "Long Iteration"
+      ],
+      "metrics": [
+        {
+          "value": "OpenCV + YOLO",
+          "label": "main tools used in recognition and processing"
+        },
+        {
+          "value": "Realtime video",
+          "label": "constant balance of speed and stability"
+        },
+        {
+          "value": "Repeated tests",
+          "label": "iterated with actual users"
+        },
+        {
+          "value": "Deployable flow",
+          "label": "not just experiment screenshots"
+        }
+      ],
+      "details": [
+        "Worked on golf analysis, motion capture, and other realtime vision prototypes and deliveries.",
+        "Combined detection, segmentation, and post-processing to balance speed, robustness, and usability.",
+        "Tested with real users and kept adjusting thresholds, ROIs, and deployment steps.",
+        "These projects were not flashy, but they show the strongest part of my foundation."
+      ],
+      "achievement": "This group of work gave me the most solid base I have: how to move a vision model from merely running to actually being useful.",
       "technicalHighlights": [
-        "Agentic AI",
-        "RAG",
-        "Vector retrieval",
-        "Prompt systems",
+        "OpenCV",
+        "YOLO",
+        "U-Net",
         "Python",
-        "Workflow orchestration"
-      ]
-    },
-    {
-      "name": "Virtual Home Classroom",
-      "period": "Ongoing",
-      "category": "Digital Human / Education AI",
-      "badge": "Long-term Build",
-      "summary": "Designed a digital human teacher concept using Unreal Engine 5 and fine-tuned LLaMA 3 to create adaptive home learning flows.",
-      "achievement": "Validated the learning concept with early student testing and positive feedback on adaptive pacing.",
-      "technicalHighlights": [
-        "LLaMA 3",
-        "Unreal Engine 5",
-        "Digital Human",
-        "Adaptive Learning",
-        "Curriculum Design"
-      ]
-    },
-    {
-      "name": "Brain-Computer Interface Data Processing Platform",
-      "period": "Production",
-      "category": "Signal Processing",
-      "badge": "Production",
-      "summary": "Architected a brain-signal processing pipeline with reinforcement-learning-based classification, a Flask + Vue interface, and containerized deployment.",
-      "achievement": "Improved signal-processing accuracy by 40% and reduced latency by 50%.",
-      "technicalHighlights": [
-        "Signal Processing",
-        "Reinforcement Learning",
-        "Flask",
-        "Vue.js",
-        "Docker",
-        "Python"
-      ]
-    },
-    {
-      "name": "LLM Model Optimization Project",
-      "period": "Production",
-      "category": "Model Infra",
-      "badge": "Production",
-      "summary": "Worked on GPTQ quantization, LoRA fine-tuning, and distributed inference design to reduce deployment cost while improving serving speed.",
-      "achievement": "Reduced deployment costs by 60% and increased inference speed by 3x.",
-      "technicalHighlights": [
-        "GPTQ",
-        "LoRA",
-        "Model Quantization",
-        "Distributed Inference",
-        "PyTorch",
-        "MLOps"
-      ]
-    },
-    {
-      "name": "Other Vision Project Showcase",
-      "period": "Multiple years",
-      "category": "Vision Experiments",
-      "badge": "Media",
-      "summary": "A compact collection of additional work spanning action recognition, skin detection, sports capture, and real-time visual processing.",
-      "achievement": "Shows the breadth of earlier CV work across demos, evaluation flows, and production-style experimentation.",
-      "technicalHighlights": [
-        "Action Recognition",
-        "Skin Detection",
-        "Realtime Processing",
-        "Sports Capture",
-        "Deep Learning"
+        "Realtime processing",
+        "Sports capture"
       ],
       "media": {
         "images": [
           {
             "path": "assets/projects/other_projects/6.jpg",
-            "caption": "Skin detection 1"
+            "caption": "Vision experiment 1"
           },
           {
             "path": "assets/projects/other_projects/5.jpg",
-            "caption": "Skin detection 2"
+            "caption": "Vision experiment 2"
           },
           {
             "path": "assets/projects/other_projects/4.jpg",
-            "caption": "Skin detection 3"
+            "caption": "Vision experiment 3"
           }
         ],
         "videos": [
           {
             "path": "assets/projects/other_projects/1.mp4",
-            "caption": "Golf action capture"
+            "caption": "Golf capture"
           },
           {
             "path": "assets/projects/other_projects/2.mp4",
@@ -501,35 +406,43 @@
           },
           {
             "path": "assets/projects/other_projects/3.mp4",
-            "caption": "Taiwan player"
+            "caption": "Taiwan athlete test"
           },
           {
             "path": "assets/projects/other_projects/gym.mp4",
-            "caption": "Gym action capture"
+            "caption": "Gym capture"
           }
         ]
       }
     }
   ],
+  "projectArchive": [
+    {
+      "name": "Education AI Visual Interaction Work",
+      "period": "2016 - 2019",
+      "category": "Education AI",
+      "badge": "Real Experience",
+      "summary": "Worked on vision recognition, interaction flows, and model-serving pieces for education products, focusing on connecting algorithms to concrete product scenarios.",
+      "achievement": "This early stage of work gave me product awareness and delivery discipline.",
+      "technicalHighlights": [
+        "Python",
+        "Computer vision",
+        "Model serving",
+        "Realtime processing",
+        "Flask",
+        "Cross-functional delivery"
+      ]
+    }
+  ],
   "previousWork": [
     {
-      "company": "Gate.io",
+      "company": "Gate",
       "period": "Feb 2025 - Jan 2026",
-      "title": "Lead Engineer",
+      "title": "Security Audit Engineer",
       "responsibilities": [
-        "Worked on contract-security analysis and on-chain risk tooling, pushing multi-agent audit capabilities into production engineering workflows.",
-        "Built source-code retrieval, parallel auditing, and structured risk-output pipelines across multiple EVM chains, with a focus on reliability and observability.",
-        "Improved Redis, Kafka, and async task lifecycle management to handle long-running jobs, cache reuse, and operator monitoring."
-      ]
-    },
-    {
-      "company": "RobotFuture",
-      "period": "Feb 2022 - Jan 2025",
-      "title": "Technical Director",
-      "responsibilities": [
-        "Set the AI technology roadmap and led an 8+ person R&D team across multi-agent systems, 3D vision, and enterprise AI architecture.",
-        "Drove delivery across digital humans, industrial inspection, and education AI projects in close coordination with product, algorithm, and engineering teams.",
-        "Owned technical exploration, MLOps workflows, and key architecture decisions for model training, deployment, and team engineering practices."
+        "Worked on contract-code security-audit engineering, including source retrieval, audit-flow orchestration, and structured risk output.",
+        "Maintained long-running task pipelines and kept improving Redis usage, async workflow behavior, and monitoring visibility.",
+        "Turned audit output into an engineering process that could be tracked, retried, and reused instead of a one-off analysis script."
       ]
     },
     {
@@ -537,9 +450,9 @@
       "period": "2019 - 2022",
       "title": "AI Research Engineer",
       "responsibilities": [
-        "Delivered computer-vision systems for sports performance analysis using OpenCV, detection pipelines, and deployment-ready model workflows.",
-        "Worked on segmentation and motion-understanding tasks where real-world robustness mattered more than demo-only metrics.",
-        "Built repeatable deployment processes and collaborated closely with domain users to make the systems operational."
+        "Delivered computer-vision systems for motion analysis with detection, segmentation, and deployable model workflows.",
+        "Spent a lot of time on robustness, realtime constraints, and failure review instead of only offline metrics.",
+        "Built repeatable deployment steps and worked closely with end users to fit the real workflow."
       ]
     },
     {
@@ -547,8 +460,8 @@
       "period": "2016 - 2019",
       "title": "Senior AI Engineer",
       "responsibilities": [
-        "Led AI-heavy education product work covering computer vision, deep-learning interaction flows, and real-time content understanding.",
-        "Built scalable backends and model-serving components for interactive educational scenarios with tight latency and reliability constraints.",
+        "Built computer-vision and deep-learning interaction features for education AI products.",
+        "Developed backend and model-serving capabilities for realtime content processing.",
         "Mentored junior engineers and coordinated delivery across product, algorithm, and implementation teams."
       ]
     }
