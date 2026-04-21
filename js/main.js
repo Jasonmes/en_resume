@@ -31,6 +31,21 @@ function renderOptionalParagraph(text, className = "") {
     return `<p${classAttr}>${escapeHtml(value)}</p>`;
 }
 
+function renderOptionalHeading(text, tagName, fallback = "", className = "") {
+    const value = String(text ?? "").trim() || String(fallback ?? "").trim();
+
+    if (!value) {
+        return "";
+    }
+
+    const classAttr = className ? ` class="${className}"` : "";
+    return `<${tagName}${classAttr}>${escapeHtml(value)}</${tagName}>`;
+}
+
+function hasItems(items) {
+    return Array.isArray(items) && items.length > 0;
+}
+
 function renderHeroFacts(data) {
     const items = [
         data.profile.location,
@@ -269,8 +284,8 @@ function renderSidebar(data) {
                 <div class="profile-copy">
                     <p class="eyebrow">${escapeHtml(data.profile.alias)}</p>
                     <h2>${escapeHtml(data.profile.name)}</h2>
-                    <p class="profile-headline">${escapeHtml(data.profile.headline)}</p>
-                    <p class="profile-summary">${escapeHtml(data.profile.summary)}</p>
+                    ${renderOptionalParagraph(data.profile.headline, "profile-headline")}
+                    ${renderOptionalParagraph(data.profile.summary, "profile-summary")}
                 </div>
             </div>
 
@@ -335,11 +350,24 @@ function renderSidebar(data) {
 }
 
 function renderMain(data) {
+    const archiveSection = hasItems(data.projectArchive) ? `
+        <section class="content-panel" id="archive">
+            <div class="section-head" data-reveal>
+                <span class="eyebrow">${escapeHtml(data.ui.archiveKicker)}</span>
+                <h2>${escapeHtml(data.ui.archiveTitle)}</h2>
+                ${renderOptionalParagraph(data.ui.archiveIntro)}
+            </div>
+            <div class="archive-list">
+                ${data.projectArchive.map((project, index) => renderArchiveProject(project, index, data.ui)).join("")}
+            </div>
+        </section>
+    ` : "";
+
     return `
         <section class="hero-panel" data-reveal>
             <div class="hero-copy">
                 <span class="eyebrow">${escapeHtml(data.profile.experience)}</span>
-                <h1>${escapeHtml(data.profile.headline)}</h1>
+                ${renderOptionalHeading(data.profile.headline, "h1", data.profile.name)}
                 ${renderOptionalParagraph(data.profile.summary, "hero-summary")}
                 ${renderOptionalParagraph(data.profile.availability, "hero-summary hero-summary-secondary")}
                 ${renderHeroFacts(data)}
@@ -357,16 +385,7 @@ function renderMain(data) {
             </div>
         </section>
 
-        <section class="content-panel" id="archive">
-            <div class="section-head" data-reveal>
-                <span class="eyebrow">${escapeHtml(data.ui.archiveKicker)}</span>
-                <h2>${escapeHtml(data.ui.archiveTitle)}</h2>
-                ${renderOptionalParagraph(data.ui.archiveIntro)}
-            </div>
-            <div class="archive-list">
-                ${data.projectArchive.map((project, index) => renderArchiveProject(project, index, data.ui)).join("")}
-            </div>
-        </section>
+        ${archiveSection}
 
         <section class="content-panel" id="experience">
             <div class="section-head" data-reveal>
@@ -449,15 +468,18 @@ function renderResume(data) {
     const header = document.getElementById("header-root");
     const sidebar = document.getElementById("sidebar-root");
     const main = document.getElementById("main-root");
+    const navItems = [
+        { href: "#featured", label: data.ui.navFeatured, show: hasItems(data.featuredProjects) },
+        { href: "#archive", label: data.ui.navArchive, show: hasItems(data.projectArchive) },
+        { href: "#experience", label: data.ui.navExperience, show: hasItems(data.previousWork) }
+    ].filter(item => item.show);
 
     header.innerHTML = `
         <div class="header-brand">
             <strong>${escapeHtml(data.profile.name)}</strong>
         </div>
         <nav class="header-nav">
-            <a href="#featured">${escapeHtml(data.ui.navFeatured)}</a>
-            <a href="#archive">${escapeHtml(data.ui.navArchive)}</a>
-            <a href="#experience">${escapeHtml(data.ui.navExperience)}</a>
+            ${navItems.map(item => `<a href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>`).join("")}
         </nav>
         ${buildLangToggle()}
     `;

@@ -1,6 +1,6 @@
 {
   "locale": "ja",
-  "metaTitle": "張珈盛 | アルゴリズム・システムエンジニア",
+  "metaTitle": "張珈盛",
   "ui": {
     "headerKicker": "職務経歴",
     "headerSubline": "コントラクトセキュリティ・コンピュータビジョン・実装",
@@ -41,12 +41,12 @@
     "avatar": "assets/avatar.jpg",
     "name": "張珈盛",
     "alias": "Forrest",
-    "headline": "アルゴリズム・システムエンジニア",
+    "headline": "",
     "summary": "",
     "location": "",
     "experience": "アルゴリズム、ビジョン、システム実装で約10年",
     "availability": "",
-    "currentFocus": "コントラクト監査、産業用ビジョン、モデル配備、安定運用"
+    "currentFocus": ""
   },
   "contact": {
     "email": "bionicwalking@163.com",
@@ -285,8 +285,8 @@
       ],
       "metrics": [
         {
-          "value": "複数拠点",
-          "label": "実地導入と現場検証"
+          "value": "実地導入",
+          "label": "現場検証を実施"
         },
         {
           "value": "リアルタイム警告",
@@ -414,24 +414,7 @@
       }
     }
   ],
-  "projectArchive": [
-    {
-      "name": "教育 AI の視覚・対話系実装",
-      "period": "2016 - 2019",
-      "category": "教育 AI",
-      "badge": "実務経験",
-      "summary": "教育プロダクト向けに、視覚認識、対話フロー、モデルサービングを担当し、アルゴリズムを具体的なプロダクトの流れへ接続しました。",
-      "achievement": "この初期の経験で、プロダクトとの連携とデリバリー感覚が身につきました。",
-      "technicalHighlights": [
-        "Python",
-        "Computer vision",
-        "Model serving",
-        "Realtime processing",
-        "Flask",
-        "横断連携"
-      ]
-    }
-  ],
+  "projectArchive": [],
   "previousWork": [
     {
       "company": "Gate",

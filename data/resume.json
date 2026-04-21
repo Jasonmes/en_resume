@@ -1,6 +1,6 @@
 {
   "locale": "en",
-  "metaTitle": "Jiasheng Zhang | Algorithms & Systems Engineer",
+  "metaTitle": "Jiasheng Zhang",
   "ui": {
     "headerKicker": "Resume",
     "headerSubline": "Contract Security · Computer Vision · Engineering Delivery",
@@ -41,12 +41,12 @@
     "avatar": "assets/avatar.jpg",
     "name": "Jiasheng Zhang",
     "alias": "Forrest",
-    "headline": "Algorithms & Systems Engineer",
+    "headline": "",
     "summary": "",
     "location": "",
     "experience": "Nearly 10 years across algorithms, vision, and systems delivery",
     "availability": "",
-    "currentFocus": "contract-code security audit, industrial vision, model deployment, and reliable delivery"
+    "currentFocus": ""
   },
   "contact": {
     "email": "bionicwalking@163.com",
@@ -285,8 +285,8 @@
       ],
       "metrics": [
         {
-          "value": "Multiple sites",
-          "label": "real deployment and field validation"
+          "value": "Field deployment",
+          "label": "validated in real usage"
         },
         {
           "value": "Realtime alerts",
@@ -414,24 +414,7 @@
       }
     }
   ],
-  "projectArchive": [
-    {
-      "name": "Education AI Visual Interaction Work",
-      "period": "2016 - 2019",
-      "category": "Education AI",
-      "badge": "Real Experience",
-      "summary": "Worked on vision recognition, interaction flows, and model-serving pieces for education products, focusing on connecting algorithms to concrete product scenarios.",
-      "achievement": "This early stage of work gave me product awareness and delivery discipline.",
-      "technicalHighlights": [
-        "Python",
-        "Computer vision",
-        "Model serving",
-        "Realtime processing",
-        "Flask",
-        "Cross-functional delivery"
-      ]
-    }
-  ],
+  "projectArchive": [],
   "previousWork": [
     {
       "company": "Gate",

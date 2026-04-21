@@ -1,6 +1,6 @@
 {
   "locale": "zh-CN",
-  "metaTitle": "张珈盛 | 算法与系统工程师",
+  "metaTitle": "张珈盛",
   "ui": {
     "headerKicker": "个人简历",
     "headerSubline": "合约安全 · 计算机视觉 · 工程交付",
@@ -41,12 +41,12 @@
     "avatar": "assets/avatar.jpg",
     "name": "张珈盛",
     "alias": "Forrest",
-    "headline": "算法与系统工程师",
+    "headline": "",
     "summary": "",
     "location": "",
     "experience": "近 10 年算法、视觉与系统交付经验",
     "availability": "",
-    "currentFocus": "合约代码安全审计、工业视觉、模型部署与稳定交付"
+    "currentFocus": ""
   },
   "contact": {
     "email": "bionicwalking@163.com",
@@ -285,8 +285,8 @@
       ],
       "metrics": [
         {
-          "value": "多个站点",
-          "label": "实际部署与现场验证"
+          "value": "实地部署",
+          "label": "完成现场验证"
         },
         {
           "value": "实时预警",
@@ -414,24 +414,7 @@
       }
     }
   ],
-  "projectArchive": [
-    {
-      "name": "教育 AI 视觉交互项目",
-      "period": "2016 - 2019",
-      "category": "教育 AI",
-      "badge": "真实经历",
-      "summary": "在教育产品里做过视觉识别、交互流程和模型服务，偏向把算法能力接到具体产品场景。",
-      "achievement": "这是我较早的一段工程训练，帮我建立了产品协作和交付意识。",
-      "technicalHighlights": [
-        "Python",
-        "Computer Vision",
-        "Model Serving",
-        "Realtime Processing",
-        "Flask",
-        "跨团队协作"
-      ]
-    }
-  ],
+  "projectArchive": [],
   "previousWork": [
     {
       "company": "Gate 交易所",
