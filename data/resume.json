@@ -9,7 +9,6 @@
     "navExperience": "Experience",
     "contactTitle": "Connect",
     "contactLabels": {
-      "location": "Location",
       "email": "Email",
       "phone": "Phone",
       "wechat": "WeChat",
@@ -43,14 +42,13 @@
     "name": "Jiasheng Zhang",
     "alias": "Forrest",
     "headline": "Algorithms & Systems Engineer",
-    "summary": "Over the past decade, I have worked on industrial vision, motion analysis, and education-oriented AI, and my most recent real experience was at Gate on contract-code security-audit engineering. I care more about whether a system can enter a real workflow and stay stable than whether the story sounds impressive.",
-    "location": "Shenzhen, China · Remote / Relocation",
+    "summary": "",
+    "location": "",
     "experience": "Nearly 10 years across algorithms, vision, and systems delivery",
     "availability": "",
     "currentFocus": "contract-code security audit, industrial vision, model deployment, and reliable delivery"
   },
   "contact": {
-    "location": "Shenzhen, China",
     "email": "bionicwalking@163.com",
     "phone": "+86 19987386841",
     "wechat": "13232182628",
@@ -70,7 +68,7 @@
       "label": "the tools I have used most often in delivery"
     },
     {
-      "value": "Shenzhen / Remote",
+      "value": "Remote / Relocation",
       "label": "remote friendly and open to relocation"
     }
   ],
@@ -86,7 +84,7 @@
   "workAuthorization": {
     "title": "Comfortable with remote collaboration and open to relocation for the right role.",
     "visas": [
-      "Onsite in Shenzhen",
+      "Onsite collaboration",
       "Remote collaboration",
       "Relocation"
     ]
@@ -446,7 +444,7 @@
       ]
     },
     {
-      "company": "MotionRivalry, Shenzhen",
+      "company": "MotionRivalry",
       "period": "2019 - 2022",
       "title": "AI Research Engineer",
       "responsibilities": [
@@ -456,7 +454,7 @@
       ]
     },
     {
-      "company": "Mozi Tech, Shenzhen",
+      "company": "Mozi Tech",
       "period": "2016 - 2019",
       "title": "Senior AI Engineer",
       "responsibilities": [

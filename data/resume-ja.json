@@ -9,7 +9,6 @@
     "navExperience": "経歴",
     "contactTitle": "連絡先",
     "contactLabels": {
-      "location": "拠点",
       "email": "メール",
       "phone": "電話",
       "wechat": "WeChat",
@@ -43,14 +42,13 @@
     "name": "張珈盛",
     "alias": "Forrest",
     "headline": "アルゴリズム・システムエンジニア",
-    "summary": "この10年近く、産業用ビジョン、動作解析、教育領域の AI 実装に取り組み、直近の実務では Gate でコントラクトコードのセキュリティ監査系開発を担当しました。大きく見せるより、実際の業務フローの中で安定して動くかを重視しています。",
-    "location": "中国・深圳・リモート / 転居可",
+    "summary": "",
+    "location": "",
     "experience": "アルゴリズム、ビジョン、システム実装で約10年",
     "availability": "",
     "currentFocus": "コントラクト監査、産業用ビジョン、モデル配備、安定運用"
   },
   "contact": {
-    "location": "深圳、中国",
     "email": "bionicwalking@163.com",
     "phone": "+86 19987386841",
     "wechat": "13232182628",
@@ -70,7 +68,7 @@
       "label": "実装で最も多く使ってきた道具"
     },
     {
-      "value": "深圳 / Remote",
+      "value": "Remote / Relocation",
       "label": "リモート可、転居も対応可能"
     }
   ],
@@ -86,7 +84,7 @@
   "workAuthorization": {
     "title": "リモート協業にも、仕事に応じた転居にも対応できます。",
     "visas": [
-      "深圳での勤務",
+      "対面協業",
       "リモート協業",
       "転居可"
     ]
@@ -446,7 +444,7 @@
       ]
     },
     {
-      "company": "MotionRivalry、深圳",
+      "company": "MotionRivalry",
       "period": "2019 - 2022",
       "title": "AI Research Engineer",
       "responsibilities": [
@@ -456,7 +454,7 @@
       ]
     },
     {
-      "company": "墨子科技、深圳",
+      "company": "墨子科技",
       "period": "2016 - 2019",
       "title": "シニア AI エンジニア",
       "responsibilities": [
