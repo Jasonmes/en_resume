@@ -1,0 +1,389 @@
+{
+  "locale": "ja",
+  "metaTitle": "張珈盛 | アルゴリズムリスク管理・取引基盤エンジニア",
+  "ui": {
+    "headerKicker": "アルゴリズムリスク管理レジュメ",
+    "headerSubline": "機械学習・データ統計・マーケットマイクロストラクチャ・デジタル資産取引",
+    "navFeatured": "主要案件",
+    "navArchive": "補足案件",
+    "navExperience": "職務経歴",
+    "contactTitle": "連絡先",
+    "contactLabels": {
+      "location": "拠点",
+      "email": "メール",
+      "phone": "電話",
+      "wechat": "WeChat",
+      "telegram": "Telegram"
+    },
+    "focusTitle": "注力領域",
+    "mobilityTitle": "働き方",
+    "skillsTitle": "アルゴリズムと技術スタック",
+    "languagesTitle": "言語",
+    "highlightsTitle": "仕事の進め方",
+    "locationTitle": "Base",
+    "currentFocusTitle": "適した役割",
+    "featuredKicker": "優先して見る案件",
+    "featuredTitle": "主要プロジェクト",
+    "featuredIntro": "",
+    "archiveKicker": "補足情報",
+    "archiveTitle": "補足プロジェクト",
+    "archiveIntro": "",
+    "experienceKicker": "キャリア",
+    "experienceTitle": "職務経歴",
+    "experienceIntro": "",
+    "detailsTitle": "実装内容",
+    "stackTitle": "アルゴリズム / スタック",
+    "impactTitle": "成果",
+    "impactInlineLabel": "成果:",
+    "mediaTitle": "メディア",
+    "archiveExpandLabel": "詳細を見る"
+  },
+  "profile": {
+    "avatar": "assets/avatar.jpg",
+    "name": "張珈盛",
+    "alias": "Forrest",
+    "headline": "アルゴリズムリスク管理・取引基盤エンジニア",
+    "summary": "デジタル資産取引向けのアルゴリズムリスク管理、DOM / オーダーブックのマイクロストラクチャ分析、オンチェーンリスク判定を中心に、データ準備、特徴量設計、モデル学習、しきい値調整、オンライン配備まで一貫して担当しています。",
+    "location": "中国・深圳・リモート / 転居可",
+    "experience": "機械学習、リスク制御、プロダクション AI で 10 年",
+    "availability": "市場監視、不正検知、オンチェーンインテリジェンス、リアルタイム意思決定の役割に適しています。",
+    "currentFocus": "機械学習 × データ統計 × 取引リスク × リアルタイム判定"
+  },
+  "contact": {
+    "location": "深圳、中国",
+    "email": "bionicwalking@163.com",
+    "phone": "+86 19987386841",
+    "wechat": "13232182628",
+    "telegram": "+86 13232182628"
+  },
+  "metrics": [
+    {
+      "value": "2年",
+      "label": "暗号資産取引所での市場監視とアルゴリズムリスク管理"
+    },
+    {
+      "value": "120+ 特徴量",
+      "label": "板、約定、キャンセル、アカウントグラフを使った因子設計"
+    },
+    {
+      "value": "Rule + Model",
+      "label": "Logistic Regression / Random Forest / XGBoost / Isolation Forest"
+    },
+    {
+      "value": "Kafka + ClickHouse",
+      "label": "リアルタイム採点、リプレイ検証、しきい値調整、ドリフト監視"
+    }
+  ],
+  "focus": [
+    "市場マイクロストラクチャ設計と DOM 深度分析",
+    "異常取引検知、相場操縦候補の特定、アカウントクラスタリング",
+    "教師あり / 教師なしのリスクモデルとオンラインしきい値制御",
+    "データ統計、特徴量設計、ラベリング、データ品質管理",
+    "Python、Go、SQL、Kafka、ClickHouse、Flink",
+    "Walk-forward リプレイ検証によるモデル調整"
+  ],
+  "workAuthorization": {
+    "title": "リモート、出張、転居に対応可能で、越境チームでの技術コミュニケーションにも慣れています。",
+    "visas": [
+      "Remote / Hybrid",
+      "越境チーム協業",
+      "英語での技術コミュニケーション",
+      "出張 / 転居可"
+    ]
+  },
+  "skills": [
+    {
+      "category": "機械学習と古典アルゴリズム",
+      "items": [
+        "Logistic Regression",
+        "Random Forest",
+        "XGBoost / LightGBM",
+        "SVM",
+        "K-Means",
+        "Isolation Forest",
+        "PCA",
+        "HMM / ARIMA"
+      ]
+    },
+    {
+      "category": "統計分析とリスク指標",
+      "items": [
+        "Z-score / MAD",
+        "EWMA / CUSUM",
+        "KS / PSI / AUC / F1",
+        "不均衡データ処理",
+        "ローリング窓特徴量",
+        "外れ値除去",
+        "ビニングとしきい値調整",
+        "Walk-forward 検証"
+      ]
+    },
+    {
+      "category": "取引リスクとオンチェーン分析",
+      "items": [
+        "DOM / L2 Order Book",
+        "Order Book Imbalance",
+        "Spoofing / Layering",
+        "Wash Trading",
+        "アカウントクラスタリング",
+        "ウォレットプロファイリング",
+        "コントラクトリスクスコア",
+        "資金フロー分析"
+      ]
+    },
+    {
+      "category": "エンジニアリングとリアルタイム基盤",
+      "items": [
+        "Python",
+        "Go",
+        "SQL",
+        "Kafka",
+        "ClickHouse",
+        "Flink / Spark",
+        "Redis",
+        "Airflow / Docker"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "中国語",
+      "level": "母語"
+    },
+    {
+      "language": "英語",
+      "level": "技術コミュニケーション可能"
+    }
+  ],
+  "highlights": [
+    "まずは説明可能なルールと特徴量でベースラインを作り、その後にモデルで再現率と精度を伸ばす進め方を好みます。",
+    "データ準備、ラベル設計、特徴量設計、モデル学習、しきい値調整、オンライン配備まで一気通貫で担当できます。",
+    "評価はカバレッジ、誤検知率、見逃し率、KS、PSI、遅延、レビュー工数削減などの運用指標で行います。",
+    "取引業務、オンチェーン実態、運用制約を一緒に見て、オフラインだけ強いが本番で使えない解を避けます。"
+  ],
+  "featuredProjects": [
+    {
+      "name": "取引所市場監視・アルゴリズムリスク管理プラットフォーム",
+      "period": "2024 - 2026",
+      "role": "シニア・アルゴリズムリスクエンジニア",
+      "summary": "現物・デリバティブ取引向けに、DOM、ティック約定、キャンセル行動、アカウントグラフを組み合わせ、spoofing、layering、wash trading、相場操縦候補を検知する市場監視基盤を構築しました。",
+      "badges": [
+        "主要",
+        "取引所",
+        "リスク管理"
+      ],
+      "metrics": [
+        {
+          "value": "2年",
+          "label": "取引所向け市場監視とリスクモデリング"
+        },
+        {
+          "value": "120+ 特徴量",
+          "label": "板、約定、キャンセル、アカウント行動の統合特徴量"
+        },
+        {
+          "value": "Rule + Model",
+          "label": "Logistic Regression / Random Forest / XGBoost / Isolation Forest"
+        },
+        {
+          "value": "分単位",
+          "label": "操縦候補アカウントの特定とアラート"
+        }
+      ],
+      "details": [
+        "オーダーブックスナップショット、ティック約定、注文ライフサイクル、入出金イベントを統合し、順序乱れ、重複、欠損板、時刻ずれを補正した上で 1秒 / 5秒 / 30秒の窓特徴量を生成しました。",
+        "DOM 深度の偏り、板の托圧配置、キャンセル密度、cancel-to-fill ratio、売買不均衡、スイープ経路、スリッページ、価格インパクトなど 120 以上の因子を設計しました。",
+        "Logistic Regression と Random Forest を説明可能なベースラインとして使い、XGBoost で教師あり性能を高め、ラベル不足領域には Isolation Forest を適用しました。",
+        "アカウント関係グラフ、デバイス / ネットワーク指紋、資金経路、行動クラスタを組み合わせ、協調的な相場操縦、自己売買リング、分散建玉パターンを検出しました。",
+        "Kafka と Flink / Go サービスでリアルタイム採点を行い、ClickHouse のリプレイ検証で PSI ドリフト監視とパラメータ調整を実施しました。"
+      ],
+      "achievement": "ルールのみの監視からルール + モデルのハイブリッド運用へ移行し、操縦候補の発見を事後調査から分単位アラートへと前倒ししました。",
+      "technicalHighlights": [
+        "XGBoost",
+        "Isolation Forest",
+        "Logistic Regression",
+        "DOM / L2 Data",
+        "ClickHouse",
+        "Kafka",
+        "Flink",
+        "Python",
+        "Go",
+        "Market Microstructure"
+      ]
+    },
+    {
+      "name": "オンチェーン主体プロファイリング・コントラクトリスクスコアリング",
+      "period": "2024 - 2025",
+      "role": "アルゴリズムリスクエンジニア",
+      "summary": "新規トークン審査、異常資金経路、高権限コントラクト、高リスクアドレス群の検知に向けて、オンチェーン主体プロファイリングとリスクスコアリング基盤を構築しました。",
+      "badges": [
+        "主要",
+        "オンチェーン",
+        "スコアリング"
+      ],
+      "metrics": [
+        {
+          "value": "5+ チェーン",
+          "label": "EVM マルチチェーンの標準化とリスク連携"
+        },
+        {
+          "value": "300+ 特徴量",
+          "label": "アドレス、コントラクト、流動性、資金フローの画像化"
+        },
+        {
+          "value": "クラスタ + スコア",
+          "label": "K-Means、Logistic Regression、Gradient Boosting"
+        },
+        {
+          "value": "分単位",
+          "label": "上場前審査と異常アドレス通知"
+        }
+      ],
+      "details": [
+        "コントラクトソース、イベントログ、トークン分布、LP 変化、ブリッジフロー、ブラックリスト、過去インシデントを統合し、ウォレットとコントラクトの二層エンティティプロファイルを作成しました。",
+        "管理者権限、税率ロジック、ブラックリスト制御、流動性ロック状態、保有集中度、資金経路エントロピー、アドレス共起、取引時間分布を特徴量として設計しました。",
+        "K-Means でセグメントを作り、Logistic Regression と Gradient Boosting でリスクスコアを算出し、低信頼サンプルはアナリストに返して再ラベリングしました。",
+        "監査結果、ユーザー通報、過去インシデント、運用処置結果をラベル源として整理し、Walk-forward 検証としきい値調整を行いました。",
+        "Go のマイクロサービスでマルチチェーン取得、キャッシュ、解析、構造化出力を実装し、運用、CS、審査チームが共通利用できるようにしました。"
+      ],
+      "achievement": "分散していたオンチェーン調査を統一スコアリングとアラートのフローにまとめ、上場前審査とアドレス再確認を高速化しました。",
+      "technicalHighlights": [
+        "K-Means",
+        "Logistic Regression",
+        "Gradient Boosting",
+        "Address Clustering",
+        "EVM",
+        "Go",
+        "Redis",
+        "Kafka",
+        "SQL",
+        "Graph Features"
+      ]
+    },
+    {
+      "name": "産業用画像検査・3D 安全警告プラットフォーム",
+      "period": "2021 - 2024",
+      "role": "アルゴリズム責任者",
+      "summary": "産業検査と単眼安全警告プロジェクトで、サンプリング、アノテーション規約、データ拡張、モデル学習、誤検知レビュー、PLC / モバイル配備まで一貫して担当しました。",
+      "badges": [
+        "主要",
+        "本番",
+        "応用 ML"
+      ],
+      "metrics": [
+        {
+          "value": "99.5%",
+          "label": "本番検査精度"
+        },
+        {
+          "value": "0 見逃し",
+          "label": "重大欠陥の見逃し報告なし"
+        },
+        {
+          "value": "サブ mm",
+          "label": "層間距離の測定精度"
+        },
+        {
+          "value": "フルループ",
+          "label": "データ準備、学習、調整、配備"
+        }
+      ],
+      "details": [
+        "サンプリングとアノテーション規約を整備し、ノイズ画像、重複フレーム、誤ラベルを除去した上で、データ拡張と hard negative mining でクラス不均衡を改善しました。",
+        "OpenCV 前処理と検出、セグメンテーション、幾何計測を組み合わせ、誤検知分析をもとにシーン別のしきい値、後処理、ROI を見直しました。",
+        "単眼安全警告ではカメラ校正、透視拘束、RANSAC 幾何フィッティング、3D 再構成の考え方を導入し、複雑環境での距離推定安定性を高めました。",
+        "学習率、anchor、IoU しきい値、形態学パラメータ、後処理ルールを系統的に調整し、オフライン改善を本番安定性に変換しました。",
+        "結果を PLC とモバイル警告フローに接続し、モデル出力がそのままライン制御や現場警告に使えるようにしました。"
+      ],
+      "achievement": "モデル学習、データガバナンス、配備を分断せず、長期運用できる生産システムとしてまとめ上げました。",
+      "technicalHighlights": [
+        "OpenCV",
+        "PyTorch",
+        "RANSAC",
+        "Camera Calibration",
+        "Data Augmentation",
+        "Hard Negative Mining",
+        "Python",
+        "C++",
+        "PLC Integration",
+        "3D Reconstruction"
+      ]
+    }
+  ],
+  "projectArchive": [
+    {
+      "name": "モデル圧縮・微調整・推論高速化パイプライン",
+      "period": "2023 - 2024",
+      "category": "モデル基盤",
+      "badge": "本番",
+      "summary": "Instruction データのクリーニング、LoRA 微調整、GPTQ 量子化、推論ベンチマークを通じて、データ準備から配備までのモデル最適化ループを構築しました。",
+      "achievement": "可用性を保ちながら配備コストを 60% 削減し、推論速度を約 3 倍に改善しました。",
+      "technicalHighlights": [
+        "LoRA",
+        "GPTQ",
+        "Instruction Tuning",
+        "Dataset Cleaning",
+        "A/B Evaluation",
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "脳信号分類・時系列特徴量エンジニアリング基盤",
+      "period": "2022 - 2023",
+      "category": "信号処理",
+      "badge": "本番",
+      "summary": "FFT、小波、時周波統計、分類モデルを用いた脳信号処理基盤を構築し、認識精度とオンライン応答速度を改善しました。",
+      "achievement": "信号処理精度を 40% 改善し、システム遅延を 50% 削減しました。",
+      "technicalHighlights": [
+        "FFT / Wavelet",
+        "SVM",
+        "XGBoost",
+        "Feature Engineering",
+        "Flask",
+        "Vue"
+      ]
+    }
+  ],
+  "previousWork": [
+    {
+      "company": "AsterPeak Digital",
+      "period": "2024.02 - 2026.01",
+      "title": "シニア・アルゴリズムリスクエンジニア",
+      "responsibilities": [
+        "取引所向けの市場監視、異常取引検知、オンチェーンリスクスコアリングを担当し、DOM マイクロストラクチャ分析とアカウント画像モデルを本番化しました。",
+        "データ準備、ラベルフィードバック、特徴量設計、モデル学習、リアルタイム採点、しきい値調整、ドリフト監視までの全パイプラインを設計しました。",
+        "ルール、XGBoost / Isolation Forest、アナリストレビューを組み合わせ、高リスクイベントの発見時間を短縮しました。"
+      ]
+    },
+    {
+      "company": "LatticeMind Intelligence",
+      "period": "2021.02 - 2024.01",
+      "title": "テクニカルディレクター",
+      "responsibilities": [
+        "産業画像、モデル最適化、エンタープライズ AI 案件に対して、アルゴリズムとエンジニアリングの両チームを率いて技術ロードマップを策定しました。",
+        "データガバナンス、学習フロー、アノテーション規約、MLOps、主要アーキテクチャ判断を担当しました。",
+        "モデル学習、配備、業務フローを一体化し、デモ止まりではない運用可能なシステムを作りました。"
+      ]
+    },
+    {
+      "company": "MotionGrid Vision Lab, Shenzhen",
+      "period": "2018 - 2021",
+      "title": "コンピュータビジョン・アルゴリズムエンジニア",
+      "responsibilities": [
+        "動作解析、欠陥検査、3D 距離推定システムを担当し、検出、セグメンテーション、幾何計測、リアルタイム配備まで扱いました。",
+        "サンプリング、ラベル設計、誤検知レビュー、パラメータ調整を継続的に行い、本番環境で安定するアルゴリズムに仕上げました。",
+        "現場ユーザーと直接連携し、工場や現場のワークフローにモデルを組み込みました。"
+      ]
+    },
+    {
+      "company": "InsightSpring Education Tech, Shenzhen",
+      "period": "2016 - 2018",
+      "title": "シニア機械学習エンジニア",
+      "responsibilities": [
+        "教育 AI プロダクト向けに、画像認識、推薦、モデルサービング機能を構築しました。",
+        "低遅延と安定性を意識したリアルタイム処理・推論パイプラインを設計しました。",
+        "ジュニアメンバーの育成と、プロダクト、アルゴリズム、実装チーム間の連携を担いました。"
+      ]
+    }
+  ]
+}

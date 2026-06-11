@@ -34,6 +34,12 @@ jobs:
           cp pages/index.html dist/index.html
           cp pages/ch_resume/index.html dist/ch_resume/index.html
           cp pages/ja_resume/index.html dist/ja_resume/index.html
+          if [ -d resume_algo ]; then
+            mkdir -p dist/resume_algo
+            cp resume_algo/index.html dist/resume_algo/index.html
+            cp resume_algo/styles.css dist/resume_algo/styles.css
+            cp -R resume_algo/assets resume_algo/data resume_algo/en resume_algo/ja resume_algo/js dist/resume_algo/
+          fi
           touch dist/.nojekyll
 
       - name: Upload Pages artifact

@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="48" x2="448" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D5D56"/>
+      <stop offset="1" stop-color="#153B5C"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="96" y1="96" x2="416" y2="416" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6E9D8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#C7E6E2" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="180" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="256" cy="210" r="74" fill="url(#ring)"/>
+  <path d="M150 382C150 319.039 201.039 268 264 268H248C310.961 268 362 319.039 362 382V390H150V382Z" fill="url(#ring)"/>
+  <rect x="108" y="108" width="296" height="296" rx="148" stroke="rgba(255,255,255,0.18)" stroke-width="8"/>
+  <text x="256" y="448" text-anchor="middle" fill="#F7EFE4" font-family="Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="10">WZ</text>
+</svg>

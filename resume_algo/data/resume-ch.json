@@ -1,0 +1,390 @@
+{
+  "locale": "zh-CN",
+  "metaTitle": "张珈盛 | 交易所风控负责人",
+  "ui": {
+    "headerKicker": "交易所风控简历",
+    "headerSubline": "风控策略 · 风控产品 · AML · 链上风控 · 市场监察",
+    "navFeatured": "核心项目",
+    "navArchive": "补充项目",
+    "navExperience": "工作经历",
+    "contactTitle": "联系信息",
+    "contactLabels": {
+      "email": "邮箱",
+      "phone": "电话",
+      "wechat": "微信",
+      "telegram": "Telegram"
+    },
+    "focusTitle": "能力焦点",
+    "mobilityTitle": "协作方式",
+    "skillsTitle": "核心算法与工程栈",
+    "languagesTitle": "语言能力",
+    "highlightsTitle": "交付特征",
+    "locationTitle": "Base",
+    "currentFocusTitle": "岗位匹配",
+    "featuredKicker": "优先阅读",
+    "featuredTitle": "核心项目",
+    "featuredIntro": "",
+    "archiveKicker": "补充说明",
+    "archiveTitle": "补充项目",
+    "archiveIntro": "",
+    "experienceKicker": "职业经历",
+    "experienceTitle": "工作经历",
+    "experienceIntro": "",
+    "detailsTitle": "关键工作",
+    "stackTitle": "算法 / 技术栈",
+    "impactTitle": "结果与价值",
+    "impactInlineLabel": "结果：",
+    "mediaTitle": "项目缩略图",
+    "archiveExpandLabel": "展开详情"
+  },
+  "profile": {
+    "avatar": "assets/avatar.jpg",
+    "name": "张珈盛",
+    "alias": "Forrest",
+    "headline": "交易所风控负责人 / 风控策略与产品设计",
+    "summary": "在 Gate 负责两年交易所风控，覆盖用户风控、交易风控、资金风控、AML 风控与链上风控。能够独立输出风控策略体系、后台功能框架、指标口径、规则逻辑与处置流程，并推动后端、数据和安全团队协同落地。",
+    "location": "中国 · 可远程 / 可搬迁",
+    "experience": "10 年算法、风控与系统落地经验",
+    "availability": "目标岗位：交易所风控战略分析、风控负责人、AML / 链上风控、市场监察。",
+    "currentFocus": "CEX 风控体系 × 策略规则 × 风控产品 × 实时监控"
+  },
+  "contact": {
+    "email": "bionicwalking@163.com",
+    "phone": "+86 19987386841",
+    "wechat": "13232182628",
+    "telegram": "+86 13232182628"
+  },
+  "metrics": [
+    {
+      "value": "2 年",
+      "label": "Gate 交易所风控负责人经验"
+    },
+    {
+      "value": "5 类框架",
+      "label": "用户、交易、资金、AML、链上风控体系"
+    },
+    {
+      "value": "策略 + 产品",
+      "label": "规则库、名单体系、处置流、复核回流与报表复盘"
+    },
+    {
+      "value": "Rule + Model",
+      "label": "规则引擎、风险评分、异常检测与实时预警"
+    }
+  ],
+  "focus": [
+    "用户风控：KYC、反作弊、黑白名单、设备与账号关联",
+    "交易风控：对敲、刷量、操纵市场、异常撤单与高频行为",
+    "资金风控：大额异动、异常充值提币、套现、资金拦截",
+    "AML 风控：风险分层、CDD / EDD、敏感地区与可疑资金路径",
+    "链上风控：地址画像、异常转账、跨链桥资金流、合约风险评分",
+    "风控产品：策略配置、告警处置、复核回流、报表与策略复盘"
+  ],
+  "workAuthorization": {
+    "title": "可远程协作、可出差，也接受搬迁；具备跨部门推进与英文技术沟通经验。",
+    "visas": [
+      "Remote / Hybrid",
+      "跨境团队协作",
+      "英文技术沟通",
+      "可短期出差 / 搬迁"
+    ]
+  },
+  "skills": [
+    {
+      "category": "风控策略与产品框架",
+      "items": [
+        "用户准入策略",
+        "交易风控规则",
+        "资金风控策略",
+        "AML 风险分层",
+        "链上风险画像",
+        "黑白名单体系",
+        "处置 SOP",
+        "复核回流"
+      ]
+    },
+    {
+      "category": "数据分析与风险建模",
+      "items": [
+        "SQL / Python",
+        "Pandas / NumPy",
+        "Logistic Regression",
+        "Random Forest",
+        "XGBoost / LightGBM",
+        "K-Means",
+        "Isolation Forest",
+        "Z-score / MAD",
+        "KS / PSI / AUC / F1"
+      ]
+    },
+    {
+      "category": "交易与链上风控",
+      "items": [
+        "DOM / L2 Order Book",
+        "Order Book Imbalance",
+        "Spoofing / Layering",
+        "Wash Trading",
+        "Market Manipulation",
+        "账户关联聚类",
+        "地址画像",
+        "链上资金路径",
+        "合约风险评分"
+      ]
+    },
+    {
+      "category": "协同落地与实时系统",
+      "items": [
+        "Go",
+        "Python",
+        "Kafka",
+        "ClickHouse",
+        "Flink / Spark",
+        "Redis",
+        "规则引擎",
+        "告警平台",
+        "监控看板",
+        "PM / RD 协同"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "中文",
+      "level": "母语"
+    },
+    {
+      "language": "英文",
+      "level": "可用于技术沟通与文档输出"
+    }
+  ],
+  "highlights": [
+    "能先把风控体系、产品流程和处置边界定义清楚，再推动系统化落地。",
+    "熟悉 CEX 用户、交易、资金、AML 与链上风险之间的联动关系。",
+    "习惯用命中率、误报率、漏报率、处置时效、资金拦截效果和复核结论衡量策略。",
+    "能够在业务体验、合规边界、资产安全和工程成本之间做取舍。"
+  ],
+  "featuredProjects": [
+    {
+      "name": "CEX 全链路风控后台与策略框架",
+      "period": "2024 - 2026",
+      "role": "Gate · 风控负责人",
+      "summary": "负责交易所后台风控功能框架与策略体系设计，覆盖用户准入、交易行为、资金流转、AML 分层和链上地址风险，输出规则逻辑、指标口径、处置流程和系统模块边界。",
+      "badges": [
+        "精选",
+        "Gate",
+        "风控体系"
+      ],
+      "metrics": [
+        {
+          "value": "2 年",
+          "label": "交易所风控负责人"
+        },
+        {
+          "value": "5 类风控",
+          "label": "用户、交易、资金、AML、链上"
+        },
+        {
+          "value": "策略矩阵",
+          "label": "规则、名单、评分、告警、人工复核"
+        },
+        {
+          "value": "跨团队",
+          "label": "产品、后端、数据、安全与合规协同"
+        }
+      ],
+      "details": [
+        "设计风控后台核心模块：策略配置、参数管理、黑白名单、用户画像、交易告警、资金预警、链上地址风险、案件处置、人工复核和策略复盘。",
+        "按业务链路定义注册、登录、KYC、充值、交易、提币、活动参与等节点的风控动作，包括提醒、二次验证、限额、限制交易、冻结账户和资金拦截。",
+        "建立风险指标与报表口径，包括欺诈率、异常交易占比、大额资金异动率、AML 风险等级、告警命中率、误报率、漏报率和处置时效。",
+        "将规则优先级、阈值参数、名单治理、审核回流和策略迭代流程文档化，支持后端、数据、安全和合规团队按模块拆解开发。"
+      ],
+      "achievement": "能够独立完成交易所风控后台的框架设计和策略输出，方案落地时与后端、数据和安全团队协同推进开发、联调与上线。",
+      "technicalHighlights": [
+        "Risk Strategy",
+        "Risk Console",
+        "Rule Engine",
+        "Blacklist / Whitelist",
+        "Risk Scoring",
+        "Alert Workflow",
+        "Case Review",
+        "AML",
+        "On-chain Risk",
+        "SQL / Python"
+      ]
+    },
+    {
+      "name": "交易风控与市场监察策略",
+      "period": "2024 - 2026",
+      "role": "Gate · 风控负责人",
+      "summary": "围绕现货与合约交易场景构建市场监察策略，识别对敲、刷量、spoofing、layering、异常撤单、集中砸盘和疑似操纵市场账户。",
+      "badges": [
+        "精选",
+        "交易风控",
+        "市场监察"
+      ],
+      "metrics": [
+        {
+          "value": "120+ 特征",
+          "label": "盘口、成交、撤单、账户行为联合建模"
+        },
+        {
+          "value": "分钟级",
+          "label": "疑似操盘账户定位与预警"
+        },
+        {
+          "value": "Rule + Model",
+          "label": "规则引擎、风险评分、异常检测"
+        },
+        {
+          "value": "动态参数",
+          "label": "频次限制、持仓限额、保证金与平仓阈值"
+        }
+      ],
+      "details": [
+        "基于订单簿快照、逐笔成交、委托生命周期、撤单行为和账户图谱，设计对敲、刷量、盘口诱导和异常高频交易识别规则。",
+        "构建 DOM 深度偏移、托压单分布、cancel-to-fill ratio、委买委卖失衡、滑点、价格冲击和成交自关联等风控因子。",
+        "将规则引擎与 Logistic Regression、Random Forest、XGBoost、Isolation Forest 等模型结合，用人工复核结果回流优化阈值。",
+        "设计风险干预动作，包括限制交易、限制提币、提高保证金、调整持仓限额、触发人工复核和重大行情专项监控。"
+      ],
+      "achievement": "把市场监察从事后排查推进到规则 + 模型的实时预警流程，支持疑似操盘账户分钟级定位和策略复盘。",
+      "technicalHighlights": [
+        "DOM / L2 Data",
+        "Market Microstructure",
+        "Wash Trading",
+        "Spoofing / Layering",
+        "XGBoost",
+        "Isolation Forest",
+        "ClickHouse",
+        "Kafka",
+        "Flink",
+        "Python"
+      ]
+    },
+    {
+      "name": "资金、AML 与链上风控框架",
+      "period": "2024 - 2026",
+      "role": "Gate · 风控负责人",
+      "summary": "面向充值、提币、内部划转、活动套利和链上资金路径，设计资金风控、AML 风险分层与链上地址画像框架，识别洗钱、套现、大额异动和高风险地址关联。",
+      "badges": [
+        "精选",
+        "资金风控",
+        "AML / 链上"
+      ],
+      "metrics": [
+        {
+          "value": "5+ 链",
+          "label": "EVM 多链数据标准化与风险联动"
+        },
+        {
+          "value": "300+ 特征",
+          "label": "地址、合约、流动性和资金路径画像"
+        },
+        {
+          "value": "CDD / EDD",
+          "label": "客户尽调、高风险客户强化尽调"
+        },
+        {
+          "value": "拦截处置",
+          "label": "限额、冻结、人工复核、资金拦截"
+        }
+      ],
+      "details": [
+        "设计资金风控规则：大额充值提币、短进短出、频繁换币、敏感地区资金流入、活动套利、异常地址关联和风险账户资金聚集。",
+        "建立 AML 风险分层框架，结合 KYC、交易行为、资金路径、链上标签、黑名单命中和人工复核结论输出用户风险等级。",
+        "构建链上地址画像与合约风险评分，关注跨链桥流向、混币服务、黑灰产地址、LP 异常、合约权限和代币持仓集中度。",
+        "将冻结账户、限制交易、限制提币、增强尽调、案件复核和合规报送等动作接入处置流程，平衡用户体验与风险控制。"
+      ],
+      "achievement": "形成资金、AML 与链上风险的一体化分析框架，支持高风险用户识别、资金异常拦截和链上地址复核联动。",
+      "technicalHighlights": [
+        "AML",
+        "KYC",
+        "CDD / EDD",
+        "Address Clustering",
+        "On-chain Analytics",
+        "EVM",
+        "Graph Features",
+        "Risk Scoring",
+        "SQL",
+        "Go / Python"
+      ]
+    }
+  ],
+  "projectArchive": [
+    {
+      "name": "AI 模型优化与实时推理流水线",
+      "period": "2023 - 2024",
+      "category": "算法工程 / 生产部署",
+      "badge": "生产",
+      "summary": "围绕模型部署成本、响应速度和稳定性，搭建数据清洗、轻量微调、量化、压测和上线回归流程。",
+      "achievement": "沉淀出从数据治理到模型上线的工程方法，可迁移到风控模型训练、离线回放、阈值校准和在线服务监控。",
+      "technicalHighlights": [
+        "PyTorch",
+        "LoRA",
+        "GPTQ",
+        "Dataset Cleaning",
+        "A/B Evaluation",
+        "Inference Benchmarking",
+        "MLOps"
+      ]
+    },
+    {
+      "name": "工业视觉质检与三维安全预警平台",
+      "period": "2021 - 2024",
+      "category": "工业视觉 / 风险预警",
+      "badge": "生产",
+      "summary": "负责工业质检与单目安全预警项目，从样本采集、标注规范、数据增强、模型训练、误检分析到现场部署，完成算法落地闭环。",
+      "achievement": "长期处理误检、漏检、阈值漂移和现场稳定性问题，形成对风控系统同样重要的数据质量与在线监控经验。",
+      "technicalHighlights": [
+        "OpenCV",
+        "PyTorch",
+        "Data Augmentation",
+        "Feature Engineering",
+        "Threshold Calibration",
+        "Production Deployment"
+      ]
+    }
+  ],
+  "previousWork": [
+    {
+      "company": "Gate 交易所",
+      "period": "2024.02 - 2026.01",
+      "title": "风控负责人",
+      "responsibilities": [
+        "负责用户风控、交易风控、资金风控、AML 风控和链上风控的策略体系与后台功能框架设计，输出规则逻辑、指标口径、处置流程和系统模块拆解。",
+        "设计 KYC / 反作弊 / 黑白名单、对敲 / 刷量 / 操纵市场、大额异动 / 套现 / 洗钱、异常转账 / 跨链资金路径等核心场景的策略矩阵。",
+        "推动风控策略内嵌到注册、充值、交易、提币、活动和人工复核流程，与后端、数据、安全、合规和运营团队协同推进开发与迭代。",
+        "结合规则引擎、风险评分、XGBoost / Isolation Forest 等方法建设实时监控和预警机制，持续复盘误报、漏报、命中率和处置时效。"
+      ]
+    },
+    {
+      "company": "灵策智能",
+      "period": "2021.02 - 2024.01",
+      "title": "高级 AI 算法工程师",
+      "responsibilities": [
+        "制定 AI 技术路线，带领算法与工程团队完成工业视觉、模型优化和企业级 AI 系统交付。",
+        "负责数据治理、训练流程、标注规范、MLOps 与关键架构决策，保证项目可持续迭代。",
+        "推动模型训练、部署与业务流程联动，形成可迁移到风控建模和实时策略系统的工程经验。"
+      ]
+    },
+    {
+      "company": "动量视觉实验室，深圳",
+      "period": "2018 - 2021",
+      "title": "高级计算机视觉算法工程师",
+      "responsibilities": [
+        "交付运动分析、缺陷检测和三维距离估计类项目，处理检测、分割、几何测量与实时部署问题。",
+        "长期负责样本采集、标签设计、误检复盘和模型调参，让算法在真实环境中稳定工作。",
+        "与一线业务方协作，把算法系统真正接入工厂和现场工作流。"
+      ]
+    },
+    {
+      "company": "知远教育科技，深圳",
+      "period": "2016 - 2018",
+      "title": "高级 AI 算法工程师",
+      "responsibilities": [
+        "负责教育 AI 场景中的视觉识别、交互推荐和后端模型服务建设。",
+        "构建实时内容处理与模型推理流程，兼顾延迟、稳定性和教学场景适配。",
+        "带教初级工程师，并参与产品、算法和实现团队的协同交付。"
+      ]
+    }
+  ]
+}

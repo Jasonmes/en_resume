@@ -1,0 +1,389 @@
+{
+  "locale": "en",
+  "metaTitle": "Jiasheng Zhang | Algorithmic Risk Control & Trading Infrastructure Engineer",
+  "ui": {
+    "headerKicker": "Algorithmic Risk Resume",
+    "headerSubline": "Machine Learning · Data Statistics · Market Microstructure · Digital Assets",
+    "navFeatured": "Core Projects",
+    "navArchive": "Supporting Work",
+    "navExperience": "Experience",
+    "contactTitle": "Connect",
+    "contactLabels": {
+      "location": "Location",
+      "email": "Email",
+      "phone": "Phone",
+      "wechat": "WeChat",
+      "telegram": "Telegram"
+    },
+    "focusTitle": "Focus Areas",
+    "mobilityTitle": "Working Style",
+    "skillsTitle": "Algorithms & Stack",
+    "languagesTitle": "Languages",
+    "highlightsTitle": "Operating Style",
+    "locationTitle": "Base",
+    "currentFocusTitle": "Role Fit",
+    "featuredKicker": "Priority Read",
+    "featuredTitle": "Core Projects",
+    "featuredIntro": "",
+    "archiveKicker": "Supporting Context",
+    "archiveTitle": "Supporting Projects",
+    "archiveIntro": "",
+    "experienceKicker": "Career Path",
+    "experienceTitle": "Experience",
+    "experienceIntro": "",
+    "detailsTitle": "What I built",
+    "stackTitle": "Algorithms / Stack",
+    "impactTitle": "Impact",
+    "impactInlineLabel": "Impact:",
+    "mediaTitle": "Media",
+    "archiveExpandLabel": "View details"
+  },
+  "profile": {
+    "avatar": "assets/avatar.jpg",
+    "name": "Jiasheng Zhang",
+    "alias": "Forrest",
+    "headline": "Algorithmic Risk Control & Trading Infrastructure Engineer",
+    "summary": "I build algorithmic risk-control systems for digital-asset trading, combining DOM/order-book microstructure analysis, on-chain risk intelligence, and full-cycle ML execution from data preparation and feature engineering through model training, calibration, and online deployment.",
+    "location": "Shenzhen, China · Remote / Relocation",
+    "experience": "10 years across ML, risk systems, and production AI delivery",
+    "availability": "Best aligned with market surveillance, fraud/risk models, on-chain intelligence, and real-time decision systems.",
+    "currentFocus": "Machine learning x data statistics x trading risk x real-time decisioning"
+  },
+  "contact": {
+    "location": "Shenzhen, China",
+    "email": "bionicwalking@163.com",
+    "phone": "+86 19987386841",
+    "wechat": "13232182628",
+    "telegram": "+86 13232182628"
+  },
+  "metrics": [
+    {
+      "value": "2 years",
+      "label": "exchange market-surveillance and algorithmic risk-control experience"
+    },
+    {
+      "value": "120+ features",
+      "label": "risk factors engineered from order-book, trade, cancel, and account-graph data"
+    },
+    {
+      "value": "Rule + Model",
+      "label": "Logistic Regression / Random Forest / XGBoost / Isolation Forest"
+    },
+    {
+      "value": "Kafka + ClickHouse",
+      "label": "realtime scoring, replay analysis, threshold tuning, and drift monitoring"
+    }
+  ],
+  "focus": [
+    "Market microstructure modeling and DOM depth analysis",
+    "Abnormal-trading detection, manipulator discovery, and account clustering",
+    "Supervised and unsupervised risk models with online thresholds",
+    "Data statistics, feature engineering, labeling, and data quality control",
+    "Python, Go, SQL, Kafka, ClickHouse, Flink",
+    "Model tuning with walk-forward replay validation"
+  ],
+  "workAuthorization": {
+    "title": "Open to remote work, travel, and relocation; comfortable working in cross-border teams and technical English.",
+    "visas": [
+      "Remote / Hybrid",
+      "Cross-border team collaboration",
+      "Technical English communication",
+      "Open to travel / relocation"
+    ]
+  },
+  "skills": [
+    {
+      "category": "Machine Learning & Classical Methods",
+      "items": [
+        "Logistic Regression",
+        "Random Forest",
+        "XGBoost / LightGBM",
+        "SVM",
+        "K-Means",
+        "Isolation Forest",
+        "PCA",
+        "HMM / ARIMA"
+      ]
+    },
+    {
+      "category": "Statistics & Risk Metrics",
+      "items": [
+        "Z-score / MAD",
+        "EWMA / CUSUM",
+        "KS / PSI / AUC / F1",
+        "Class imbalance handling",
+        "Rolling-window features",
+        "Outlier cleaning",
+        "Binning and threshold calibration",
+        "Walk-forward validation"
+      ]
+    },
+    {
+      "category": "Trading Risk & On-chain Intelligence",
+      "items": [
+        "DOM / L2 Order Book",
+        "Order Book Imbalance",
+        "Spoofing / Layering",
+        "Wash Trading",
+        "Account Clustering",
+        "Wallet Profiling",
+        "Contract Risk Scoring",
+        "Fund-flow analysis"
+      ]
+    },
+    {
+      "category": "Engineering & Realtime Systems",
+      "items": [
+        "Python",
+        "Go",
+        "SQL",
+        "Kafka",
+        "ClickHouse",
+        "Flink / Spark",
+        "Redis",
+        "Airflow / Docker"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Professional working proficiency"
+    }
+  ],
+  "highlights": [
+    "I prefer interpretable baselines and explainable features first, then use models to improve recall and precision instead of treating everything as a black box.",
+    "Comfortable owning the full path from data preparation, labeling design, and feature engineering through model training, threshold calibration, and online service rollout.",
+    "I measure systems by coverage, false positive rate, false negative rate, KS, PSI, latency, and reviewer-effort reduction rather than presentation metrics.",
+    "I account for trading behavior, on-chain reality, and operational constraints together so offline wins do not collapse in production."
+  ],
+  "featuredProjects": [
+    {
+      "name": "Exchange Market Surveillance & Algorithmic Risk Control Platform",
+      "period": "2024 - 2026",
+      "role": "Senior Algorithmic Risk Engineer",
+      "summary": "Built a market-surveillance and risk-interception platform for spot and derivatives trading, using DOM, tick trades, cancel behavior, and account graphs to detect spoofing, layering, wash trading, pump-and-dump patterns, and likely manipulator accounts.",
+      "badges": [
+        "Featured",
+        "Exchange",
+        "Algo Risk"
+      ],
+      "metrics": [
+        {
+          "value": "2 years",
+          "label": "exchange market-surveillance and risk modeling"
+        },
+        {
+          "value": "120+ features",
+          "label": "joint modeling across book depth, trades, cancels, and account behavior"
+        },
+        {
+          "value": "Rule + Model",
+          "label": "Logistic Regression / Random Forest / XGBoost / Isolation Forest"
+        },
+        {
+          "value": "Minute-level",
+          "label": "suspected manipulator localization and alerts"
+        }
+      ],
+      "details": [
+        "Built a unified feature table from order-book snapshots, tick trades, order life cycles, and deposit/withdrawal events, repairing out-of-order messages, duplicate events, missing depth levels, and clock drift while generating 1s / 5s / 30s windows.",
+        "Engineered 120+ factors around DOM depth shifts, layered quote pressure, cancel hot zones, cancel-to-fill ratio, bid/ask imbalance, sweep paths, slippage, and price impact.",
+        "Used Logistic Regression and Random Forest as interpretable baselines, then improved supervised performance with XGBoost and covered sparse-label cold-start cases with Isolation Forest.",
+        "Combined account relationship graphs, device/network fingerprints, fund paths, and behavior clustering to identify coordinated manipulation, self-trading rings, and split-account accumulation patterns.",
+        "Deployed realtime scoring and threshold tiers with Kafka plus Flink/Go services, while using ClickHouse replay jobs for PSI drift checks and parameter tuning."
+      ],
+      "achievement": "Moved market surveillance from rule-only detection to a hybrid rule-plus-model workflow, turning manipulator discovery from after-the-fact investigation into minute-level alerting while reducing manual review pressure.",
+      "technicalHighlights": [
+        "XGBoost",
+        "Isolation Forest",
+        "Logistic Regression",
+        "DOM / L2 Data",
+        "ClickHouse",
+        "Kafka",
+        "Flink",
+        "Python",
+        "Go",
+        "Market Microstructure"
+      ]
+    },
+    {
+      "name": "On-chain Entity Profiling & Contract Risk Scoring Engine",
+      "period": "2024 - 2025",
+      "role": "Algorithmic Risk Engineer",
+      "summary": "Built an on-chain profiling and risk-scoring system for new-token screening, abnormal fund-path detection, high-privilege contracts, and high-risk address groups across multiple EVM chains.",
+      "badges": [
+        "Featured",
+        "On-chain Security",
+        "Scoring"
+      ],
+      "metrics": [
+        {
+          "value": "5+ chains",
+          "label": "multi-chain EVM data normalization and risk linkage"
+        },
+        {
+          "value": "300+ features",
+          "label": "address, contract, liquidity, and fund-flow profiling"
+        },
+        {
+          "value": "Clustering + Scoring",
+          "label": "K-Means, Logistic Regression, Gradient Boosting"
+        },
+        {
+          "value": "Minute-level",
+          "label": "pre-listing screening and abnormal-address alerts"
+        }
+      ],
+      "details": [
+        "Unified contract source, event logs, token distribution, LP changes, bridge flows, blocklists, and historical incident records into dual entity profiles for wallets and contracts.",
+        "Modeled admin rights, tax logic, blacklist controls, liquidity lock status, holder concentration, fund-flow entropy, address co-occurrence, and transaction-time distributions as risk signals.",
+        "Used K-Means for cohort segmentation, then Logistic Regression and Gradient Boosting to generate risk scores while sending low-confidence cases back to analysts for relabeling.",
+        "Turned audit conclusions, user complaints, historical incidents, and operational handling outcomes into label sources and evaluated models with walk-forward validation plus threshold calibration.",
+        "Operationalized the pipeline in Go microservices for multi-chain retrieval, caching, parsing, and structured outputs consumed by ops, customer support, and review teams."
+      ],
+      "achievement": "Compressed on-chain risk checks from fragmented manual lookup into a unified scoring and alerting workflow that supported pre-listing screening, address review, and coordinated operations response.",
+      "technicalHighlights": [
+        "K-Means",
+        "Logistic Regression",
+        "Gradient Boosting",
+        "Address Clustering",
+        "EVM",
+        "Go",
+        "Redis",
+        "Kafka",
+        "SQL",
+        "Graph Features"
+      ]
+    },
+    {
+      "name": "Industrial Vision Inspection & 3D Safety Warning Platform",
+      "period": "2021 - 2024",
+      "role": "Algorithm Lead",
+      "summary": "Led industrial inspection and monocular safety-warning programs end to end, from sampling strategy, labeling standards, and data augmentation through model training, false-positive review, and PLC/mobile deployment.",
+      "badges": [
+        "Featured",
+        "Production",
+        "Applied ML"
+      ],
+      "metrics": [
+        {
+          "value": "99.5%",
+          "label": "production inspection accuracy"
+        },
+        {
+          "value": "0 misses",
+          "label": "critical production defects reported as missed"
+        },
+        {
+          "value": "Sub-mm",
+          "label": "inter-layer distance measurement precision"
+        },
+        {
+          "value": "Full loop",
+          "label": "data prep, training, tuning, and deployment"
+        }
+      ],
+      "details": [
+        "Defined sampling and annotation rules, removed noisy images, duplicate frames, and bad labels, and handled class imbalance with augmentation and hard-negative mining.",
+        "Combined OpenCV preprocessing with detection, segmentation, and geometric measurement algorithms, then iterated on false-positive analysis to reset thresholds, post-processing, and ROI strategies by scenario.",
+        "Added camera calibration, perspective constraints, RANSAC geometric fitting, and 3D reconstruction ideas to improve distance-estimation stability in complex environments.",
+        "Systematically tuned learning rates, anchors, IoU thresholds, morphology parameters, and post-processing rules until offline gains translated into stable production behavior.",
+        "Integrated outputs into PLC and mobile alert workflows so model decisions could directly drive line actions and field safety warnings."
+      ],
+      "achievement": "The work mattered because it unified model training, data governance, and deployment discipline into long-lived production systems rather than one-off demos.",
+      "technicalHighlights": [
+        "OpenCV",
+        "PyTorch",
+        "RANSAC",
+        "Camera Calibration",
+        "Data Augmentation",
+        "Hard Negative Mining",
+        "Python",
+        "C++",
+        "PLC Integration",
+        "3D Reconstruction"
+      ]
+    }
+  ],
+  "projectArchive": [
+    {
+      "name": "Model Compression, Fine-Tuning & Inference Acceleration Pipeline",
+      "period": "2023 - 2024",
+      "category": "Model Infra",
+      "badge": "Production",
+      "summary": "Owned instruction-data cleaning, LoRA fine-tuning, GPTQ quantization, and inference benchmarking to build a practical model-optimization loop from dataset preparation to deployment.",
+      "achievement": "Reduced deployment cost by 60% while improving inference throughput by roughly 3x.",
+      "technicalHighlights": [
+        "LoRA",
+        "GPTQ",
+        "Instruction Tuning",
+        "Dataset Cleaning",
+        "A/B Evaluation",
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "Brain-Signal Classification & Time-Series Feature Engineering Platform",
+      "period": "2022 - 2023",
+      "category": "Signal Processing",
+      "badge": "Production",
+      "summary": "Built a brain-signal processing platform around FFT, wavelets, time-frequency statistics, and classification models to improve recognition accuracy and online feedback speed.",
+      "achievement": "Improved signal-processing accuracy by 40% and reduced system latency by 50%.",
+      "technicalHighlights": [
+        "FFT / Wavelet",
+        "SVM",
+        "XGBoost",
+        "Feature Engineering",
+        "Flask",
+        "Vue"
+      ]
+    }
+  ],
+  "previousWork": [
+    {
+      "company": "AsterPeak Digital",
+      "period": "Feb 2024 - Jan 2026",
+      "title": "Senior Algorithmic Risk Engineer",
+      "responsibilities": [
+        "Owned exchange market surveillance, abnormal-trading detection, and on-chain risk scoring, pushing DOM microstructure analysis and account-profiling models into production.",
+        "Designed the full pipeline from data preparation, label feedback, and feature engineering through model training, realtime scoring, threshold calibration, and drift monitoring.",
+        "Combined rules, XGBoost / Isolation Forest models, and analyst review loops to shorten high-risk event discovery time."
+      ]
+    },
+    {
+      "company": "LatticeMind Intelligence",
+      "period": "Feb 2021 - Jan 2024",
+      "title": "Technical Director",
+      "responsibilities": [
+        "Set the AI roadmap and led algorithm plus engineering teams across industrial vision, model optimization, and enterprise AI delivery.",
+        "Owned data governance, training workflows, annotation standards, MLOps, and key architecture decisions so projects stayed iterative and maintainable.",
+        "Connected model training, deployment, and business workflows instead of stopping at demo results or offline reports."
+      ]
+    },
+    {
+      "company": "MotionGrid Vision Lab, Shenzhen",
+      "period": "2018 - 2021",
+      "title": "Computer Vision Algorithm Engineer",
+      "responsibilities": [
+        "Delivered motion analysis, defect inspection, and 3D distance-estimation systems with detection, segmentation, geometry, and realtime deployment requirements.",
+        "Owned sampling, label design, false-positive reviews, and parameter tuning so algorithms remained stable in real operating environments.",
+        "Worked directly with field users to integrate models into factory and onsite workflows."
+      ]
+    },
+    {
+      "company": "InsightSpring Education Tech, Shenzhen",
+      "period": "2016 - 2018",
+      "title": "Senior Machine Learning Engineer",
+      "responsibilities": [
+        "Built computer-vision recognition, recommendation, and model-serving capabilities for education AI products.",
+        "Designed realtime content-processing and inference pipelines with attention to latency, stability, and product fit.",
+        "Mentored junior engineers and coordinated delivery across product, algorithm, and implementation teams."
+      ]
+    }
+  ]
+}
